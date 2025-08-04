@@ -24,6 +24,8 @@
 
 # Load necessary library
 library( "readr" )
+library( "ggplot2" )
+library( "dplyr" )
 
 # Output directory
 outdir <- 'out.00.select.koine.greek.texts'
@@ -31,6 +33,13 @@ dir.create( outdir, showWarnings = FALSE )
 
 # Read the metadata
 meta <- readr::read_tsv( "misc/metadata.txt", show_col_types = FALSE )
+
+# there is one duplicate, remove
+# GLAUX_TEXT_ID TLG      STARTDATE ENDDATE AUTHOR_STANDARD TITLE_STANDARD GENRE_STANDARD DIALECT SOURCE  SOURCE_LICENSE SOURCE_FORMAT TOKENS TM_TEXT
+#         <dbl> <chr>        <dbl>   <dbl> <chr>           <chr>          <chr>          <chr>   <chr>   <chr>          <chr>          <dbl> <chr>  
+#           223 0593-002      -500    -301 Gorgias         Testimonia     Oratory        Attic   First1K CC BY-SA 4.0   XML             2895 5624  
+meta[ duplicated( meta$TLG ), ]
+meta <- meta[ !duplicated( meta$TLG ), ] # 1421
 
 # Define Koine Greek period range (Early + Middle): 330 BCE to 200 CE
 koine_start <- -330
@@ -46,19 +55,16 @@ koine_texts$mean_date <- ( koine_texts$STARTDATE + koine_texts$ENDDATE ) / 2
 remove_cols <- c( 'GLAUX_TEXT_ID', 'SOURCE_LICENSE', 'SOURCE_FORMAT', 'TM_TEXT' )
 koine_texts <- koine_texts[ , !colnames( koine_texts ) %in% remove_cols ]
 
-colnames( koine_texts ) <- c( 'tlg', 'date_lower_bound', 'date_upper_bound', 'author', 'title', 'genre', 'dialect', 'source', 'words', 'date_mean' )
+colnames( koine_texts ) <- c( 'tlg', 'date_lower_bound', 'date_upper_bound', 'author', 'title', 'genre', 'dialect', 'source', 'tokens', 'date_mean' )
 
-# total number of words 18,204,974
-sum( koine_texts$words )
+# total number of tokens 18,202,079
+sum( koine_texts$tokens )
 
 # View the selection
-nrow( koine_texts ) # 1255 texts
+nrow( koine_texts ) # 1254 texts
 
 # Optionally write to file
 write_tsv( koine_texts, file.path( outdir, "selected_texts_koine_greek.tsv" ), quote = 'all' )
-
-library( "ggplot2" )
-library( "dplyr" )
 
 # bin width
 bin_width <- 100
@@ -80,12 +86,12 @@ ggsave( p, file = file.path( outdir, 'plot_average_date_selected_texts_koine_gre
 koine_binned <- koine_texts %>%
     mutate( date_bin = bin_width * ( 1 + floor( date_mean / bin_width ) ) ) %>%
     group_by( date_bin ) %>%
-    summarise( total_words = sum( words ), .groups = "drop" )
+    summarise( total_tokens = sum( tokens ), .groups = "drop" )
 
-# Plot total number of words in Koine Texts per bin
-p_words <- ggplot( koine_binned, aes( x = date_bin, y = total_words ) ) +
+# Plot total tokens of words in Koine Texts per bin
+p_tokens <- ggplot( koine_binned, aes( x = date_bin, y = total_tokens ) ) +
     geom_col( fill = "#67a9cf", color = "gray30", width = bin_width * 0.95 ) +
-    labs( x = "Average Date (CE)", y = "Number of Words" ) +
+    labs( x = "Average Date (CE)", y = "Number of Tokens" ) +
     scale_x_continuous(
         breaks = seq(min(koine_binned$date_bin), max(koine_binned$date_bin), by = 100 ),
         minor_breaks = seq(min(koine_binned$date_bin), max(koine_binned$date_bin), by = 50 )
@@ -94,5 +100,5 @@ p_words <- ggplot( koine_binned, aes( x = date_bin, y = total_words ) ) +
     theme_minimal()
 
 # save to disk
-ggsave( p_words, file = file.path( outdir, 'plot_total_words_selected_texts_koine_greek.png' ), width = 5, height = 5, dpi = 600, bg = 'white' )
+ggsave( p_tokens, file = file.path( outdir, 'plot_total_tokens_selected_texts_koine_greek.png' ), width = 5, height = 5, dpi = 600, bg = 'white' )
 

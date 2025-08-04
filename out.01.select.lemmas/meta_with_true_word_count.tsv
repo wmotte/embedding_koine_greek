@@ -1,0 +1,1255 @@
+"tlg"	"date_lower_bound"	"date_upper_bound"	"author"	"title"	"genre"	"dialect"	"source"	"tokens"	"date_mean"	"true_n_words"
+"0027-001"	-500	-301	"Andocides"	"De mysteriis"	"Oratory"	"Attic"	"Perseus"	11797	-400.5	10112
+"0027-002"	-500	-301	"Andocides"	"De reditu suo"	"Oratory"	"Attic"	"Perseus"	2208	-400.5	1960
+"0027-003"	-500	-301	"Andocides"	"De pace"	"Oratory"	"Attic"	"Perseus"	3077	-400.5	2679
+"0027-004"	-500	-301	"Andocides"	"In Alcibiadem"	"Oratory"	"Attic"	"Perseus"	3148	-400.5	2777
+"0239-003"	-500	-301	"Antimachus"	"Epigramma"	"Lyric poetry"	"Ionic/Epic"	"Perseus"	50	-400.5	39
+"0591-001"	-500	-301	"Antisthenes"	"Declamationes"	"Oratory"	"Attic"	"First1K"	577	-400.5	510
+"0591-002"	-500	-301	"Antisthenes"	"Fragmenta varia"	"Oratory"	"Attic"	"First1K"	1076	-400.5	943
+"0019-001"	-500	-301	"Aristophanes"	"Acharnenses"	"Comedy"	"Attic"	"Perseus"	8795	-400.5	7391
+"0019-002"	-500	-301	"Aristophanes"	"Equites"	"Comedy"	"Attic"	"Perseus"	10732	-400.5	9095
+"0019-003"	-500	-301	"Aristophanes"	"Nubes"	"Comedy"	"Attic"	"Perseus"	11718	-400.5	9902
+"0019-004"	-500	-301	"Aristophanes"	"Vespae"	"Comedy"	"Attic"	"Perseus"	11883	-400.5	10085
+"0019-005"	-500	-301	"Aristophanes"	"Pax"	"Comedy"	"Attic"	"Perseus"	9717	-400.5	8220
+"0019-006"	-500	-301	"Aristophanes"	"Aves"	"Comedy"	"Attic"	"Perseus"	12894	-400.5	10937
+"0019-007"	-500	-301	"Aristophanes"	"Lysistrata"	"Comedy"	"Attic"	"Perseus"	9886	-400.5	8361
+"0019-008"	-500	-301	"Aristophanes"	"Thesmophoriazusae"	"Comedy"	"Attic"	"Perseus"	8856	-400.5	7416
+"0019-009"	-500	-301	"Aristophanes"	"Ranae"	"Comedy"	"Attic"	"Perseus"	11287	-400.5	9417
+"0019-010"	-500	-301	"Aristophanes"	"Ecclesiazusae"	"Comedy"	"Attic"	"Perseus"	9268	-400.5	7851
+"0019-011"	-500	-301	"Aristophanes"	"Plutus"	"Comedy"	"Attic"	"Perseus"	9673	-400.5	8248
+"0593-001"	-500	-301	"Gorgias"	"Testimonium"	"Oratory"	"Attic"	"First1K"	1499	-400.5	1337
+"0593-002"	-500	-301	"Gorgias"	"Testimonia"	"Oratory"	"Attic"	"First1K"	2895	-400.5	2476
+"0627-001"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De prisca medicina"	"Medicine"	"Ionic"	"First1K"	6499	-400.5	5599
+"0627-002"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De aëre aquis et locis"	"Medicine"	"Ionic"	"First1K"	8659	-400.5	7514
+"0627-003"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"Prognosticon"	"Medicine"	"Ionic"	"First1K"	6087	-400.5	5261
+"0627-004"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De diaeta in morbis acutis"	"Medicine"	"Ionic"	"First1K"	7143	-400.5	6199
+"0627-005"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De diaeta acutorum"	"Medicine"	"Ionic"	"First1K"	6447	-400.5	5367
+"0627-006"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De morbis popularibus"	"Medicine"	"Ionic"	"First1K"	53855	-400.5	42046
+"0627-007"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De capitis vulneribus"	"Medicine"	"Ionic"	"First1K"	5821	-400.5	5041
+"0627-008"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De officina medici"	"Medicine"	"Ionic"	"First1K"	2819	-400.5	2174
+"0627-009"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De fracturis"	"Medicine"	"Ionic"	"First1K"	13226	-400.5	11316
+"0627-010"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De articulis"	"Medicine"	"Ionic"	"First1K"	25227	-400.5	21535
+"0627-011"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"Vectiarius"	"Medicine"	"Ionic"	"First1K"	6295	-400.5	4995
+"0627-012"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"Aphorismi"	"Medicine"	"Ionic"	"First1K"	8886	-400.5	7120
+"0627-013"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"Jusjurandum"	"Medicine"	"Ionic"	"First1K"	297	-400.5	255
+"0627-014"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"Lex"	"Medicine"	"Ionic"	"First1K"	395	-400.5	325
+"0627-015"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De humoribus"	"Medicine"	"Ionic"	"First1K"	2968	-400.5	2280
+"0627-016"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"Prorrheticon"	"Medicine"	"Ionic"	"First1K"	12061	-400.5	10169
+"0627-017"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"Coa praesagia"	"Medicine"	"Ionic"	"First1K"	15206	-400.5	12144
+"0627-018"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De arte"	"Medicine"	"Ionic"	"First1K"	3139	-400.5	2721
+"0627-019"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De natura hominis"	"Medicine"	"Ionic"	"First1K"	4450	-400.5	3929
+"0627-020"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De diaeta salubri"	"Medicine"	"Ionic"	"First1K"	1645	-400.5	1460
+"0627-021"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De flatibus"	"Medicine"	"Ionic"	"First1K"	3302	-400.5	2851
+"0627-022"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De humidorum usu"	"Medicine"	"Ionic"	"First1K"	1865	-400.5	1478
+"0627-023"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De morbis i-iii"	"Medicine"	"Ionic"	"First1K"	41526	-400.5	35351
+"0627-024a"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De semine, de natura pueri, de morbis iv"	"Medicine"	"Ionic"	"First1K"	2234	-400.5	1953
+"0627-024b"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De semine, de natura pueri, de morbis iv"	"Medicine"	"Ionic"	"First1K"	8301	-400.5	7326
+"0627-025"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De affectionibus"	"Medicine"	"Ionic"	"First1K"	8734	-400.5	7480
+"0627-026"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De locis in homine"	"Medicine"	"Ionic"	"First1K"	9991	-400.5	8523
+"0627-027"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De morbo sacro"	"Medicine"	"Ionic"	"First1K"	5429	-400.5	4785
+"0627-028"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De ulceribus"	"Medicine"	"Ionic"	"First1K"	4081	-400.5	3344
+"0627-029"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De haemorrhoidibus"	"Medicine"	"Ionic"	"First1K"	1086	-400.5	903
+"0627-030"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De fistulis"	"Medicine"	"Ionic"	"First1K"	1854	-400.5	1552
+"0627-031"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De diaeta i-iv"	"Medicine"	"Ionic"	"First1K"	23271	-400.5	20020
+"0627-032"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De affectionibus interioribus"	"Medicine"	"Ionic"	"First1K"	19088	-400.5	16170
+"0627-033"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De natura muliebri"	"Medicine"	"Ionic"	"First1K"	14529	-400.5	11840
+"0627-034"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De septimestri partu"	"Medicine"	"Ionic"	"First1K"	1876	-400.5	1681
+"0627-035"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De octimestri partu"	"Medicine"	"Ionic"	"First1K"	878	-400.5	785
+"0627-036"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De mulierum affectibus i-iii"	"Medicine"	"Ionic"	"First1K"	58522	-400.5	48875
+"0627-037"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De virginum morbis"	"Medicine"	"Ionic"	"First1K"	523	-400.5	452
+"0627-038"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De superfetatione"	"Medicine"	"Ionic"	"First1K"	4047	-400.5	3417
+"0627-039"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De exsectione foetus"	"Medicine"	"Ionic"	"First1K"	556	-400.5	474
+"0627-040"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De anatome"	"Medicine"	"Ionic"	"First1K"	291	-400.5	244
+"0627-041"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De dentitione"	"Medicine"	"Ionic"	"First1K"	451	-400.5	381
+"0627-042"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De glandulis"	"Medicine"	"Ionic"	"First1K"	2072	-400.5	1782
+"0627-043"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De carnibus"	"Medicine"	"Ionic"	"First1K"	3885	-400.5	3395
+"0627-045"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De corde"	"Medicine"	"Ionic"	"First1K"	1208	-400.5	1042
+"0627-046"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De alimento"	"Medicine"	"Ionic"	"First1K"	1639	-400.5	1321
+"0627-047"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De visu"	"Medicine"	"Ionic"	"First1K"	940	-400.5	788
+"0627-048"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De ossium natura"	"Medicine"	"Ionic"	"First1K"	3780	-400.5	3328
+"0627-049"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De medico"	"Medicine"	"Ionic"	"First1K"	1738	-400.5	1521
+"0627-050"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De decente habitu"	"Medicine"	"Ionic"	"First1K"	1775	-400.5	1510
+"0627-051"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"Praeceptiones"	"Medicine"	"Ionic"	"First1K"	1577	-400.5	1348
+"0627-052"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De judicationibus"	"Medicine"	"Ionic"	"First1K"	2338	-400.5	1981
+"0627-053"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De diebus judicatoriis"	"Medicine"	"Ionic"	"First1K"	1522	-400.5	1290
+"0627-055"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"Epistulae"	"Epistolography"	"Ionic"	"First1K"	14017	-400.5	11896
+"0017-001"	-500	-301	"Isaeus"	"De Cleonymo"	"Oratory"	"Attic"	"Perseus"	3117	-400.5	2739
+"0017-002"	-500	-301	"Isaeus"	"De Menecle"	"Oratory"	"Attic"	"Perseus"	3180	-400.5	2778
+"0017-003"	-500	-301	"Isaeus"	"De Pyrrho"	"Oratory"	"Attic"	"Perseus"	5012	-400.5	4474
+"0017-004"	-500	-301	"Isaeus"	"De Nicostrato"	"Oratory"	"Attic"	"Perseus"	2086	-400.5	1837
+"0017-005"	-500	-301	"Isaeus"	"De Dicaeogene"	"Oratory"	"Attic"	"Perseus"	3549	-400.5	3101
+"0017-006"	-500	-301	"Isaeus"	"De Philoctemone"	"Oratory"	"Attic"	"Perseus"	4190	-400.5	3679
+"0017-007"	-500	-301	"Isaeus"	"De Apollodoro"	"Oratory"	"Attic"	"Perseus"	3235	-400.5	2837
+"0017-008"	-500	-301	"Isaeus"	"De Cirone"	"Oratory"	"Attic"	"Perseus"	3682	-400.5	3213
+"0017-009"	-500	-301	"Isaeus"	"De Astyphilo"	"Oratory"	"Attic"	"Perseus"	2618	-400.5	2278
+"0017-010"	-500	-301	"Isaeus"	"De Aristarcho"	"Oratory"	"Attic"	"Perseus"	2359	-400.5	2067
+"0017-011"	-500	-301	"Isaeus"	"De Hagnia"	"Oratory"	"Attic"	"Perseus"	4174	-400.5	3661
+"0017-012"	-500	-301	"Isaeus"	"Pro Euphileto"	"Oratory"	"Attic"	"Perseus"	1079	-400.5	957
+"0010-001"	-500	-301	"Isocrates"	"In Euthynum"	"Oratory"	"Attic"	"Perseus"	1279	-400.5	1119
+"0010-002"	-500	-301	"Isocrates"	"In Callimachum"	"Oratory"	"Attic"	"Perseus"	4063	-400.5	3613
+"0010-003"	-500	-301	"Isocrates"	"In Lochitem"	"Oratory"	"Attic"	"Perseus"	1256	-400.5	1128
+"0010-004"	-500	-301	"Isocrates"	"De bigis"	"Oratory"	"Attic"	"Perseus"	3245	-400.5	2926
+"0010-005"	-500	-301	"Isocrates"	"Trapeziticus"	"Oratory"	"Attic"	"Perseus"	3846	-400.5	3387
+"0010-006"	-500	-301	"Isocrates"	"Aegineticus"	"Oratory"	"Attic"	"Perseus"	3284	-400.5	2944
+"0010-007"	-500	-301	"Isocrates"	"Ad Demonicum"	"Oratory"	"Attic"	"Perseus"	3339	-400.5	2930
+"0010-008"	-500	-301	"Isocrates"	"In sophistas"	"Oratory"	"Attic"	"Perseus"	1478	-400.5	1334
+"0010-009"	-500	-301	"Isocrates"	"Helenae encomium"	"Oratory"	"Attic"	"Perseus"	4134	-400.5	3753
+"0010-010"	-500	-301	"Isocrates"	"Busiris"	"Oratory"	"Attic"	"Perseus"	3066	-400.5	2775
+"0010-011"	-500	-301	"Isocrates"	"Panegyricus"	"Oratory"	"Attic"	"Perseus"	12046	-400.5	10849
+"0010-012"	-500	-301	"Isocrates"	"Plataicus"	"Oratory"	"Attic"	"Perseus"	3573	-400.5	3225
+"0010-013"	-500	-301	"Isocrates"	"Ad Nicoclem"	"Oratory"	"Attic"	"Perseus"	3396	-400.5	3042
+"0010-014"	-500	-301	"Isocrates"	"Nicocles"	"Oratory"	"Attic"	"Perseus"	4200	-400.5	3770
+"0010-015"	-500	-301	"Isocrates"	"Evagoras"	"Oratory"	"Attic"	"Perseus"	5148	-400.5	4646
+"0010-016"	-500	-301	"Isocrates"	"Archidamus"	"Oratory"	"Attic"	"Perseus"	6895	-400.5	6194
+"0010-017"	-500	-301	"Isocrates"	"De pace"	"Oratory"	"Attic"	"Perseus"	8889	-400.5	8002
+"0010-018"	-500	-301	"Isocrates"	"Areopagiticus"	"Oratory"	"Attic"	"Perseus"	5141	-400.5	4637
+"0010-019"	-500	-301	"Isocrates"	"Antidosis"	"Oratory"	"Attic"	"Perseus"	19724	-400.5	17853
+"0010-020"	-500	-301	"Isocrates"	"Philippus"	"Oratory"	"Attic"	"Perseus"	9827	-400.5	8851
+"0010-021"	-500	-301	"Isocrates"	"Panathenaicus"	"Oratory"	"Attic"	"Perseus"	17713	-400.5	16084
+"0010-022"	-500	-301	"Isocrates"	"Ad Dionysium"	"Epistolography"	"Attic"	"Perseus"	661	-400.5	593
+"0010-023"	-500	-301	"Isocrates"	"Ad filios Jasonis"	"Epistolography"	"Attic"	"Perseus"	995	-400.5	895
+"0010-024"	-500	-301	"Isocrates"	"Ad Archidamum"	"Epistolography"	"Attic"	"Perseus"	1280	-400.5	1159
+"0010-025"	-500	-301	"Isocrates"	"Ad reges Mytilenaeos"	"Epistolography"	"Attic"	"Perseus"	746	-400.5	677
+"0010-026"	-500	-301	"Isocrates"	"Ad Timotheum"	"Epistolography"	"Attic"	"Perseus"	864	-400.5	783
+"0010-027"	-500	-301	"Isocrates"	"Ad Philippum"	"Epistolography"	"Attic"	"Perseus"	1429	-400.5	1296
+"0010-028"	-500	-301	"Isocrates"	"Ad Alexandrum"	"Epistolography"	"Attic"	"Perseus"	321	-400.5	293
+"0010-029"	-500	-301	"Isocrates"	"Ad Antipatrum"	"Epistolography"	"Attic"	"Perseus"	915	-400.5	827
+"0010-030"	-500	-301	"Isocrates"	"Ad Philippum"	"Epistolography"	"Attic"	"Perseus"	466	-400.5	423
+"0540-001"	-500	-301	"Lysias"	"De caede Eratosthenis"	"Oratory"	"Attic"	"Perseus"	2829	-400.5	2438
+"0540-002"	-500	-301	"Lysias"	"Epitaphius"	"Oratory"	"Attic"	"Perseus"	4599	-400.5	4091
+"0540-003"	-500	-301	"Lysias"	"Contra Simonem"	"Oratory"	"Attic"	"Perseus"	2532	-400.5	2198
+"0540-004"	-500	-301	"Lysias"	"Περὶ τραύματος ἐκ προνοίας ὑπὲρ οὗ καὶ πρὸς ὃν <ἄδηλον>"	"Oratory"	"Attic"	"Perseus"	1095	-400.5	958
+"0540-005"	-500	-301	"Lysias"	"Pro Callia"	"Oratory"	"Attic"	"Perseus"	317	-400.5	282
+"0540-006"	-500	-301	"Lysias"	"In Andocidem"	"Oratory"	"Attic"	"Perseus"	3023	-400.5	2627
+"0540-007"	-500	-301	"Lysias"	"Areopagiticus"	"Oratory"	"Attic"	"Perseus"	2351	-400.5	2058
+"0540-008"	-500	-301	"Lysias"	"Κατηγορία πρὸς τοὺς συνουσιαστὰς κακολογιῶν"	"Oratory"	"Attic"	"Perseus"	1206	-400.5	1057
+"0540-009"	-500	-301	"Lysias"	"Pro milite"	"Oratory"	"Attic"	"Perseus"	1015	-400.5	883
+"0540-010"	-500	-301	"Lysias"	"In Theomnestum 1"	"Oratory"	"Attic"	"Perseus"	1757	-400.5	1503
+"0540-011"	-500	-301	"Lysias"	"In Theomnestum 2"	"Oratory"	"Attic"	"Perseus"	651	-400.5	562
+"0540-012"	-500	-301	"Lysias"	"In Eratosthenem"	"Oratory"	"Attic"	"Perseus"	5609	-400.5	4926
+"0540-013"	-500	-301	"Lysias"	"In Agoratum"	"Oratory"	"Attic"	"Perseus"	5602	-400.5	4905
+"0540-014"	-500	-301	"Lysias"	"In Alcibiadem 1"	"Oratory"	"Attic"	"Perseus"	2772	-400.5	2447
+"0540-015"	-500	-301	"Lysias"	"In Alcibiadem 2"	"Oratory"	"Attic"	"Perseus"	683	-400.5	607
+"0540-016"	-500	-301	"Lysias"	"Pro Mantitheo"	"Oratory"	"Attic"	"Perseus"	1315	-400.5	1161
+"0540-017"	-500	-301	"Lysias"	"Πρὸς τὸ δημόσιον περὶ τῶν Ἐράτωνος χρημάτων"	"Oratory"	"Attic"	"Perseus"	673	-400.5	589
+"0540-018"	-500	-301	"Lysias"	"Περὶ τῆς δημεύσεως <τῶν> τοῦ Νικίου ἀδελφοῦ ἐπίλογος"	"Oratory"	"Attic"	"Perseus"	1527	-400.5	1358
+"0540-019"	-500	-301	"Lysias"	"Ὑπὲρ τῶν Ἀριστοφάνους χρημάτων, πρὸς τὸ δημόσιον"	"Oratory"	"Attic"	"Perseus"	3579	-400.5	3134
+"0540-020"	-500	-301	"Lysias"	"Pro Polystrato"	"Oratory"	"Attic"	"Perseus"	2235	-400.5	1933
+"0540-021"	-500	-301	"Lysias"	"Ἀπολογία δωροδοκίας ἀπαράσημος"	"Oratory"	"Attic"	"Perseus"	1490	-400.5	1311
+"0540-022"	-500	-301	"Lysias"	"Κατὰ τῶν σιτοπωλῶν"	"Oratory"	"Attic"	"Perseus"	1317	-400.5	1126
+"0540-023"	-500	-301	"Lysias"	"In Pancleonem"	"Oratory"	"Attic"	"Perseus"	889	-400.5	782
+"0540-024"	-500	-301	"Lysias"	"Ὑπὲρ τοῦ ἀδυνάτου"	"Oratory"	"Attic"	"Perseus"	1668	-400.5	1456
+"0540-025"	-500	-301	"Lysias"	"Δήμου καταλύσεως ἀπολογία"	"Oratory"	"Attic"	"Perseus"	2334	-400.5	2049
+"0540-026"	-500	-301	"Lysias"	"Περὶ τῆς Εὐάνδρου δοκιμασίας"	"Oratory"	"Attic"	"Perseus"	1585	-400.5	1399
+"0540-027"	-500	-301	"Lysias"	"In Epicratem"	"Oratory"	"Attic"	"Perseus"	874	-400.5	754
+"0540-028"	-500	-301	"Lysias"	"In Ergoclem"	"Oratory"	"Attic"	"Perseus"	1041	-400.5	917
+"0540-029"	-500	-301	"Lysias"	"In Philocratem"	"Oratory"	"Attic"	"Perseus"	756	-400.5	663
+"0540-030"	-500	-301	"Lysias"	"In Nicomachum"	"Oratory"	"Attic"	"Perseus"	2149	-400.5	1893
+"0540-031"	-500	-301	"Lysias"	"In Philonem"	"Oratory"	"Attic"	"Perseus"	2069	-400.5	1841
+"0540-032"	-500	-301	"Lysias"	"In Diogitonem"	"Oratory"	"Attic"	"Perseus"	1959	-400.5	1705
+"0540-033"	-500	-301	"Lysias"	"Olympiacus"	"Oratory"	"Attic"	"Perseus"	490	-400.5	434
+"0540-034"	-500	-301	"Lysias"	"Περὶ τοῦ μὴ καταλῦσαι τὴν πάτριον πολιτείαν Ἀθήνησι"	"Oratory"	"Attic"	"Perseus"	661	-400.5	562
+"1567-001"	-500	-301	"Parrhasius"	"Epigrammata"	"Lyric poetry"	"Ionic/Epic"	"Perseus"	76	-400.5	65
+"0059-001"	-500	-301	"Plato"	"Euthyphro"	"Philosophic Dialogue"	"Attic"	"Perseus"	6151	-400.5	5217
+"0059-002"	-500	-301	"Plato"	"Apologia Socratis"	"Philosophy"	"Attic"	"Perseus"	10313	-400.5	8908
+"0059-003"	-500	-301	"Plato"	"Crito"	"Philosophic Dialogue"	"Attic"	"Perseus"	4977	-400.5	4253
+"0059-004"	-500	-301	"Plato"	"Phaedo"	"Philosophic Dialogue"	"Attic"	"Perseus"	26306	-400.5	22512
+"0059-005"	-500	-301	"Plato"	"Cratylus"	"Philosophic Dialogue"	"Attic"	"Perseus"	22246	-400.5	18292
+"0059-006"	-500	-301	"Plato"	"Theaetetus"	"Philosophic Dialogue"	"Attic"	"Perseus"	26803	-400.5	22818
+"0059-007"	-500	-301	"Plato"	"Sophista"	"Philosophic Dialogue"	"Attic"	"Perseus"	19002	-400.5	16264
+"0059-008"	-500	-301	"Plato"	"Politicus"	"Philosophic Dialogue"	"Attic"	"Perseus"	19601	-400.5	17166
+"0059-009"	-500	-301	"Plato"	"Parmenides"	"Philosophic Dialogue"	"Attic"	"Perseus"	18507	-400.5	15821
+"0059-010"	-500	-301	"Plato"	"Philebus"	"Philosophic Dialogue"	"Attic"	"Perseus"	20853	-400.5	17911
+"0059-011"	-500	-301	"Plato"	"Symposium"	"Philosophic Dialogue"	"Attic"	"Perseus"	20519	-400.5	17550
+"0059-012"	-500	-301	"Plato"	"Phaedrus"	"Philosophic Dialogue"	"Attic"	"Perseus"	19352	-400.5	16768
+"0059-013"	-500	-301	"Plato"	"Alcibiades i"	"Philosophic Dialogue"	"Attic"	"Perseus"	12405	-400.5	10384
+"0059-014"	-500	-301	"Plato"	"Alcibiades ii"	"Philosophic Dialogue"	"Attic"	"Perseus"	4945	-400.5	4237
+"0059-015"	-500	-301	"Plato"	"Hipparchus"	"Philosophic Dialogue"	"Attic"	"Perseus"	2667	-400.5	2270
+"0059-016"	-500	-301	"Plato"	"Amatores"	"Philosophic Dialogue"	"Attic"	"Perseus"	2900	-400.5	2433
+"0059-017"	-500	-301	"Plato"	"Theages"	"Philosophic Dialogue"	"Attic"	"Perseus"	4173	-400.5	3481
+"0059-018"	-500	-301	"Plato"	"Charmides"	"Philosophic Dialogue"	"Attic"	"Perseus"	10068	-400.5	8412
+"0059-019"	-500	-301	"Plato"	"Laches"	"Philosophic Dialogue"	"Attic"	"Perseus"	9038	-400.5	7754
+"0059-020"	-500	-301	"Plato"	"Lysis"	"Philosophic Dialogue"	"Attic"	"Perseus"	8866	-400.5	7096
+"0059-021"	-500	-301	"Plato"	"Euthydemus"	"Philosophic Dialogue"	"Attic"	"Perseus"	15745	-400.5	12599
+"0059-022"	-500	-301	"Plato"	"Protagoras"	"Philosophic Dialogue"	"Attic"	"Perseus"	21367	-400.5	17740
+"0059-023"	-500	-301	"Plato"	"Gorgias"	"Philosophic Dialogue"	"Attic"	"Perseus"	31263	-400.5	26545
+"0059-024"	-500	-301	"Plato"	"Meno"	"Philosophic Dialogue"	"Attic"	"Perseus"	11715	-400.5	9838
+"0059-025"	-500	-301	"Plato"	"Hippias major"	"Philosophic Dialogue"	"Attic"	"Perseus"	10374	-400.5	8517
+"0059-026"	-500	-301	"Plato"	"Hippias minor"	"Philosophic Dialogue"	"Attic"	"Perseus"	5012	-400.5	4216
+"0059-027"	-500	-301	"Plato"	"Ion"	"Philosophic Dialogue"	"Attic"	"Perseus"	4573	-400.5	3891
+"0059-028"	-500	-301	"Plato"	"Menexenus"	"Philosophic Dialogue"	"Attic"	"Perseus"	5487	-400.5	4852
+"0059-029"	-500	-301	"Plato"	"Clitophon"	"Philosophic Dialogue"	"Attic"	"Perseus"	1839	-400.5	1588
+"0059-030"	-500	-301	"Plato"	"Respublica"	"Philosophic Dialogue"	"Attic"	"Perseus"	105851	-400.5	89217
+"0059-031"	-500	-301	"Plato"	"Timaeus"	"Philosophic Dialogue"	"Attic"	"Perseus"	26813	-400.5	23936
+"0059-032"	-500	-301	"Plato"	"Critias"	"Philosophic Dialogue"	"Attic"	"Perseus"	5563	-400.5	4976
+"0059-033"	-500	-301	"Plato"	"Minos"	"Philosophic Dialogue"	"Attic"	"Perseus"	3377	-400.5	2850
+"0059-034"	-500	-301	"Plato"	"Leges"	"Philosophic Dialogue"	"Attic"	"Perseus"	118263	-400.5	104158
+"0059-035"	-500	-301	"Plato"	"Epinomis"	"Philosophic Dialogue"	"Attic"	"Perseus"	7244	-400.5	6378
+"0059-036"	-500	-301	"Plato"	"Epistulae"	"Epistolography"	"Attic"	"Perseus"	19483	-400.5	17172
+"0497-005"	-500	-301	"Plato Comicus"	"Epigramma"	"Lyric poetry"	"Ionic/Epic"	"https://el.wikisource.org"	95	-400.5	75
+"0065-001"	-500	-301	"Scylax"	"Periplus Scylacis"	"Geography"	"Attic"	"https://camws.org"	9978	-400.5	8357
+"0032-001"	-500	-301	"Xenophon"	"Hellenica"	"History"	"Attic"	"Perseus"	75656	-400.5	66792
+"0032-002"	-500	-301	"Xenophon"	"Memorabilia"	"Biography"	"Attic"	"Perseus"	42236	-400.5	36268
+"0032-003"	-500	-301	"Xenophon"	"Oeconomicus"	"Philosophic Dialogue"	"Attic"	"Perseus"	20938	-400.5	17998
+"0032-004"	-500	-301	"Xenophon"	"Symposium"	"Philosophic Dialogue"	"Attic"	"Perseus"	11210	-400.5	9584
+"0032-005"	-500	-301	"Xenophon"	"Apologia Socratis"	"Philosophy"	"Attic"	"Perseus"	2276	-400.5	2032
+"0032-006"	-500	-301	"Xenophon"	"Anabasis"	"History"	"Attic"	"Perseus"	65201	-400.5	56958
+"0032-007"	-500	-301	"Xenophon"	"Cyropaedia"	"Biography"	"Attic"	"Perseus"	91685	-400.5	79961
+"0032-008"	-500	-301	"Xenophon"	"Hiero"	"Philosophic Dialogue"	"Attic"	"Perseus"	6825	-400.5	6015
+"0032-009"	-500	-301	"Xenophon"	"Agesilaus"	"Biography"	"Attic"	"Perseus"	8299	-400.5	7407
+"0032-010"	-500	-301	"Xenophon"	"De republica Lacedaemoniorum"	"Philosophy"	"Attic"	"Perseus"	5588	-400.5	4917
+"0032-011"	-500	-301	"Xenophon"	"De vectigalibus"	"Philosophy"	"Attic"	"Perseus"	4324	-400.5	3864
+"0032-012"	-500	-301	"Xenophon"	"Hipparchicus"	"Military"	"Attic"	"Perseus"	6452	-400.5	5793
+"0032-013"	-500	-301	"Xenophon"	"De re equestri"	"Biology"	"Attic"	"Perseus"	7867	-400.5	7011
+"0032-014"	-500	-301	"Xenophon"	"Cynegeticus"	"Biology"	"Attic"	"Perseus"	10685	-400.5	9167
+"0058-001"	-400	-301	"Aeneas"	"Poliorcetica"	"Military"	"Attic"	"Perseus"	15698	-350.5	14044
+"0026-001"	-400	-301	"Aeschines"	"In Timarchum"	"Oratory"	"Attic"	"Perseus"	15918	-350.5	13708
+"0026-002"	-400	-301	"Aeschines"	"De falsa legatione"	"Oratory"	"Attic"	"Perseus"	14338	-350.5	12402
+"0026-003"	-400	-301	"Aeschines"	"In Ctesiphontem"	"Oratory"	"Attic"	"Perseus"	21577	-350.5	18640
+"0026-004"	-400	-301	"Aeschines"	"Epistulae"	"Epistolography"	"Attic"	"https://el.wikisource.org"	4916	-350.5	4299
+"0679-001"	-400	-301	"Aeschrion"	"Epigramma"	"Lyric poetry"	"Ionic/Epic"	"Perseus"	73	-350.5	61
+"0547-001"	-400	-301	"Anaximenes"	"Ars rhetorica vulgo Rhetorica ad Alexandrum"	"Rhetoric"	"Attic"	"Loeb (public domain)"	20803	-350.5	18516
+"0227-001"	-400	-301	"Anonymi Curetum Hymnus"	"Hymnus Curetum"	"Lyric poetry"	"Doric"	"Wikipedia"	255	-350.5	216
+"0086-001"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Analytica priora et posteriora"	"Philosophy"	"Attic"	"First1K"	69733	-350.5	60930
+"0086-002"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De anima"	"Philosophy"	"Attic"	"First1K"	24214	-350.5	21093
+"0086-003"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Ἀθηναίων πολιτεία"	"Philosophy"	"Attic"	"Perseus"	18897	-350.5	16485
+"0086-005"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De caelo"	"Physics"	"Attic"	"https://el.wikisource.org"	34147	-350.5	30133
+"0086-006"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Categoriae"	"Philosophy"	"Attic"	"First1K"	11826	-350.5	10486
+"0086-007"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De coloribus"	"Physics"	"Attic"	"https://el.wikisource.org"	5628	-350.5	5040
+"0086-008"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De divinatione per somnum"	"Philosophy"	"Attic"	"First1K"	1362	-350.5	1220
+"0086-009"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Ethica Eudemia"	"Philosophy"	"Attic"	"Perseus"	30664	-350.5	26505
+"0086-010"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Ethica Nicomachea"	"Philosophy"	"Attic"	"Perseus"	65656	-350.5	57194
+"0086-011"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Epistulae"	"Epistolography"	"Attic"	"https://el.wikisource.org"	893	-350.5	801
+"0086-012"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De generatione animalium"	"Biology"	"Attic"	"https://el.wikisource.org"	56256	-350.5	50895
+"0086-013"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De generatione et corruptione"	"Physics"	"Attic"	"First1K"	19237	-350.5	16768
+"0086-014"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Historia animalium"	"Biology"	"Attic"	"First1K"	108459	-350.5	94676
+"0086-015"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De incessu animalium"	"Biology"	"Attic"	"First1K"	4711	-350.5	4147
+"0086-016"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De insomniis"	"Philosophy"	"Attic"	"First1K"	2776	-350.5	2463
+"0086-017"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De interpretatione"	"Philosophy"	"Attic"	"First1K"	7223	-350.5	6340
+"0086-018"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De juventute et senectute et De vita et morte"	"Medicine"	"Attic"	"First1K"	2086	-350.5	1851
+"0086-020"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De longitudine et brevitate vitae"	"Medicine"	"Attic"	"First1K"	2063	-350.5	1809
+"0086-021"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De motu animalium"	"Biology"	"Attic"	"First1K"	7173	-350.5	6383
+"0086-022"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Magna moralia"	"Philosophy"	"Attic"	"https://el.wikisource.org"	26993	-350.5	24016
+"0086-023"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Mechanica"	"Engineering"	"Attic"	"https://el.wikisource.org"	9661	-350.5	8478
+"0086-024"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De memoria et reminiscentia"	"Philosophy"	"Attic"	"First1K"	2926	-350.5	2538
+"0086-025"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Metaphysica"	"Philosophy"	"Attic"	"Perseus"	91065	-350.5	79914
+"0086-026"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Meteorologica"	"Physics"	"Attic"	"First1K"	38584	-350.5	34045
+"0086-027"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Mirabilium auscultationes"	"Paradoxography"	"Attic"	"https://penelope.uchicago.edu"	10499	-350.5	9229
+"0086-028"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De mundo"	"Philosophy"	"Attic"	"https://el.wikisource.org"	7329	-350.5	6441
+"0086-029"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Oeconomica"	"Philosophy"	"Attic"	"Perseus"	7144	-350.5	6270
+"0086-030"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De partibus animalium"	"Biology"	"Attic"	"https://el.wikisource.org"	43829	-350.5	38895
+"0086-031"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Physica"	"Physics"	"Attic"	"https://el.wikisource.org"	64458	-350.5	56277
+"0086-032"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Physiognomonica"	"Medicine"	"Attic"	"https://el.wikisource.org"	6801	-350.5	5850
+"0086-033"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Protrepticus"	"Philosophy"	"Attic"	"https://el.wikisource.org"	6878	-350.5	6163
+"0086-034"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Poetica"	"Rhetoric"	"Attic"	"First1K"	11769	-350.5	10295
+"0086-035"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Politica"	"Philosophy"	"Attic"	"Perseus"	74647	-350.5	66093
+"0086-036"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Problemata"	"Philosophy"	"Attic"	"https://el.wikisource.org"	85070	-350.5	74285
+"0086-037"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De respiratione"	"Medicine"	"Attic"	"First1K"	6983	-350.5	6166
+"0086-038"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Rhetorica"	"Rhetoric"	"Attic"	"Perseus"	50872	-350.5	43442
+"0086-039"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De plantis [Dub.]"	"Biology"	"Attic"	"Loeb (public domain)"	12921	-350.5	11388
+"0086-040"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Sophistici elenchi"	"Philosophy"	"Attic"	"First1K"	16393	-350.5	14345
+"0086-041"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De sensu et sensibilibus"	"Philosophy"	"Attic"	"First1K"	9018	-350.5	7928
+"0086-042"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De somno et vigilia"	"Philosophy"	"Attic"	"First1K"	3435	-350.5	3029
+"0086-043"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De spiritu"	"Physics"	"Attic"	"First1K"	4044	-350.5	3483
+"0086-044"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Topica"	"Philosophy"	"Attic"	"First1K"	50641	-350.5	44776
+"0086-045"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De virtutibus et vitiis"	"Philosophy"	"Attic"	"Perseus"	1742	-350.5	1504
+"0086-047"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De Xenophane, de Zenone, de Gorgia"	"Philosophy"	"Attic"	"https://el.wikisource.org"	5828	-350.5	5036
+"0086-048"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Divisiones Aristoteleae"	"Philosophy"	"Attic"	"https://el.wikisource.org"	2098	-350.5	1828
+"0086-052"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De anima"	"Philosophy"	"Attic"	"https://el.wikisource.org"	2790	-350.5	2444
+"0086-054"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Physicorum libri septimi textus alter"	"Physics"	"Attic"	"First1K"	2624	-350.5	2299
+"0088-003"	-400	-301	"Aristoxenus"	"Elementa rhythmica"	"Music"	"Attic"	"https://rucore.libraries.rutgers.edu/rutgers-lib/25847"	2496	-350.5	2217
+"1210-001"	-400	-301	"Autolycus"	"De sphaera quae movetur"	"Astronomy/Astrology"	"Attic"	"First1K"	4433	-350.5	4036
+"1210-002"	-400	-301	"Autolycus"	"De ortibus et occasibus"	"Astronomy/Astrology"	"Attic"	"First1K"	11370	-350.5	10216
+"0535-001"	-400	-301	"Demades"	"Fragmenta"	"Oratory"	"Attic"	"Perseus"	2286	-350.5	2014
+"0014-001"	-400	-301	"Demosthenes"	"Olynthiaca 1"	"Oratory"	"Attic"	"Perseus"	2158	-350.5	1860
+"0014-002"	-400	-301	"Demosthenes"	"Olynthiaca 2"	"Oratory"	"Attic"	"Perseus"	2387	-350.5	2067
+"0014-003"	-400	-301	"Demosthenes"	"Olynthiaca 3"	"Oratory"	"Attic"	"Perseus"	2774	-350.5	2382
+"0014-004"	-400	-301	"Demosthenes"	"Philippica 1"	"Oratory"	"Attic"	"Perseus"	3890	-350.5	3329
+"0014-005"	-400	-301	"Demosthenes"	"De pace"	"Oratory"	"Attic"	"Perseus"	1715	-350.5	1497
+"0014-006"	-400	-301	"Demosthenes"	"Philippica 2"	"Oratory"	"Attic"	"Perseus"	2375	-350.5	2031
+"0014-007"	-400	-301	"Demosthenes"	"De Halonneso"	"Oratory"	"Attic"	"Perseus"	2865	-350.5	2478
+"0014-008"	-400	-301	"Demosthenes"	"De Chersoneso"	"Oratory"	"Attic"	"Perseus"	5026	-350.5	4315
+"0014-009"	-400	-301	"Demosthenes"	"Philippica 3"	"Oratory"	"Attic"	"Perseus"	5055	-350.5	4365
+"0014-010"	-400	-301	"Demosthenes"	"Philippica 4"	"Oratory"	"Attic"	"Perseus"	5218	-350.5	4517
+"0014-011"	-400	-301	"Demosthenes"	"In epistulam Philippi"	"Oratory"	"Attic"	"Perseus"	1485	-350.5	1313
+"0014-012"	-400	-301	"Demosthenes"	"[Philippi] epistula"	"Epistolography"	"Attic"	"Perseus"	1607	-350.5	1432
+"0014-013"	-400	-301	"Demosthenes"	"Περὶ συντάξεως"	"Oratory"	"Attic"	"Perseus"	2726	-350.5	2352
+"0014-014"	-400	-301	"Demosthenes"	"Περὶ τῶν συμμοριῶν"	"Oratory"	"Attic"	"Perseus"	3007	-350.5	2608
+"0014-015"	-400	-301	"Demosthenes"	"De Rhodiorum libertate"	"Oratory"	"Attic"	"Perseus"	2560	-350.5	2242
+"0014-016"	-400	-301	"Demosthenes"	"Pro Megalopolitanis"	"Oratory"	"Attic"	"Perseus"	2170	-350.5	1878
+"0014-017"	-400	-301	"Demosthenes"	"Περὶ τῶν πρὸς Ἀλέξανδρον συνθηκῶν"	"Oratory"	"Attic"	"Perseus"	2052	-350.5	1807
+"0014-018"	-400	-301	"Demosthenes"	"De corona"	"Oratory"	"Attic"	"Perseus"	26137	-350.5	22740
+"0014-019"	-400	-301	"Demosthenes"	"De falsa legatione"	"Oratory"	"Attic"	"Perseus"	27303	-350.5	23478
+"0014-020"	-400	-301	"Demosthenes"	"Adversus Leptinem"	"Oratory"	"Attic"	"Perseus"	13294	-350.5	11489
+"0014-021"	-400	-301	"Demosthenes"	"In Midiam"	"Oratory"	"Attic"	"Perseus"	18602	-350.5	15399
+"0014-022"	-400	-301	"Demosthenes"	"Adversus Androtionem"	"Oratory"	"Attic"	"Perseus"	6604	-350.5	5588
+"0014-023"	-400	-301	"Demosthenes"	"In Aristocratem"	"Oratory"	"Attic"	"Perseus"	18173	-350.5	15540
+"0014-024"	-400	-301	"Demosthenes"	"In Timocratem"	"Oratory"	"Attic"	"Perseus"	17158	-350.5	14842
+"0014-025"	-400	-301	"Demosthenes"	"In Aristogitonem 1"	"Oratory"	"Attic"	"Perseus"	7899	-350.5	6793
+"0014-026"	-400	-301	"Demosthenes"	"In Aristogitonem 2"	"Oratory"	"Attic"	"Perseus"	1917	-350.5	1705
+"0014-027"	-400	-301	"Demosthenes"	"In Aphobum 1"	"Oratory"	"Attic"	"Perseus"	5288	-350.5	4635
+"0014-028"	-400	-301	"Demosthenes"	"In Aphobum 2"	"Oratory"	"Attic"	"Perseus"	1773	-350.5	1541
+"0014-029"	-400	-301	"Demosthenes"	"Contra Aphobum"	"Oratory"	"Attic"	"Perseus"	4528	-350.5	3957
+"0014-030"	-400	-301	"Demosthenes"	"Contra Onetorem 1"	"Oratory"	"Attic"	"Perseus"	2718	-350.5	2384
+"0014-031"	-400	-301	"Demosthenes"	"Contra Onetorem 2"	"Oratory"	"Attic"	"Perseus"	1115	-350.5	969
+"0014-032"	-400	-301	"Demosthenes"	"Contra Zenothemin"	"Oratory"	"Attic"	"Perseus"	2273	-350.5	1933
+"0014-033"	-400	-301	"Demosthenes"	"Contra Apatourium"	"Oratory"	"Attic"	"Perseus"	2908	-350.5	2557
+"0014-034"	-400	-301	"Demosthenes"	"Contra Phormionem"	"Oratory"	"Attic"	"Perseus"	3773	-350.5	3297
+"0014-035"	-400	-301	"Demosthenes"	"Contra Lacritum"	"Oratory"	"Attic"	"Perseus"	4194	-350.5	3647
+"0014-036"	-400	-301	"Demosthenes"	"Pro Phormione"	"Oratory"	"Attic"	"Perseus"	4612	-350.5	3981
+"0014-037"	-400	-301	"Demosthenes"	"Contra Pantaenetum"	"Oratory"	"Attic"	"Perseus"	4479	-350.5	3844
+"0014-038"	-400	-301	"Demosthenes"	"Contra Nausimachum et Xenopeithea"	"Oratory"	"Attic"	"Perseus"	2158	-350.5	1870
+"0014-039"	-400	-301	"Demosthenes"	"Contra Boeotum 1"	"Oratory"	"Attic"	"Perseus"	3292	-350.5	2790
+"0014-040"	-400	-301	"Demosthenes"	"Contra Boeotum 2"	"Oratory"	"Attic"	"Perseus"	4505	-350.5	3943
+"0014-041"	-400	-301	"Demosthenes"	"Contra Spudiam"	"Oratory"	"Attic"	"Perseus"	2306	-350.5	1991
+"0014-042"	-400	-301	"Demosthenes"	"Contra Phaenippum"	"Oratory"	"Attic"	"Perseus"	2597	-350.5	2242
+"0014-043"	-400	-301	"Demosthenes"	"Contra Macartatum"	"Oratory"	"Attic"	"Perseus"	7298	-350.5	6349
+"0014-044"	-400	-301	"Demosthenes"	"Contra Leocharem"	"Oratory"	"Attic"	"Perseus"	4849	-350.5	4226
+"0014-045"	-400	-301	"Demosthenes"	"In Stephanum 1"	"Oratory"	"Attic"	"Perseus"	6771	-350.5	5777
+"0014-046"	-400	-301	"Demosthenes"	"In Stephanum 2"	"Oratory"	"Attic"	"Perseus"	2153	-350.5	1867
+"0014-047"	-400	-301	"Demosthenes"	"In Evergum et Mnesibulum"	"Oratory"	"Attic"	"Perseus"	6194	-350.5	5406
+"0014-048"	-400	-301	"Demosthenes"	"In Olympiodorum"	"Oratory"	"Attic"	"Perseus"	4067	-350.5	3546
+"0014-049"	-400	-301	"Demosthenes"	"Contra Timotheum"	"Oratory"	"Attic"	"Perseus"	4969	-350.5	4399
+"0014-050"	-400	-301	"Demosthenes"	"Contra Polyclem"	"Oratory"	"Attic"	"Perseus"	5312	-350.5	4644
+"0014-051"	-400	-301	"Demosthenes"	"De corona trierarchiae"	"Oratory"	"Attic"	"Perseus"	1563	-350.5	1362
+"0014-052"	-400	-301	"Demosthenes"	"Contra Callippum"	"Oratory"	"Attic"	"Perseus"	2483	-350.5	2137
+"0014-053"	-400	-301	"Demosthenes"	"Contra Nicostratum"	"Oratory"	"Attic"	"Perseus"	2339	-350.5	2026
+"0014-054"	-400	-301	"Demosthenes"	"In Cononem"	"Oratory"	"Attic"	"Perseus"	3722	-350.5	3242
+"0014-055"	-400	-301	"Demosthenes"	"Contra Calliclem"	"Oratory"	"Attic"	"Perseus"	2482	-350.5	2150
+"0014-056"	-400	-301	"Demosthenes"	"In Dionysodorum"	"Oratory"	"Attic"	"Perseus"	3848	-350.5	3351
+"0014-057"	-400	-301	"Demosthenes"	"Contra Eubulidem"	"Oratory"	"Attic"	"Perseus"	5397	-350.5	4659
+"0014-058"	-400	-301	"Demosthenes"	"In Theocrinem"	"Oratory"	"Attic"	"Perseus"	5425	-350.5	4730
+"0014-059"	-400	-301	"Demosthenes"	"In Neaeram"	"Oratory"	"Attic"	"Perseus"	10473	-350.5	9256
+"0014-060"	-400	-301	"Demosthenes"	"Epitaphius"	"Oratory"	"Attic"	"Perseus"	2884	-350.5	2547
+"0014-061"	-400	-301	"Demosthenes"	"Eroticus"	"Oratory"	"Attic"	"Perseus"	4131	-350.5	3702
+"0014-062"	-400	-301	"Demosthenes"	"Exordia"	"Oratory"	"Attic"	"Perseus"	11149	-350.5	9643
+"0014-063"	-400	-301	"Demosthenes"	"Epistulae"	"Epistolography"	"Attic"	"Perseus"	7059	-350.5	6201
+"1355-002"	-400	-301	"Erinna"	"Epigrammata"	"Lyric poetry"	"Doric"	"Perseus"	170	-350.5	139
+"0030-001"	-400	-301	"Hyperides"	"In Demosthenem"	"Oratory"	"Attic"	"Perseus"	1597	-350.5	1397
+"0030-002"	-400	-301	"Hyperides"	"Pro Lycophrone"	"Oratory"	"Attic"	"Perseus"	1051	-350.5	915
+"0030-003"	-400	-301	"Hyperides"	"Pro Euxenippo"	"Oratory"	"Attic"	"Perseus"	2709	-350.5	2313
+"0030-004"	-400	-301	"Hyperides"	"In Philippidem"	"Oratory"	"Attic"	"Perseus"	3051	-350.5	2692
+"0030-005"	-400	-301	"Hyperides"	"In Athenogenem"	"Oratory"	"Attic"	"Perseus"	2479	-350.5	2103
+"0030-006"	-400	-301	"Hyperides"	"Epitaphius"	"Oratory"	"Attic"	"Perseus"	2324	-350.5	2072
+"0034-001"	-400	-301	"Lycurgus"	"Oratio in Leocratem"	"Oratory"	"Attic"	"Perseus"	12421	-350.5	11003
+"1553-001"	-400	-301	"Palaephatus"	"De incredibilibus"	"Mythography"	"Attic"	"https://el.wikisource.org"	8616	-350.5	7428
+"0064-001"	-400	-301	"Periplus Hannonis"	"Periplus Hannonis"	"Geography"	"Attic"	"First1K"	737	-350.5	635
+"1692-004"	-400	-301	"Speusippus"	"Epigramma"	"Lyric poetry"	"Ionic/Epic"	"Perseus"	16	-350.5	14
+"0336-003"	-400	-201	"Crates"	"Epigrammata"	"Lyric poetry"	"Ionic/Epic"	"Perseus"	66	-300.5	56
+"0216-002"	-400	-201	"Alexander"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	113	-300.5	91
+"0618-001"	-400	-201	"Antigoni Epistula"	"Epistula"	"Epistolography"	NA	"http://remacle.org"	110	-300.5	99
+"0653-001"	-400	-201	"Aratus"	"Phaenomena"	"Scientific Poetry"	"Ionic/Epic"	"Perseus"	9019	-300.5	7838
+"0653-002"	-400	-201	"Aratus"	"Fragmentum"	"Scientific Poetry"	NA	"Perseus"	61	-300.5	50
+"1181-001"	-400	-201	"Aristarchus"	"De magnitudinibus et distantiis solis et lunae"	"Astronomy/Astrology"	NA	"First1K"	7900	-300.5	6970
+"0533-003"	-400	-201	"Callimachus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	2422	-300.5	1975
+"0533-004"	-400	-201	"Callimachus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	2494	-300.5	2052
+"0533-006"	-400	-201	"Callimachus"	"Aetia"	"Lyric poetry"	NA	"http://dcc.dickinson.edu"	4972	-300.5	3756
+"0533-015"	-400	-201	"Callimachus"	"In Jovem"	"Lyric poetry"	NA	"Perseus"	849	-300.5	709
+"0533-016"	-400	-201	"Callimachus"	"In Apollinem"	"Lyric poetry"	NA	"Perseus"	943	-300.5	797
+"0533-017"	-400	-201	"Callimachus"	"In Dianam"	"Lyric poetry"	NA	"Perseus"	2195	-300.5	1868
+"0533-018"	-400	-201	"Callimachus"	"In Delum"	"Lyric poetry"	NA	"Perseus"	2571	-300.5	2187
+"0533-019"	-400	-201	"Callimachus"	"In lavacrum Palladis"	"Lyric poetry"	"Doric"	"Perseus"	1100	-300.5	927
+"0533-020"	-400	-201	"Callimachus"	"In Cererem"	"Lyric poetry"	"Doric"	"Perseus"	1188	-300.5	986
+"0029-004"	-400	-201	"Dinarchus"	"In Demosthenem"	"Oratory"	NA	"Perseus"	8577	-300.5	7546
+"0029-005"	-400	-201	"Dinarchus"	"In Aristogitonem"	"Oratory"	NA	"Perseus"	2028	-300.5	1802
+"0029-006"	-400	-201	"Dinarchus"	"In Philoclem"	"Oratory"	NA	"Perseus"	1561	-300.5	1388
+"0341-002"	-400	-201	"Lycophron"	"Alexandra"	"Tragedy"	NA	"Perseus"	8659	-300.5	7532
+"0541-042a"	-400	-201	"Menander"	"Sententiae e codicibus Byzantinis"	"Lyric poetry"	"Attic/Koine"	"First1K"	1906	-300.5	1858
+"0541-042b"	-400	-201	"Menander"	"Sententiae e codicibus Byzantinis"	"Lyric poetry"	"Attic/Koine"	"First1K"	452	-300.5	383
+"0541-042c"	-400	-201	"Menander"	"Sententiae e codicibus Byzantinis"	"Lyric poetry"	"Attic/Koine"	"First1K"	180	-300.5	146
+"0541-044"	-400	-201	"Menander"	"Epigrammata"	"Lyric poetry"	"Ionic/Epic"	"Perseus"	27	-300.5	20
+"0220-002"	-400	-201	"Moero"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	61	-300.5	50
+"0487-008"	-400	-201	"Philemon"	"Epigramma"	"Lyric poetry"	NA	"Perseus"	20	-300.5	16
+"0059-037"	-400	-201	"Pseudo-Plato"	"Definitiones"	"Philosophy"	NA	"First1K"	2045	-300.5	1722
+"0211-002"	-400	-201	"Simias"	"Epigrammata"	"Lyric poetry"	"Doric"	"Perseus"	476	-300.5	410
+"0005-001"	-400	-201	"Theocritus"	"Idyllia"	"Lyric poetry"	"Doric"	"Perseus"	23325	-300.5	19704
+"0005-002"	-400	-201	"Theocritus"	"Epigrammata"	"Lyric poetry"	"Doric"	"Perseus"	2055	-300.5	1779
+"0005-005"	-400	-201	"Theocritus"	"Epigrammata"	"Lyric poetry"	"Doric"	"Perseus"	847	-300.5	690
+"0093-009"	-400	-201	"Theophrastus"	"Characteres"	"Rhetoric"	"Attic/Koine"	"Perseus"	7868	-300.5	6705
+"0093-010a"	-400	-201	"Theophrastus"	"Fragmenta"	"Biology"	"Attic/Koine"	"First1K"	6153	-300.5	5480
+"0093-010b"	-400	-201	"Theophrastus"	"Fragmenta"	"Biology"	"Attic/Koine"	"First1K"	4315	-300.5	3725
+"1735-002"	-400	-201	"Timon"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	18	-300.5	14
+"0215-001"	-300	-201	"Antagoras"	"Epigrammata"	"Lyric poetry"	NA	"http://remacle.org"	65	-250.5	54
+"0215-002"	-300	-201	"Antagoras"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	69	-250.5	58
+"0568-001"	-300	-201	"Antigonus"	"Historiarum mirabilium collectio"	"Paradoxography"	NA	"https://theses.hal.science/tel-01835129"	7428	-250.5	6486
+"0568-002"	-300	-201	"Antigonus"	"Epigramma"	"Lyric poetry"	NA	"Perseus"	47	-250.5	38
+"0044-001"	-300	-201	"Antiochi Regis Epistulae"	"Epistulae"	"Epistolography"	NA	"https://el.wikisource.org"	508	-250.5	467
+"0001-001"	-300	-201	"Apollonius Rhodius"	"Argonautica"	"Epic poetry"	"Ionic/Epic"	"Perseus"	45941	-250.5	39143
+"0570-002"	-300	-201	"Archelaus"	"Epigramma"	"Lyric poetry"	"Doric"	"Perseus"	37	-250.5	29
+"0552-001"	-300	-201	"Archimedes"	"De sphaera et cylindro"	"Mathematics"	"Koine"	"First1K"	28728	-250.5	25682
+"0552-002"	-300	-201	"Archimedes"	"Dimensio circuli"	"Mathematics"	"Koine"	"First1K"	1218	-250.5	1086
+"0552-003"	-300	-201	"Archimedes"	"De conoidibus et sphaeroidibus"	"Mathematics"	"Doric"	"First1K"	25189	-250.5	22794
+"0552-004"	-300	-201	"Archimedes"	"De lineis spiralibus"	"Mathematics"	"Doric"	"First1K"	15871	-250.5	14353
+"0552-005"	-300	-201	"Archimedes"	"De planorum aequilibriis"	"Mathematics"	"Doric"	"First1K"	10058	-250.5	8997
+"0552-006"	-300	-201	"Archimedes"	"Arenarius"	"Mathematics"	"Doric"	"First1K"	5513	-250.5	5049
+"0552-007"	-300	-201	"Archimedes"	"Quadratura parabolae"	"Mathematics"	"Doric"	"First1K"	6521	-250.5	5793
+"0552-009"	-300	-201	"Archimedes"	"Stomachion"	"Mathematics"	"Koine"	"First1K"	502	-250.5	418
+"0552-010"	-300	-201	"Archimedes"	"Ad Eratosthenem methodus"	"Mathematics"	"Koine"	"First1K"	10942	-250.5	9671
+"0552-011"	-300	-201	"Archimedes"	"Liber assumptorum"	"Mathematics"	"Doric"	"First1K"	4201	-250.5	3660
+"0552-012"	-300	-201	"Archimedes"	"Problema bovinum"	"Scientific Poetry"	NA	"First1K"	764	-250.5	697
+"0552-013"	-300	-201	"Archimedes"	"Fragmenta"	"Mathematics"	"Koine"	"First1K"	1336	-250.5	1173
+"0131-001"	-300	-201	"Archimelus"	"Epigramma"	"Lyric poetry"	NA	"Perseus"	48	-250.5	38
+"1183-001"	-300	-201	"Aristeae Epistula"	"Aristeae epistula ad Philocratem"	"Epistolography"	NA	"https://el.wikisource.org"	15131	-250.5	12932
+"0137-001"	-300	-201	"Asclepiades"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	1516	-250.5	1213
+"0174-001"	-300	-201	"Diotimus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	295	-250.5	248
+"2622-001"	-300	-201	"Dorieus Poeta"	"Epigramma"	"Lyric poetry"	NA	"Perseus"	63	-250.5	53
+"1799-001"	-300	-201	"Euclides"	"Elementa"	"Mathematics"	NA	"Perseus"	176472	-250.5	152811
+"1799-008"	-300	-201	"Euclides"	"Data"	"Mathematics"	NA	"First1K"	4741	-250.5	4209
+"1799-010"	-300	-201	"Euclides"	"Opticorum recensio Theonis"	"Mathematics"	NA	"First1K"	11629	-250.5	10199
+"1799-011"	-300	-201	"Euclides"	"Catoptrica"	"Mathematics"	NA	"First1K"	6122	-250.5	5320
+"1799-012"	-300	-201	"Euclides"	"Phaenomena"	"Astronomy/Astrology"	NA	"First1K"	9197	-250.5	8015
+"1799-013"	-300	-201	"Euclides"	"Phaenomena"	"Astronomy/Astrology"	NA	"First1K"	761	-250.5	673
+"1799-014"	-300	-201	"Euclides"	"Phaenomena"	"Astronomy/Astrology"	NA	"First1K"	2730	-250.5	2382
+"1799-015"	-300	-201	"Euclides"	"Sectio canonis"	"Music"	NA	"First1K"	2854	-250.5	2482
+"1799-017"	-300	-201	"Euclides"	"Epigramma"	"Lyric poetry"	NA	"First1K"	57	-250.5	46
+"0221-004"	-300	-201	"Euphorion"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	71	-250.5	62
+"0198-001"	-300	-201	"Hedylus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	185	-250.5	150
+"1391-001"	-300	-201	"Hegemon"	"Epigramma"	"Lyric poetry"	"Doric"	"Perseus"	30	-250.5	24
+"1405-001"	-300	-201	"Heraclides Criticus"	"Descriptio Graeciae"	"Geography"	NA	"First1K"	3123	-250.5	2683
+"0051-001"	-300	-201	"Melissa"	"Fragmentum epistulae ad Clearetam"	"Philosophy"	"Doric"	"http://chaerephon.e-monsite.com"	239	-250.5	217
+"0218-002"	-300	-201	"Nicaenetus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	147	-250.5	120
+"1533-001"	-300	-201	"Nicias"	"Epigrammata"	"Lyric poetry"	"Doric"	"Perseus"	208	-250.5	169
+"1577-001"	-300	-201	"Phaedimus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	176	-250.5	137
+"1632-001"	-300	-201	"Posidippus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	896	-250.5	728
+"0633-001"	-300	-201	"Lysis"	"Epistula ad Hipparchum"	"Philosophy"	"Doric"	"http://www.fysis.cz"	590	-250.5	530
+"0059-039"	-300	-201	"Plato"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	660	-250.5	548
+"0219-002"	-300	-201	"Rhianus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	407	-250.5	339
+"0527-001"	-300	-201	"Septuaginta"	"Genesis"	"Religious History"	"Koine"	"https://el.wikisource.org"	37516	-250.5	32716
+"0527-002"	-300	-201	"Septuaginta"	"Exodus"	"Religious History"	"Koine"	"https://el.wikisource.org"	28129	-250.5	24847
+"0527-003"	-300	-201	"Septuaginta"	"Leviticus"	"Religious History"	"Koine"	"https://el.wikisource.org"	21787	-250.5	19177
+"0527-004"	-300	-201	"Septuaginta"	"Numeri"	"Religious History"	"Koine"	"https://el.wikisource.org"	28488	-250.5	25094
+"0527-005"	-300	-201	"Septuaginta"	"Deuteronomium"	"Religious History"	"Koine"	"https://el.wikisource.org"	25946	-250.5	23027
+"1715-001"	-300	-201	"Theodoridas"	"Epigrammata"	"Lyric poetry"	"Doric"	"Perseus"	601	-250.5	495
+"1306-001"	-300	-101	"Bolus"	"Περὶ συμπαθειῶν καὶ ἀντιπαθειῶν"	"Medicine"	NA	"http://www.fysis.cz"	879	-200.5	759
+"1306-002"	-300	-101	"Bolus"	"Physica et mystica"	"Alchemy"	NA	"http://www.fysis.cz"	3348	-200.5	2795
+"1306-003"	-300	-101	"Bolus"	"Ad Leucippem"	"Alchemy"	NA	"http://www.fysis.cz"	808	-200.5	678
+"0208-001"	-300	-101	"Dosiadas"	"Βωμός"	"Lyric poetry"	NA	"Perseus"	84	-200.5	69
+"0509-001"	-300	-101	"Myia"	"Epistula ad Phyllidem"	"Philosophy"	"Doric"	"http://chaerephon.e-monsite.com"	341	-200.5	306
+"0022-006"	-300	-101	"Nicander"	"Epigrammata"	"Lyric poetry"	"Doric"	"Perseus"	83	-200.5	68
+"1556-002"	-300	-101	"Pancrates"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	92	-200.5	75
+"0543-001"	-300	-101	"Polybius"	"Historiae"	"History"	"Attic/Koine"	"Perseus"	346310	-200.5	312836
+"0067-001"	-200	-101	"Agatharchides"	"De mari Erythraeo"	"Geography"	NA	"First1K"	26890	-150.5	23876
+"0569-001"	-200	-101	"Apollonius"	"Historiae mirabiles"	"Paradoxography"	NA	"https://sententiaeantiquae.com"	2643	-150.5	2325
+"0036-001"	-200	-101	"Bion"	"Epitaphius Adonis"	"Lyric poetry"	"Doric"	"Perseus"	887	-150.5	722
+"0036-002"	-200	-101	"Bion"	"Epithalamium Achillis et Deidameiae"	"Lyric poetry"	"Doric"	"Perseus"	276	-150.5	231
+"0036-003"	-200	-101	"Bion"	"Fragmenta"	"Lyric poetry"	"Doric"	"Perseus"	1038	-150.5	873
+"0063-001"	-200	-101	"Dionysius Thrax"	"Ars grammatica"	"Language"	NA	"https://el.wikisource.org"	3991	-150.5	3160
+"1431-003"	-200	-101	"Hipparchus"	"In Arati et Eudoxi phaenomena commentariorum libri iii"	"Philosophy"	NA	"First1K"	31722	-150.5	28439
+"1493-001"	-200	-101	"Melinno"	"Εἰς Ῥώμην"	"Lyric poetry"	"Doric"	"http://chaerephon.e-monsite.com"	98	-150.5	84
+"0035-001"	-200	-101	"Moschus"	"Eros drapeta"	"Lyric poetry"	"Doric"	"Perseus"	306	-150.5	245
+"0035-002"	-200	-101	"Moschus"	"Europa"	"Lyric poetry"	"Ionic/Epic"	"Perseus"	1329	-150.5	1143
+"0035-003"	-200	-101	"Moschus"	"Epitaphius Bionis"	"Lyric poetry"	"Doric"	"Perseus"	1072	-150.5	909
+"0035-004"	-200	-101	"Moschus"	"Megara"	"Lyric poetry"	"Ionic/Epic"	"Perseus"	1029	-150.5	901
+"0035-005"	-200	-101	"Moschus"	"Fragmenta"	"Lyric poetry"	"Doric"	"Perseus"	314	-150.5	264
+"0035-006"	-200	-101	"Moschus"	"Epigrammata"	"Lyric poetry"	"Doric"	"Perseus"	351	-150.5	285
+"0209-001"	-200	-101	"Seleucus"	"Ἱλαρὰ ᾄσματα"	"Lyric poetry"	NA	"Perseus"	20	-150.5	17
+"0527-006"	-200	-101	"Septuaginta"	"Josue"	"Religious History"	"Koine"	"https://el.wikisource.org"	16657	-150.5	15006
+"0527-009"	-200	-101	"Septuaginta"	"Judices"	"Religious History"	"Koine"	"https://el.wikisource.org"	17560	-150.5	15620
+"0527-010"	-200	-101	"Septuaginta"	"Ruth"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	2427	-150.5	2089
+"0527-011"	-200	-101	"Septuaginta"	"Regnorum i"	"Religious History"	"Koine"	"https://el.wikisource.org"	23968	-150.5	21228
+"0527-012"	-200	-101	"Septuaginta"	"Regnorum ii"	"Religious History"	"Koine"	"https://el.wikisource.org"	20238	-150.5	17980
+"0527-013"	-200	-101	"Septuaginta"	"Regnorum iii"	"Religious History"	"Koine"	"https://el.wikisource.org"	24387	-150.5	21763
+"0527-014"	-200	-101	"Septuaginta"	"Regnorum iv"	"Religious History"	"Koine"	"https://el.wikisource.org"	21036	-150.5	18772
+"0527-015"	-200	-101	"Septuaginta"	"Paralipomenon i sive Chronicon i"	"Religious History"	"Koine"	"https://el.wikisource.org"	18857	-150.5	16504
+"0527-016"	-200	-101	"Septuaginta"	"Paralipomenon ii sive Chronicon ii"	"Religious History"	"Koine"	"https://el.wikisource.org"	23611	-150.5	21457
+"0527-019"	-200	-101	"Septuaginta"	"Esther"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	6572	-150.5	5844
+"0527-020"	-200	-101	"Septuaginta"	"Judith"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	10173	-150.5	9176
+"0527-021"	-200	-101	"Septuaginta"	"Tobias"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	6371	-150.5	5511
+"0527-022"	-200	-101	"Septuaginta"	"Tobias"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	8157	-150.5	7239
+"0527-023"	-200	-101	"Septuaginta"	"Machabaeorum i"	"Religious History"	"Koine"	"https://el.wikisource.org"	20371	-150.5	18425
+"0527-024"	-200	-101	"Septuaginta"	"Machabaeorum ii"	"Religious History"	"Koine"	"https://el.wikisource.org"	13327	-150.5	12004
+"0527-027"	-200	-101	"Septuaginta"	"Psalmi"	"Religious Poetry"	"Koine"	"https://el.wikisource.org"	41362	-150.5	35019
+"0527-028"	-200	-101	"Septuaginta"	"Odae"	"Religious Poetry"	"Koine"	"https://el.wikisource.org"	4965	-150.5	4211
+"0527-029"	-200	-101	"Septuaginta"	"Proverbia"	"Religious Wisdom"	"Koine"	"https://el.wikisource.org"	13273	-150.5	11233
+"0527-030"	-200	-101	"Septuaginta"	"Ecclesiastes"	"Religious Poetry"	"Koine"	"https://el.wikisource.org"	5219	-150.5	4546
+"0527-031"	-200	-101	"Septuaginta"	"Canticum"	"Religious Poetry"	"Koine"	"https://el.wikisource.org"	2436	-150.5	2024
+"0527-032"	-200	-101	"Septuaginta"	"Job"	"Religious Poetry"	"Koine"	"https://el.wikisource.org"	16013	-150.5	13595
+"0527-034"	-200	-101	"Septuaginta"	"Ecclesiasticus sive Siracides"	"Religious Wisdom"	"Koine"	"https://el.wikisource.org"	22085	-150.5	19086
+"0527-035"	-200	-101	"Septuaginta"	"Psalmi Salomonis"	"Religious Poetry"	"Koine"	"https://el.wikisource.org"	5628	-150.5	4939
+"0527-036"	-200	-101	"Septuaginta"	"Osee"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	4570	-150.5	3942
+"0527-037"	-200	-101	"Septuaginta"	"Amos"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	3707	-150.5	3226
+"0527-038"	-200	-101	"Septuaginta"	"Michaeas"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	2693	-150.5	2364
+"0527-039"	-200	-101	"Septuaginta"	"Joel"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	1818	-150.5	1581
+"0527-040"	-200	-101	"Septuaginta"	"Abdias"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	535	-150.5	474
+"0527-041"	-200	-101	"Septuaginta"	"Jonas"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	1245	-150.5	1106
+"0527-042"	-200	-101	"Septuaginta"	"Nahum"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	1083	-150.5	936
+"0527-043"	-200	-101	"Septuaginta"	"Habacuc"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	1286	-150.5	1103
+"0527-044"	-200	-101	"Septuaginta"	"Sophonias"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	1408	-150.5	1230
+"0527-045"	-200	-101	"Septuaginta"	"Aggaeus"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	1078	-150.5	951
+"0527-046"	-200	-101	"Septuaginta"	"Zacharias"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	5641	-150.5	4983
+"0527-047"	-200	-101	"Septuaginta"	"Malachias"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	1632	-150.5	1414
+"0527-048"	-200	-101	"Septuaginta"	"Isaias"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	31653	-150.5	27480
+"0527-049"	-200	-101	"Septuaginta"	"Jeremias"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	33200	-150.5	29023
+"0527-050"	-200	-101	"Septuaginta"	"Baruch"	"Religious Poetry"	"Koine"	"https://el.wikisource.org"	2980	-150.5	2625
+"0527-051"	-200	-101	"Septuaginta"	"Threni seu Lamentationes"	"Religious Poetry"	"Koine"	"https://el.wikisource.org"	2925	-150.5	2453
+"0527-052"	-200	-101	"Septuaginta"	"Epistula Jeremiae"	"Religious Epistle"	"Koine"	"https://el.wikisource.org"	1494	-150.5	1318
+"0527-053"	-200	-101	"Septuaginta"	"Ezechiel"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	33509	-150.5	29700
+"0527-054"	-200	-101	"Septuaginta"	"Susanna"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	898	-150.5	795
+"0527-055"	-200	-101	"Septuaginta"	"Susanna"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	1294	-150.5	1136
+"0527-056"	-200	-101	"Septuaginta"	"Daniel"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	12086	-150.5	10811
+"0527-057"	-200	-101	"Septuaginta"	"Daniel"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	11910	-150.5	10471
+"0527-058"	-200	-101	"Septuaginta"	"Bel et Draco"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	1009	-150.5	902
+"0527-059"	-200	-101	"Septuaginta"	"Bel et Draco"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	1023	-150.5	890
+"0127-001"	-200	-1	"Aulus Licinius Archias"	"Epigramma"	"Lyric poetry"	NA	"https://el.wikisource.org"	31	-100.5	23
+"1220-001"	-200	-1	"Batrachomyomachia"	"Batrachomyomachia"	"Epic poetry"	"Ionic/Epic"	"First1K"	2205	-100.5	1893
+"1464-001"	-200	-1	"Liber Jubilaeorum"	"Fragmenta"	"Religious History"	"Koine"	"https://el.wikisource.org"	3170	-100.5	2773
+"0556-001"	-100	-1	"Asclepiodotus"	"Tactica"	"Military"	NA	"Perseus"	7414	-50.5	6527
+"1803-001a"	-100	-1	"Bruti Epistulae"	"Epistulae"	"Epistolography"	NA	"https://www.academia.edu/24558475/The_Greek_letters_ascribed_to_Brutus_HSCP_108_2015_"	2097	-50.5	1852
+"0357-001"	-100	-1	"Didymus Scriptor De Mensuris"	"Mensurae marmorum ac lignorum"	"Mathematics"	NA	"First1K"	1557	-50.5	1310
+"0165-001"	-100	-1	"Diodorus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	239	-50.5	193
+"0060-001"	-100	-1	"Diodorus Siculus"	"Bibliotheca historica"	"History"	"Attic/Koine"	"Perseus"	419079	-50.5	380780
+"0081-001"	-100	-1	"Dionysius Halicarnassensis"	"Antiquitates Romanae"	"History"	"Attic/Koine"	"Perseus"	317135	-50.5	286989
+"0081-002"	-100	-1	"Dionysius Halicarnassensis"	"De antiquis oratoribus"	"Rhetoric"	"Attic/Koine"	"Perseus"	972	-50.5	884
+"0081-003"	-100	-1	"Dionysius Halicarnassensis"	"De Lysia"	"Rhetoric"	"Attic/Koine"	"Perseus"	8803	-50.5	7840
+"0081-004"	-100	-1	"Dionysius Halicarnassensis"	"De Isocrate"	"Rhetoric"	"Attic/Koine"	"Perseus"	7181	-50.5	6447
+"0081-005"	-100	-1	"Dionysius Halicarnassensis"	"De Isaeo"	"Rhetoric"	"Attic/Koine"	"Perseus"	6134	-50.5	5377
+"0081-006"	-100	-1	"Dionysius Halicarnassensis"	"De Demosthenis dictione"	"Rhetoric"	"Attic/Koine"	"Perseus"	25235	-50.5	22198
+"0081-008"	-100	-1	"Dionysius Halicarnassensis"	"Ad Ammaeum"	"Rhetoric"	"Attic/Koine"	"Perseus"	3883	-50.5	3427
+"0081-009"	-100	-1	"Dionysius Halicarnassensis"	"De Dinarcho"	"Rhetoric"	"Attic/Koine"	"Perseus"	5140	-50.5	4231
+"0081-010"	-100	-1	"Dionysius Halicarnassensis"	"De Thucydide"	"Rhetoric"	"Attic/Koine"	"Perseus"	19289	-50.5	17070
+"0081-011"	-100	-1	"Dionysius Halicarnassensis"	"De Thucydidis idiomatibus"	"Rhetoric"	"Attic/Koine"	"Perseus"	3007	-50.5	2631
+"0081-012"	-100	-1	"Dionysius Halicarnassensis"	"De compositione verborum"	"Rhetoric"	"Attic/Koine"	"Perseus"	23402	-50.5	20701
+"0081-015"	-100	-1	"Dionysius Halicarnassensis"	"Epistula ad Pompeium Geminum"	"Rhetoric"	"Attic/Koine"	"Perseus"	4911	-50.5	4356
+"1383-001"	-100	-1	"Geminus"	"Elementa astronomiae"	"Astronomy/Astrology"	NA	"http://www.astrologicon.org"	22551	-50.5	20380
+"1804-001"	-100	-1	"Ninus"	"Ninus"	"Narrative"	NA	"http://amsdottorato.unibo.it/8789/1/Subrani_%20Elena_Tesi.pdf"	1339	-50.5	1116
+"1804-004"	-100	-1	"Ninus"	"Ninus"	"Narrative"	NA	"http://amsdottorato.unibo.it/8789/1/Subrani_%20Elena_Tesi.pdf"	169	-50.5	129
+"0655-001"	-100	-1	"Parthenius"	"Narrationes amatoriae"	"Mythography"	NA	"Perseus"	7337	-50.5	6433
+"0068-001"	-100	-1	"Pseudo-Scymnus"	"Ad Nicomedem regem, vv. 1-980"	"Scientific Poetry"	NA	"http://www.libridergi.org"	6400	-50.5	5587
+"0068-002"	-100	-1	"Pseudo-Scymnus"	"Ad Nicomedem regem, vv. 722-1026"	"Scientific Poetry"	NA	"http://www.libridergi.org"	1930	-50.5	1672
+"0527-017"	-100	-1	"Septuaginta"	"Esdras i"	"Religious History"	"Koine"	"https://el.wikisource.org"	10055	-50.5	8951
+"0527-025"	-100	-1	"Septuaginta"	"Machabaeorum iii"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	5702	-50.5	5138
+"0527-033"	-100	-1	"Septuaginta"	"Sapientia Salomonis"	"Religious Wisdom"	"Koine"	"https://el.wikisource.org"	7937	-50.5	7004
+"1763-001"	-100	-1	"Tryphon II"	"De tropis"	"Language"	NA	"https://s-space.snu.ac.kr/bitstream/10371/131745/1/000000133742.pdf"	2702	-50.5	2001
+"0146-001"	-100	100	"Boethus"	"Epigramma"	"Lyric poetry"	NA	"Perseus"	47	0	37
+"1337-003"	-100	100	"Dorotheus"	"Fragmenta alia antiqua"	"Astronomy/Astrology"	"Ionic/Epic"	"First1K"	825	0	687
+"0018-001"	-100	100	"Philo Judaeus"	"De opificio mundi"	"Theology"	"Koine"	"https://el.wikisource.org"	15045	0	13371
+"0018-003"	-100	100	"Philo Judaeus"	"De cherubim"	"Theology"	"Koine"	"https://el.wikisource.org"	8718	0	7588
+"0018-004"	-100	100	"Philo Judaeus"	"De sacrificiis Abelis et Caini"	"Theology"	"Koine"	"https://el.wikisource.org"	10917	0	9496
+"0018-005"	-100	100	"Philo Judaeus"	"Quod deterius potiori insidiari soleat"	"Theology"	"Koine"	"https://el.wikisource.org"	12959	0	11283
+"0018-006"	-100	100	"Philo Judaeus"	"De posteritate Caini"	"Theology"	"Koine"	"https://el.wikisource.org"	12633	0	10989
+"0018-007"	-100	100	"Philo Judaeus"	"De gigantibus"	"Theology"	"Koine"	"https://el.wikisource.org"	3725	0	3262
+"0018-008"	-100	100	"Philo Judaeus"	"Quod deus sit immutabilis"	"Theology"	"Koine"	"https://el.wikisource.org"	10252	0	8956
+"0018-009"	-100	100	"Philo Judaeus"	"De agricultura"	"Theology"	"Koine"	"https://el.wikisource.org"	10259	0	9040
+"0018-011"	-100	100	"Philo Judaeus"	"De ebrietate"	"Theology"	"Koine"	"https://el.wikisource.org"	13234	0	11588
+"0018-012"	-100	100	"Philo Judaeus"	"De sobrietate"	"Theology"	"Koine"	"https://el.wikisource.org"	4137	0	3576
+"0018-013"	-100	100	"Philo Judaeus"	"De confusione linguarum"	"Theology"	"Koine"	"https://el.wikisource.org"	11914	0	10321
+"0018-015"	-100	100	"Philo Judaeus"	"Quis rerum divinarum heres sit"	"Theology"	"Koine"	"https://el.wikisource.org"	18439	0	15733
+"0018-016"	-100	100	"Philo Judaeus"	"De congressu eruditionis gratia"	"Theology"	"Koine"	"https://el.wikisource.org"	10380	0	8856
+"0018-017"	-100	100	"Philo Judaeus"	"De fuga et inventione"	"Theology"	"Koine"	"https://el.wikisource.org"	12884	0	10912
+"0018-018"	-100	100	"Philo Judaeus"	"De mutatione nominum"	"Theology"	"Koine"	"https://el.wikisource.org"	15358	0	13046
+"0018-019"	-100	100	"Philo Judaeus"	"De somniis"	"Theology"	"Koine"	"https://el.wikisource.org"	29716	0	25863
+"0018-020"	-100	100	"Philo Judaeus"	"De Abrahamo"	"Theology"	"Koine"	"https://el.wikisource.org"	15099	0	13347
+"0018-021"	-100	100	"Philo Judaeus"	"De Josepho"	"Theology"	"Koine"	"https://el.wikisource.org"	14708	0	12910
+"0018-022"	-100	100	"Philo Judaeus"	"De vita Mosis"	"Biography"	"Koine"	"https://el.wikisource.org"	35631	0	31568
+"0018-023"	-100	100	"Philo Judaeus"	"De decalogo"	"Theology"	"Koine"	"https://el.wikisource.org"	9646	0	8499
+"0018-025"	-100	100	"Philo Judaeus"	"De virtutibus"	"Philosophy"	"Koine"	"https://el.wikisource.org"	13831	0	12220
+"0018-026"	-100	100	"Philo Judaeus"	"De praemiis et poenis et De exsecrationibus"	"Philosophy"	"Koine"	"https://el.wikisource.org"	10323	0	9121
+"0018-027"	-100	100	"Philo Judaeus"	"Quod omnis probus liber sit"	"Philosophy"	"Koine"	"https://el.wikisource.org"	8887	0	7695
+"0018-028"	-100	100	"Philo Judaeus"	"De vita contemplativa"	"Philosophy"	"Koine"	"https://el.wikisource.org"	5249	0	4611
+"0018-030"	-100	100	"Philo Judaeus"	"In Flaccum"	"Philosophy"	"Koine"	"https://el.wikisource.org"	10202	0	8966
+"0018-031"	-100	100	"Philo Judaeus"	"Legatio ad Gaium"	"Philosophy"	"Koine"	"https://el.wikisource.org"	20091	0	17614
+"0099-001"	-100	100	"Strabo"	"Geographica"	"Geography"	"Attic/Koine"	"Perseus"	320951	0	286040
+"0676-001"	1	100	"Aglaïs"	"Adversus suffusiones incipientes"	"Scientific Poetry"	NA	"http://chaerephon.e-monsite.com"	207	50.5	178
+"4150-001a"	1	100	"Anacreontea"	"Anacreontea"	"Lyric poetry"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	2540	50.5	2065
+"1836-001"	1	100	"Anonymi Aulodia"	"Anonymi aulodia"	"Lyric poetry"	NA	"https://sententiaeantiquae.com"	273	50.5	228
+"1126-003"	1	100	"Anubion"	"Fragmenta"	"Astronomy/Astrology"	NA	"First1K"	84	50.5	73
+"1153-001"	1	100	"Apocalypsis Adam"	"Νυχθήμερον"	"Religious Prophecy"	"Koine"	"https://archive.org/details/apocrypha-anecdota-1893"	505	50.5	439
+"0039-001"	1	100	"Bruti-Mithridatis Epistulae"	"Epistula"	"Epistolography"	NA	"https://www.academia.edu/24558475/The_Greek_letters_ascribed_to_Brutus_HSCP_108_2015_"	377	50.5	337
+"1271-001"	1	100	"Clemens Romanus et Clementina"	"Epistula i ad Corinthios"	"Epistolography"	"Koine"	"First1K"	11393	50.5	9863
+"2632-001"	1	100	"Comarius"	"De lapide philosophorum"	"Alchemy"	NA	"First1K"	2674	50.5	2298
+"0656-001"	1	100	"Dioscorides Pedanius"	"De materia medica"	"Medicine"	NA	"https://uses.plantnet-project.org"	109743	50.5	93998
+"2139-001"	1	100	"Epitaphium Sicili"	"Sicili epitaphium"	"Lyric poetry"	NA	"First1K"	75	50.5	58
+"0526-001"	1	100	"Flavius Josephus"	"Antiquitates Judaicae"	"History"	NA	"Perseus"	336649	50.5	307375
+"0526-002"	1	100	"Flavius Josephus"	"Josephi vita"	"Biography"	NA	"Perseus"	17634	50.5	15883
+"0526-003"	1	100	"Flavius Josephus"	"Contra Apionem"	"Philosophy"	NA	"Perseus"	22843	50.5	20761
+"0526-004"	1	100	"Flavius Josephus"	"De bello Judaico libri vii"	"History"	NA	"Perseus"	139462	50.5	126235
+"0559-001"	1	100	"Heron"	"Pneumatica"	"Engineering"	NA	"First1K"	24994	50.5	22372
+"0559-002"	1	100	"Heron"	"De automatis"	"Engineering"	NA	"First1K"	10270	50.5	9153
+"0559-004"	1	100	"Heron"	"Mechanicorum fragmenta"	"Engineering"	NA	"First1K"	4881	50.5	4227
+"0559-005"	1	100	"Heron"	"Catoptrica"	"Engineering"	NA	"First1K"	567	50.5	489
+"0559-006"	1	100	"Heron"	"Metrica"	"Mathematics"	NA	"First1K"	22665	50.5	19639
+"0559-007"	1	100	"Heron"	"Dioptra"	"Engineering"	NA	"First1K"	14755	50.5	12811
+"0559-010"	1	100	"Heron"	"Stereometrica"	"Mathematics"	NA	"First1K"	21221	50.5	17393
+"0559-011"	1	100	"Heron"	"De mensuris"	"Mathematics"	NA	"First1K"	6143	50.5	4980
+"0559-012"	1	100	"Heron"	"Belopoeica"	"Engineering"	NA	"First1K"	6026	50.5	5324
+"0559-014"	1	100	"Heron"	"Fragmenta Heroniana"	"Mathematics"	NA	"First1K"	3566	50.5	2827
+"0560-001"	1	100	"Longinus"	"De sublimitate"	"Rhetoric"	NA	"Perseus"	14855	50.5	12774
+"0031-001"	1	100	"Novum Testamentum"	"Evangelium secundum Matthaeum"	"Religious History"	"Koine"	"https://github.com/morphgnt/sblgnt"	21015	50.5	18323
+"0031-002"	1	100	"Novum Testamentum"	"Evangelium secundum Marcum"	"Religious History"	"Koine"	"https://github.com/morphgnt/sblgnt"	12998	50.5	11270
+"0031-003"	1	100	"Novum Testamentum"	"Evangelium secundum Lucam"	"Religious History"	"Koine"	"https://github.com/morphgnt/sblgnt"	22410	50.5	19492
+"0031-004"	1	100	"Novum Testamentum"	"Evangelium secundum Joannem"	"Religious History"	"Koine"	"https://github.com/morphgnt/sblgnt"	18143	50.5	15615
+"0031-005"	1	100	"Novum Testamentum"	"Acta apostolorum"	"Religious History"	"Koine"	"https://github.com/morphgnt/sblgnt"	20679	50.5	18472
+"0031-006"	1	100	"Novum Testamentum"	"Epistula Pauli ad Romanos"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	8191	50.5	7128
+"0031-007"	1	100	"Novum Testamentum"	"Epistula Pauli ad Corinthios i"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	8079	50.5	6884
+"0031-008"	1	100	"Novum Testamentum"	"Epistula Pauli ad Corinthios ii"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	5165	50.5	4490
+"0031-009"	1	100	"Novum Testamentum"	"Epistula Pauli ad Galatas"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	2613	50.5	2241
+"0031-010"	1	100	"Novum Testamentum"	"Epistula Pauli ad Ephesios"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	2703	50.5	2417
+"0031-011"	1	100	"Novum Testamentum"	"Epistula Pauli ad Philippenses"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	1873	50.5	1634
+"0031-012"	1	100	"Novum Testamentum"	"Epistula Pauli ad Colossenses"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	1803	50.5	1585
+"0031-013"	1	100	"Novum Testamentum"	"Epistula Pauli ad Thessalonicenses i"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	1677	50.5	1486
+"0031-014"	1	100	"Novum Testamentum"	"Epistula Pauli ad Thessalonicenses ii"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	926	50.5	830
+"0031-015"	1	100	"Novum Testamentum"	"Epistula Pauli ad Timotheum i"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	1897	50.5	1597
+"0031-016"	1	100	"Novum Testamentum"	"Epistula Pauli ad Timotheum ii"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	1469	50.5	1238
+"0031-017"	1	100	"Novum Testamentum"	"Epistula Pauli ad Titum"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	778	50.5	658
+"0031-018"	1	100	"Novum Testamentum"	"Epistula Pauli ad Philemonem"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	387	50.5	336
+"0031-019"	1	100	"Novum Testamentum"	"Epistula Pauli ad Hebraeos"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	5680	50.5	4959
+"0031-020"	1	100	"Novum Testamentum"	"Epistula Jacobi"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	2045	50.5	1746
+"0031-021"	1	100	"Novum Testamentum"	"Epistula Petri i"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	1930	50.5	1683
+"0031-022"	1	100	"Novum Testamentum"	"Epistula Petri ii"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	1243	50.5	1101
+"0031-023"	1	100	"Novum Testamentum"	"Epistula Joannis i"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	2444	50.5	2145
+"0031-024"	1	100	"Novum Testamentum"	"Epistula Joannis ii"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	281	50.5	246
+"0031-025"	1	100	"Novum Testamentum"	"Epistula Joannis iii"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	255	50.5	218
+"0031-026"	1	100	"Novum Testamentum"	"Epistula Juda"	"Religious Epistle"	"Koine"	"https://github.com/morphgnt/sblgnt"	528	50.5	461
+"0031-027"	1	100	"Novum Testamentum"	"Apocalypsis Joannis"	"Religious Prophecy"	"Koine"	"https://github.com/morphgnt/sblgnt"	11113	50.5	9869
+"0648-001"	1	100	"Onasander"	"Strategicus"	"Military"	NA	"Perseus"	13156	50.5	11682
+"1247-001"	1	100	"Pseudo-Cebes"	"Cebetis tabula"	"Philosophy"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	5628	50.5	4765
+"1068-001"	1	100	"Res Gestae Divi Augusti"	"Res gestae"	"History"	NA	"Loeb (public domain)"	3066	50.5	2743
+"0527-026"	1	100	"Septuaginta"	"Machabaeorum iv"	"Religious Wisdom"	"Koine"	"https://el.wikisource.org"	9077	50.5	8071
+"1701-001"	1	100	"Testamentum Abrahae"	"Testamentum Abrahae"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	7953	50.5	6955
+"1701-002"	1	100	"Testamentum Abrahae"	"Testamentum Abrahae"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	3766	50.5	3218
+"1703-001"	1	100	"Teucer"	"De duodecim signis"	"Astronomy/Astrology"	NA	"https://el.wikisource.org"	6331	50.5	5111
+"1747-001"	1	100	"Vitae Adam Et Evae"	"Vita Adam et Evae"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	5129	50.5	4473
+"1765-003"	1	100	"Vitae Aesopi"	"Vita Pl vel Accursiana"	"Narrative"	NA	"First1K"	14136	50.5	11338
+"1765-004"	1	100	"Vitae Aesopi"	"Vita"	"Narrative"	NA	"First1K"	305	50.5	280
+"1765-005"	1	100	"Vitae Aesopi"	"Βιβλίον μυθικὸν τοῦ Αἰσώπου, εἰκονίζον ἀπὸ τῶν ἀλόγων ζῴων πρὸς τὰς τῆς ἀνθρωπίνης φύσεως πράξεις"	"Narrative"	NA	"First1K"	170	50.5	150
+"1765-006"	1	100	"Vitae Aesopi"	"Vita G (e cod. 397 Bibliothecae Pierponti Morgan)"	"Narrative"	NA	"http://www.physics.ntua.gr/~mourmouras"	20734	50.5	16650
+"0708-001"	1	200	"Ammonius"	"De adfinium vocabulorum differentia"	"Language"	NA	"First1K"	20021	100.5	16338
+"1148-004"	1	200	"Antonius Diogenes"	"De incredibilibus"	"Narrative"	NA	"https://dl-dev.uc.pt/handle/10316.2/47487"	201	100.5	162
+"1157-001"	1	200	"Apocalypsis Esdrae"	"Apocalypsis Esdrae"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	3092	100.5	2589
+"1168-001"	1	200	"Apollonius"	"Lexicon Homericum"	"Language"	NA	"http://www.physics.ntua.gr/~mourmouras"	57611	100.5	41881
+"0551-002"	1	200	"Appianus"	"Basilica"	"History"	NA	"Perseus"	944	100.5	799
+"0551-003"	1	200	"Appianus"	"Italica"	"History"	NA	"Perseus"	1273	100.5	1091
+"0551-004"	1	200	"Appianus"	"Samnitica"	"History"	NA	"Perseus"	3991	100.5	3446
+"0551-005"	1	200	"Appianus"	"Celtica"	"History"	NA	"Perseus"	2404	100.5	2066
+"0551-006"	1	200	"Appianus"	"Sicelica"	"History"	NA	"Perseus"	1075	100.5	925
+"0551-007"	1	200	"Appianus"	"Iberica"	"History"	NA	"Perseus"	18392	100.5	16057
+"0551-008"	1	200	"Appianus"	"Annibaica"	"History"	NA	"Perseus"	11105	100.5	9725
+"0551-009"	1	200	"Appianus"	"Libyca"	"History"	NA	"Perseus"	28924	100.5	25224
+"0551-010"	1	200	"Appianus"	"Numidica"	"History"	NA	"Perseus"	421	100.5	364
+"0551-011"	1	200	"Appianus"	"Macedonica"	"History"	NA	"Perseus"	4168	100.5	3619
+"0551-012"	1	200	"Appianus"	"Illyrica"	"History"	NA	"Perseus"	5528	100.5	4861
+"0551-013"	1	200	"Appianus"	"Syriaca"	"History"	NA	"Perseus"	15743	100.5	13755
+"0551-014"	1	200	"Appianus"	"Mithridatica"	"History"	NA	"Perseus"	27557	100.5	24141
+"0551-017"	1	200	"Appianus"	"Bellum civile"	"History"	NA	"Perseus"	132704	100.5	117792
+"0074-001"	1	200	"Flavius Arrianus"	"Alexandri anabasis"	"History"	NA	"Perseus"	86998	100.5	78840
+"0074-002"	1	200	"Flavius Arrianus"	"Historia Indica"	"History"	"Ionic"	"Perseus"	15657	100.5	13846
+"0074-003"	1	200	"Flavius Arrianus"	"Cynegeticus"	"History"	NA	"Perseus"	6965	100.5	6040
+"0074-004"	1	200	"Flavius Arrianus"	"Periplus ponti Euxini"	"Geography"	NA	"Perseus"	4975	100.5	4352
+"0074-005"	1	200	"Flavius Arrianus"	"Tactica"	"Military"	NA	"Perseus"	10181	100.5	9030
+"0074-006"	1	200	"Flavius Arrianus"	"Acies contra Alanos"	"History"	NA	"Perseus"	1423	100.5	1267
+"0074-008"	1	200	"Flavius Arrianus"	"Epistula ad Lucium Gellium"	"Epistolography"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	224	100.5	201
+"1216-001"	1	200	"Barnabae Epistula"	"Barnabae epistula"	"Epistolography"	NA	"Perseus"	7978	100.5	6753
+"0612-001"	1	200	"Dio Chrysostomus"	"Orationes"	"Oratory"	"Attic/Koine"	"https://penelope.uchicago.edu"	205573	100.5	180690
+"0612-002"	1	200	"Dio Chrysostomus"	"Encomium comae"	"Oratory"	"Attic/Koine"	"https://penelope.uchicago.edu"	459	100.5	403
+"0557-001"	1	200	"Epictetus"	"Dissertationes ab Arriano digestae"	"Philosophy"	NA	"Perseus"	92433	100.5	75439
+"0557-002"	1	200	"Epictetus"	"Enchiridion"	"Philosophy"	NA	"Perseus"	6057	100.5	5020
+"0557-003"	1	200	"Epictetus"	"Dissertationum Epictetearum sive ab Arriano sive ab aliis digestarum fragmenta"	"Philosophy"	NA	"Perseus"	4771	100.5	4070
+"0557-004"	1	200	"Epictetus"	"Gnomologium Epicteteum"	"Philosophy"	NA	"https://el.wikisource.org"	331	100.5	284
+"0557-005"	1	200	"Epictetus"	"Gnomologium Epicteteum"	"Philosophy"	NA	"https://el.wikisource.org"	2157	100.5	1883
+"1389-001"	1	200	"Harpocration"	"Lexicon in decem oratores Atticos"	"Language"	NA	"Perseus"	43594	100.5	37616
+"1413-001"	1	200	"Heraclitus"	"De incredibilibus"	"Paradoxography"	NA	"https://el.wikisource.org"	2050	100.5	1757
+"0071-001"	1	200	"Periplus Maris Erythraei"	"Anonymi (Arriani, ut fertur) periplus maris Erythraei"	"Geography"	NA	"https://el.wikisource.org"	7035	100.5	6271
+"0007-001"	1	200	"Plutarchus"	"Theseus"	"Biography"	"Attic/Koine"	"Perseus"	8411	100.5	7424
+"0007-002"	1	200	"Plutarchus"	"Romulus"	"Biography"	"Attic/Koine"	"Perseus"	10541	100.5	9274
+"0007-003"	1	200	"Plutarchus"	"Comparatio Thesei et Romuli"	"Biography"	"Attic/Koine"	"Perseus"	1301	100.5	1169
+"0007-004"	1	200	"Plutarchus"	"Lycurgus"	"Biography"	"Attic/Koine"	"Perseus"	10792	100.5	9472
+"0007-005"	1	200	"Plutarchus"	"Numa"	"Biography"	"Attic/Koine"	"Perseus"	8467	100.5	7583
+"0007-006"	1	200	"Plutarchus"	"Comparatio Lycurgi et Numae"	"Biography"	"Attic/Koine"	"Perseus"	1797	100.5	1606
+"0007-007"	1	200	"Plutarchus"	"Solon"	"Biography"	"Attic/Koine"	"Perseus"	9775	100.5	8540
+"0007-008"	1	200	"Plutarchus"	"Publicola"	"Biography"	"Attic/Koine"	"Perseus"	6593	100.5	5880
+"0007-009"	1	200	"Plutarchus"	"Comparatio Solonis et Publicolae"	"Biography"	"Attic/Koine"	"Perseus"	1066	100.5	953
+"0007-010"	1	200	"Plutarchus"	"Themistocles"	"Biography"	"Attic/Koine"	"Perseus"	9017	100.5	7954
+"0007-011"	1	200	"Plutarchus"	"Camillus"	"Biography"	"Attic/Koine"	"Perseus"	12243	100.5	11116
+"0007-012"	1	200	"Plutarchus"	"Pericles"	"Biography"	"Attic/Koine"	"Perseus"	11266	100.5	10018
+"0007-013"	1	200	"Plutarchus"	"Fabius Maximus"	"Biography"	"Attic/Koine"	"Perseus"	8686	100.5	7757
+"0007-014"	1	200	"Plutarchus"	"Comparatio Periclis et Fabii Maximi"	"Biography"	"Attic/Koine"	"Perseus"	789	100.5	724
+"0007-015"	1	200	"Plutarchus"	"Alcibiades"	"Biography"	"Attic/Koine"	"Perseus"	11456	100.5	10114
+"0007-016"	1	200	"Plutarchus"	"Marcius Coriolanus"	"Biography"	"Attic/Koine"	"Perseus"	10608	100.5	9428
+"0007-017"	1	200	"Plutarchus"	"Comparatio Alcibiadis et Marcii Coriolani"	"Biography"	"Attic/Koine"	"Perseus"	1199	100.5	1079
+"0007-018"	1	200	"Plutarchus"	"Timoleon"	"Biography"	"Attic/Koine"	"Perseus"	10102	100.5	9109
+"0007-019"	1	200	"Plutarchus"	"Aemilius Paullus"	"Biography"	"Attic/Koine"	"Perseus"	11039	100.5	9891
+"0007-020"	1	200	"Plutarchus"	"Comparatio Aemilii Paulli et Timoleontis"	"Biography"	"Attic/Koine"	"Perseus"	539	100.5	486
+"0007-021"	1	200	"Plutarchus"	"Pelopidas"	"Biography"	"Attic/Koine"	"Perseus"	10643	100.5	9475
+"0007-022"	1	200	"Plutarchus"	"Marcellus"	"Biography"	"Attic/Koine"	"Perseus"	9469	100.5	8480
+"0007-023"	1	200	"Plutarchus"	"Comparatio Pelopidae et Marcelli"	"Biography"	"Attic/Koine"	"Perseus"	906	100.5	808
+"0007-024"	1	200	"Plutarchus"	"Aristides"	"Biography"	"Attic/Koine"	"Perseus"	9205	100.5	8196
+"0007-025"	1	200	"Plutarchus"	"Cato Maior"	"Biography"	"Attic/Koine"	"Perseus"	9096	100.5	8096
+"0007-026"	1	200	"Plutarchus"	"Comparatio Aristidis et Catonis"	"Biography"	"Attic/Koine"	"Perseus"	1645	100.5	1485
+"0007-027"	1	200	"Plutarchus"	"Philopoemen"	"Biography"	"Attic/Koine"	"Perseus"	6357	100.5	5724
+"0007-028"	1	200	"Plutarchus"	"Titus Flamininus"	"Biography"	"Attic/Koine"	"Perseus"	6560	100.5	5850
+"0007-029"	1	200	"Plutarchus"	"Comparatio Philopoemenis et Titi Flaminini"	"Biography"	"Attic/Koine"	"Perseus"	616	100.5	552
+"0007-030"	1	200	"Plutarchus"	"Pyrrhus"	"Biography"	"Attic/Koine"	"Perseus"	12334	100.5	10935
+"0007-031"	1	200	"Plutarchus"	"Marius"	"Biography"	"Attic/Koine"	"Perseus"	14341	100.5	12883
+"0007-032"	1	200	"Plutarchus"	"Lysander"	"Biography"	"Attic/Koine"	"Perseus"	9216	100.5	8172
+"0007-033"	1	200	"Plutarchus"	"Sulla"	"Biography"	"Attic/Koine"	"Perseus"	12910	100.5	11537
+"0007-034"	1	200	"Plutarchus"	"Comparatio Lysandri et Sullae"	"Biography"	"Attic/Koine"	"Perseus"	1404	100.5	1249
+"0007-035"	1	200	"Plutarchus"	"Cimon"	"Biography"	"Attic/Koine"	"Perseus"	6594	100.5	5894
+"0007-036"	1	200	"Plutarchus"	"Lucullus"	"Biography"	"Attic/Koine"	"Perseus"	15073	100.5	13432
+"0007-037"	1	200	"Plutarchus"	"Comparatio Cimonis et Luculli"	"Biography"	"Attic/Koine"	"Perseus"	1103	100.5	993
+"0007-038"	1	200	"Plutarchus"	"Nicias"	"Biography"	"Attic/Koine"	"Perseus"	10146	100.5	9050
+"0007-039"	1	200	"Plutarchus"	"Crassus"	"Biography"	"Attic/Koine"	"Perseus"	11527	100.5	10276
+"0007-040"	1	200	"Plutarchus"	"Comparatio Niciae et Crassi"	"Biography"	"Attic/Koine"	"Perseus"	1377	100.5	1223
+"0007-041"	1	200	"Plutarchus"	"Eumenes"	"Biography"	"Attic/Koine"	"Perseus"	6198	100.5	5545
+"0007-042"	1	200	"Plutarchus"	"Sertorius"	"Biography"	"Attic/Koine"	"Perseus"	7449	100.5	6691
+"0007-043"	1	200	"Plutarchus"	"Comparatio Eumenis et Sertorii"	"Biography"	"Attic/Koine"	"Perseus"	442	100.5	400
+"0007-044"	1	200	"Plutarchus"	"Agesilaus"	"Biography"	"Attic/Koine"	"Perseus"	12210	100.5	10784
+"0007-045"	1	200	"Plutarchus"	"Pompeius"	"Biography"	"Attic/Koine"	"Perseus"	22779	100.5	20240
+"0007-046"	1	200	"Plutarchus"	"Comparatio Agesilai et Pompeii"	"Biography"	"Attic/Koine"	"Perseus"	1219	100.5	1098
+"0007-047"	1	200	"Plutarchus"	"Alexander"	"Biography"	"Attic/Koine"	"Perseus"	22724	100.5	19998
+"0007-048"	1	200	"Plutarchus"	"Caesar"	"Biography"	"Attic/Koine"	"Perseus"	17974	100.5	16099
+"0007-049"	1	200	"Plutarchus"	"Phocion"	"Biography"	"Attic/Koine"	"Perseus"	9551	100.5	8223
+"0007-050"	1	200	"Plutarchus"	"Cato Minor"	"Biography"	"Attic/Koine"	"Perseus"	18934	100.5	16779
+"0007-051a"	1	200	"Plutarchus"	"Agis et Cleomenes"	"Biography"	"Attic/Koine"	"Perseus"	5068	100.5	4524
+"0007-051b"	1	200	"Plutarchus"	"Agis et Cleomenes"	"Biography"	"Attic/Koine"	"Perseus"	10079	100.5	8982
+"0007-052a"	1	200	"Plutarchus"	"Tiberius et Gaius Gracchus"	"Biography"	"Attic/Koine"	"Perseus"	5629	100.5	5059
+"0007-052b"	1	200	"Plutarchus"	"Tiberius et Gaius Gracchus"	"Biography"	"Attic/Koine"	"Perseus"	4660	100.5	4173
+"0007-053"	1	200	"Plutarchus"	"Comparatio Agidis et Cleomenis cum Tiberio et Gaio Graccho"	"Biography"	"Attic/Koine"	"Perseus"	1096	100.5	988
+"0007-054"	1	200	"Plutarchus"	"Demosthenes"	"Biography"	"Attic/Koine"	"Perseus"	7787	100.5	6882
+"0007-055"	1	200	"Plutarchus"	"Cicero"	"Biography"	"Attic/Koine"	"Perseus"	13544	100.5	12022
+"0007-056"	1	200	"Plutarchus"	"Comparatio Demosthenis et Ciceronis"	"Biography"	"Attic/Koine"	"Perseus"	1097	100.5	981
+"0007-057"	1	200	"Plutarchus"	"Demetrius"	"Biography"	"Attic/Koine"	"Perseus"	14066	100.5	12357
+"0007-058"	1	200	"Plutarchus"	"Antonius"	"Biography"	"Attic/Koine"	"Perseus"	21061	100.5	18558
+"0007-059"	1	200	"Plutarchus"	"Comparatio Demetrii et Antonii"	"Biography"	"Attic/Koine"	"Perseus"	1000	100.5	883
+"0007-060"	1	200	"Plutarchus"	"Dion"	"Biography"	"Attic/Koine"	"Perseus"	13180	100.5	11817
+"0007-061"	1	200	"Plutarchus"	"Brutus"	"Biography"	"Attic/Koine"	"Perseus"	13617	100.5	12005
+"0007-062"	1	200	"Plutarchus"	"Comparatio Dionis et Bruti"	"Biography"	"Attic/Koine"	"Perseus"	1056	100.5	948
+"0007-063"	1	200	"Plutarchus"	"Aratus"	"Biography"	"Attic/Koine"	"Perseus"	13163	100.5	11824
+"0007-064"	1	200	"Plutarchus"	"Artaxerxes"	"Biography"	"Attic/Koine"	"Perseus"	8365	100.5	7387
+"0007-065"	1	200	"Plutarchus"	"Galba"	"Biography"	"Attic/Koine"	"Perseus"	6951	100.5	6195
+"0007-066"	1	200	"Plutarchus"	"Otho"	"Biography"	"Attic/Koine"	"Perseus"	4702	100.5	4190
+"0007-067"	1	200	"Plutarchus"	"De liberis educandis"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	7124	100.5	6209
+"0007-068"	1	200	"Plutarchus"	"Quomodo adolescens poetas audire debeat"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	11557	100.5	10031
+"0007-069"	1	200	"Plutarchus"	"De recta ratione audiendi"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	5765	100.5	5196
+"0007-070"	1	200	"Plutarchus"	"Quomodo adulator ab amico internoscatur"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	13547	100.5	11949
+"0007-071"	1	200	"Plutarchus"	"Quomodo quis suos in virtute sentiat profectus"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	5680	100.5	5116
+"0007-072"	1	200	"Plutarchus"	"De capienda ex inimicis utilitate"	"Philosophy"	"Attic/Koine"	"Perseus"	3442	100.5	3040
+"0007-073"	1	200	"Plutarchus"	"De amicorum multitudine"	"Philosophy"	"Attic/Koine"	"Perseus"	2079	100.5	1845
+"0007-074"	1	200	"Plutarchus"	"De fortuna"	"Philosophy"	"Attic/Koine"	"Perseus"	1462	100.5	1290
+"0007-075"	1	200	"Plutarchus"	"De virtute et vitio"	"Philosophy"	"Attic/Koine"	"Perseus"	762	100.5	673
+"0007-076"	1	200	"Plutarchus"	"Consolatio ad Apollonium"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	10782	100.5	9340
+"0007-077"	1	200	"Plutarchus"	"De tuenda sanitate praecepta"	"Medicine"	"Attic/Koine"	"https://el.wikisource.org"	7781	100.5	7014
+"0007-078"	1	200	"Plutarchus"	"Conjugalia praecepta"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	4228	100.5	3761
+"0007-079"	1	200	"Plutarchus"	"Septem sapientium convivium"	"Philosophic Dialogue"	"Attic/Koine"	"https://el.wikisource.org"	10614	100.5	8842
+"0007-080"	1	200	"Plutarchus"	"De superstitione"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	3835	100.5	3373
+"0007-081"	1	200	"Plutarchus"	"Regum et imperatorum apophthegmata"	"Philosophy"	"Attic/Koine"	"Perseus"	18977	100.5	16020
+"0007-082"	1	200	"Plutarchus"	"Apophthegmata Laconica"	"Philosophy"	"Attic/Koine"	"Perseus"	16577	100.5	13485
+"0007-082a"	1	200	"Plutarchus"	"Apophthegmata Laconica"	"Philosophy"	"Attic/Koine"	"Perseus"	1843	100.5	1628
+"0007-082b"	1	200	"Plutarchus"	"Apophthegmata Laconica"	"Philosophy"	"Attic/Koine"	"Perseus"	1375	100.5	1091
+"0007-083"	1	200	"Plutarchus"	"Mulierum virtutes"	"History"	"Attic/Koine"	"Perseus"	10704	100.5	9465
+"0007-084a"	1	200	"Plutarchus"	"Aetia Romana et Graeca"	"Polyhistory"	"Attic/Koine"	"https://el.wikisource.org"	15310	100.5	13613
+"0007-084b"	1	200	"Plutarchus"	"Aetia Romana et Graeca"	"Polyhistory"	"Attic/Koine"	"https://el.wikisource.org"	6804	100.5	5956
+"0007-085"	1	200	"Plutarchus"	"Parallela minora"	"History"	"Attic/Koine"	"Perseus"	5370	100.5	4726
+"0007-086"	1	200	"Plutarchus"	"De fortuna Romanorum"	"Rhetoric"	"Attic/Koine"	"https://el.wikisource.org"	5193	100.5	4621
+"0007-087"	1	200	"Plutarchus"	"De Alexandri magni fortuna aut virtute"	"Rhetoric"	"Attic/Koine"	"https://el.wikisource.org"	9654	100.5	8405
+"0007-088"	1	200	"Plutarchus"	"De gloria Atheniensium"	"Rhetoric"	"Attic/Koine"	"Perseus"	3049	100.5	2704
+"0007-089"	1	200	"Plutarchus"	"De Iside et Osiride"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	17846	100.5	15997
+"0007-090"	1	200	"Plutarchus"	"De E apud Delphos"	"Philosophic Dialogue"	"Attic/Koine"	"https://el.wikisource.org"	5619	100.5	4959
+"0007-091"	1	200	"Plutarchus"	"De Pythiae oraculis"	"Philosophic Dialogue"	"Attic/Koine"	"https://el.wikisource.org"	8256	100.5	7195
+"0007-092"	1	200	"Plutarchus"	"De defectu oraculorum"	"Philosophic Dialogue"	"Attic/Koine"	"https://el.wikisource.org"	15412	100.5	13756
+"0007-093"	1	200	"Plutarchus"	"An virtus doceri possit"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	778	100.5	667
+"0007-094"	1	200	"Plutarchus"	"De virtute morali"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	6462	100.5	5841
+"0007-095"	1	200	"Plutarchus"	"De cohibenda ira"	"Philosophic Dialogue"	"Attic/Koine"	"https://el.wikisource.org"	6288	100.5	5510
+"0007-096"	1	200	"Plutarchus"	"De tranquillitate animi"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	6990	100.5	6129
+"0007-097"	1	200	"Plutarchus"	"De fraterno amore"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	7556	100.5	6737
+"0007-098"	1	200	"Plutarchus"	"De amore prolis"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	2474	100.5	2201
+"0007-099"	1	200	"Plutarchus"	"An vitiositas ad infelicitatem sufficiat"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	991	100.5	877
+"0007-100"	1	200	"Plutarchus"	"Animine an corporis affectiones sint peiores"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	965	100.5	860
+"0007-101"	1	200	"Plutarchus"	"De garrulitate"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	6908	100.5	5927
+"0007-102"	1	200	"Plutarchus"	"De curiositate"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	4267	100.5	3760
+"0007-103"	1	200	"Plutarchus"	"De cupiditate divitiarum"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	2593	100.5	2256
+"0007-104"	1	200	"Plutarchus"	"De vitioso pudore"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	4177	100.5	3701
+"0007-105"	1	200	"Plutarchus"	"De invidia et odio"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	1165	100.5	1016
+"0007-106"	1	200	"Plutarchus"	"De laude ipsius"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	4555	100.5	4012
+"0007-107"	1	200	"Plutarchus"	"De sera numinis vindicta"	"Philosophic Dialogue"	"Attic/Koine"	"https://el.wikisource.org"	10622	100.5	9450
+"0007-108"	1	200	"Plutarchus"	"De fato"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	3929	100.5	3471
+"0007-109"	1	200	"Plutarchus"	"De genio Socratis"	"Philosophic Dialogue"	"Attic/Koine"	"https://el.wikisource.org"	13322	100.5	11610
+"0007-110"	1	200	"Plutarchus"	"De exilio"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	4658	100.5	3993
+"0007-111"	1	200	"Plutarchus"	"Consolatio ad uxorem"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	2191	100.5	1988
+"0007-112"	1	200	"Plutarchus"	"Quaestiones convivales"	"Philosophic Dialogue"	"Attic/Koine"	"https://el.wikisource.org"	71714	100.5	62662
+"0007-113"	1	200	"Plutarchus"	"Amatorius"	"Philosophic Dialogue"	"Attic/Koine"	"https://el.wikisource.org"	12621	100.5	10993
+"0007-114"	1	200	"Plutarchus"	"Amatoriae narrationes"	"Narrative"	"Attic/Koine"	"https://el.wikisource.org"	2062	100.5	1822
+"0007-115"	1	200	"Plutarchus"	"Maxime cum principibus philosopho esse disserendum"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	1746	100.5	1546
+"0007-116"	1	200	"Plutarchus"	"Ad principem ineruditum"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	1818	100.5	1605
+"0007-117"	1	200	"Plutarchus"	"An seni respublica gerenda sit"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	7691	100.5	6810
+"0007-118"	1	200	"Plutarchus"	"Praecepta gerendae reipublicae"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	14274	100.5	12588
+"0007-119"	1	200	"Plutarchus"	"De unius in republica dominatione, populari statu, et paucorum imperio"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	632	100.5	553
+"0007-120"	1	200	"Plutarchus"	"De vitando aere alieno"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	2422	100.5	2039
+"0007-121"	1	200	"Plutarchus"	"Vitae decem oratorum"	"Biography"	"Attic/Koine"	"https://el.wikisource.org"	10490	100.5	9210
+"0007-122"	1	200	"Plutarchus"	"Comparationis Aristophanis et Menandri compendium"	"Rhetoric"	"Attic/Koine"	"https://el.wikisource.org"	842	100.5	735
+"0007-123"	1	200	"Plutarchus"	"De Herodoti malignitate"	"Rhetoric"	"Attic/Koine"	"https://el.wikisource.org"	10398	100.5	9080
+"0007-125"	1	200	"Plutarchus"	"Aetia physica"	"Physics"	"Attic/Koine"	"https://el.wikisource.org"	4621	100.5	4100
+"0007-126"	1	200	"Plutarchus"	"De facie in orbe lunae"	"Astronomy/Astrology"	"Attic/Koine"	"https://el.wikisource.org"	14556	100.5	12877
+"0007-127"	1	200	"Plutarchus"	"De primo frigido"	"Physics"	"Attic/Koine"	"https://el.wikisource.org"	5696	100.5	5065
+"0007-128"	1	200	"Plutarchus"	"Aquane an ignis sit utilior"	"Rhetoric"	"Attic/Koine"	"https://el.wikisource.org"	1861	100.5	1640
+"0007-129"	1	200	"Plutarchus"	"De sollertia animalium"	"Biology"	"Attic/Koine"	"https://el.wikisource.org"	14154	100.5	12539
+"0007-130"	1	200	"Plutarchus"	"Bruta animalia ratione uti"	"Biology"	"Attic/Koine"	"https://el.wikisource.org"	3882	100.5	3471
+"0007-131"	1	200	"Plutarchus"	"De esu carnium i"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	1811	100.5	1586
+"0007-132"	1	200	"Plutarchus"	"De esu carnium ii"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	1437	100.5	1267
+"0007-133"	1	200	"Plutarchus"	"Platonicae quaestiones"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	7146	100.5	6285
+"0007-134"	1	200	"Plutarchus"	"De animae procreatione in Timaeo"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	10640	100.5	9593
+"0007-135"	1	200	"Plutarchus"	"Epitome libri de animae procreatione in Timaeo"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	1364	100.5	1225
+"0007-136"	1	200	"Plutarchus"	"De Stoicorum repugnantiis"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	13861	100.5	12302
+"0007-137"	1	200	"Plutarchus"	"Stoicos absurdiora poetis dicere"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	579	100.5	507
+"0007-138"	1	200	"Plutarchus"	"De communibus notitiis adversus Stoicos"	"Philosophic Dialogue"	"Attic/Koine"	"https://el.wikisource.org"	15871	100.5	14113
+"0007-139"	1	200	"Plutarchus"	"Non posse suaviter vivi secundum Epicurum"	"Philosophic Dialogue"	"Attic/Koine"	"https://el.wikisource.org"	11115	100.5	9832
+"0007-140"	1	200	"Plutarchus"	"Adversus Colotem"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	11467	100.5	10129
+"0007-141"	1	200	"Plutarchus"	"De latenter vivendo"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	1487	100.5	1268
+"1622-001"	1	200	"Polycarpus"	"Epistula ad Philippenses"	"Epistolography"	NA	"First1K"	1321	100.5	1146
+"0548-001"	1	200	"Pseudo-Apollodorus"	"Bibliotheca"	"Mythography"	NA	"Perseus"	31359	100.5	27314
+"0548-002"	1	200	"Pseudo-Apollodorus"	"Bibliotheca"	"Mythography"	NA	"Perseus"	9037	100.5	7919
+"0564-003"	1	200	"Rufus"	"De corporis humani appellationibus"	"Medicine"	NA	"https://deepblue.lib.umich.edu/handle/2027.42/95946"	5842	100.5	4868
+"0564-004"	1	200	"Rufus"	"De partibus corporis humani"	"Medicine"	NA	"https://deepblue.lib.umich.edu/handle/2027.42/95946"	2634	100.5	2279
+"0564-005"	1	200	"Rufus"	"De ossibus"	"Medicine"	NA	"https://deepblue.lib.umich.edu/handle/2027.42/95946"	1218	100.5	1045
+"0532-001"	101	200	"Achilles Tatius"	"Leucippe et Clitophon"	"Narrative"	NA	"Perseus"	49478	150.5	41862
+"0388-002"	101	200	"Acta Pauli"	"Martyrium Pauli"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	1419	150.5	1228
+"0388-004"	101	200	"Acta Pauli"	"Acta Pauli et Theclae"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	4269	150.5	3616
+"0388-005"	101	200	"Acta Pauli"	"Acta Pauli et Theclae"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	844	150.5	727
+"0284-001"	101	200	"Aelius Aristides"	"Εἰς Δία"	"Oratory"	"Attic/Koine"	"Perseus"	2313	150.5	2045
+"0284-002"	101	200	"Aelius Aristides"	"Ἀθηνᾶ"	"Oratory"	"Attic/Koine"	"Perseus"	2534	150.5	2261
+"0284-003"	101	200	"Aelius Aristides"	"Ἰσθμικὸς εἰς Ποσειδῶνα"	"Oratory"	"Attic/Koine"	"Perseus"	3846	150.5	3458
+"0284-004"	101	200	"Aelius Aristides"	"Διόνυσος"	"Oratory"	"Attic/Koine"	"Perseus"	851	150.5	761
+"0284-005"	101	200	"Aelius Aristides"	"Ἡρακλῆς"	"Oratory"	"Attic/Koine"	"Perseus"	1656	150.5	1491
+"0284-006"	101	200	"Aelius Aristides"	"Λαλιὰ εἰς Ἀσκληπιόν"	"Oratory"	"Attic/Koine"	"Perseus"	1365	150.5	1215
+"0284-007"	101	200	"Aelius Aristides"	"Ἀσκληπιάδαι"	"Oratory"	"Attic/Koine"	"Perseus"	1719	150.5	1526
+"0284-008"	101	200	"Aelius Aristides"	"Εἰς τὸν Σάραπιν"	"Oratory"	"Attic/Koine"	"Perseus"	2972	150.5	2644
+"0284-009"	101	200	"Aelius Aristides"	"Εἰς βασιλέα"	"Oratory"	"Attic/Koine"	"Perseus"	3236	150.5	2910
+"0284-010"	101	200	"Aelius Aristides"	"Ἀπελλᾶ γενεθλιακός"	"Oratory"	"Attic/Koine"	"Perseus"	2352	150.5	2111
+"0284-011"	101	200	"Aelius Aristides"	"Εἰς Ἐτεωνέα ἐπικήδειος"	"Oratory"	"Attic/Koine"	"Perseus"	1469	150.5	1303
+"0284-012"	101	200	"Aelius Aristides"	"Ἐπὶ Ἀλεξάνδρῳ ἐπιτάφιος"	"Oratory"	"Attic/Koine"	"Perseus"	3061	150.5	2757
+"0284-013"	101	200	"Aelius Aristides"	"Παναθηναϊκός"	"Oratory"	"Attic/Koine"	"Perseus"	32334	150.5	28952
+"0284-014"	101	200	"Aelius Aristides"	"Ῥώμης ἐγκώμιον"	"Oratory"	"Attic/Koine"	"Perseus"	9544	150.5	8509
+"0284-015"	101	200	"Aelius Aristides"	"Σμυρναϊκὸς πολιτικός"	"Oratory"	"Attic/Koine"	"Perseus"	2103	150.5	1873
+"0284-016"	101	200	"Aelius Aristides"	"Πανηγυρικὸς ἐν Κυζίκῳ περὶ τοῦ ναοῦ"	"Oratory"	"Attic/Koine"	"Perseus"	3617	150.5	3264
+"0284-017"	101	200	"Aelius Aristides"	"Εἰς τὸ Αἰγαῖον πέλαγος"	"Oratory"	"Attic/Koine"	"Perseus"	1294	150.5	1166
+"0284-018"	101	200	"Aelius Aristides"	"Εἰς τὸ φρέαρ τοῦ Ἀσκληπιοῦ"	"Oratory"	"Attic/Koine"	"Perseus"	1424	150.5	1277
+"0284-019"	101	200	"Aelius Aristides"	"Ἐλευσίνιος"	"Oratory"	"Attic/Koine"	"Perseus"	1147	150.5	1020
+"0284-020"	101	200	"Aelius Aristides"	"Μονῳδία ἐπὶ Σμύρνῃ"	"Oratory"	"Attic/Koine"	"Perseus"	858	150.5	728
+"0284-021"	101	200	"Aelius Aristides"	"Παλινῳδία ἐπὶ Σμύρνῃ καὶ τῷ ταύτης ἀνοικισμῷ"	"Oratory"	"Attic/Koine"	"Perseus"	1888	150.5	1680
+"0284-022"	101	200	"Aelius Aristides"	"Προσφωνητικός Σμυρναϊκός"	"Oratory"	"Attic/Koine"	"Perseus"	1252	150.5	1118
+"0284-023"	101	200	"Aelius Aristides"	"Ἱεροὶ λόγοι αʹ"	"Biography"	"Attic/Koine"	"Perseus"	5918	150.5	5216
+"0284-024"	101	200	"Aelius Aristides"	"Ἱεροὶ λόγοι βʹ"	"Biography"	"Attic/Koine"	"Perseus"	6532	150.5	5791
+"0284-025"	101	200	"Aelius Aristides"	"Ἱεροὶ λόγοι γʹ"	"Biography"	"Attic/Koine"	"Perseus"	3986	150.5	3503
+"0284-026"	101	200	"Aelius Aristides"	"Ἱεροὶ λόγοι δʹ"	"Biography"	"Attic/Koine"	"Perseus"	9044	150.5	7997
+"0284-027"	101	200	"Aelius Aristides"	"Ἱεροὶ λόγοι εʹ"	"Biography"	"Attic/Koine"	"Perseus"	5052	150.5	4478
+"0284-028"	101	200	"Aelius Aristides"	"Ἱεροὶ λόγοι ςʹ"	"Biography"	"Attic/Koine"	"Perseus"	150	150.5	130
+"0284-029"	101	200	"Aelius Aristides"	"Περὶ τοῦ πέμπειν βοήθειαν τοῖς ἐν Σικελίᾳ"	"Rhetoric"	"Attic/Koine"	"Perseus"	4373	150.5	3841
+"0284-030"	101	200	"Aelius Aristides"	"Εἰς τὸ ἐναντίον"	"Rhetoric"	"Attic/Koine"	"Perseus"	5067	150.5	4469
+"0284-031"	101	200	"Aelius Aristides"	"Ὑπὲρ τῆς πρὸς Λακεδαιμονίους εἰρήνης"	"Rhetoric"	"Attic/Koine"	"Perseus"	2672	150.5	2373
+"0284-032"	101	200	"Aelius Aristides"	"Ὑπὲρ τῆς πρὸς Ἀθηναίους εἰρήνης"	"Rhetoric"	"Attic/Koine"	"Perseus"	2305	150.5	2048
+"0284-033"	101	200	"Aelius Aristides"	"Λευκτρικὸς αʹ"	"Rhetoric"	"Attic/Koine"	"Perseus"	6558	150.5	5794
+"0284-034"	101	200	"Aelius Aristides"	"Λευκτρικὸς βʹ"	"Rhetoric"	"Attic/Koine"	"Perseus"	6939	150.5	6112
+"0284-035"	101	200	"Aelius Aristides"	"Λευκτρικὸς γʹ"	"Rhetoric"	"Attic/Koine"	"Perseus"	3012	150.5	2633
+"0284-036"	101	200	"Aelius Aristides"	"Λευκτρικὸς δʹ"	"Rhetoric"	"Attic/Koine"	"Perseus"	2808	150.5	2464
+"0284-037"	101	200	"Aelius Aristides"	"Λευκτρικὸς εʹ"	"Rhetoric"	"Attic/Koine"	"Perseus"	3690	150.5	3241
+"0284-038"	101	200	"Aelius Aristides"	"Συμμαχικὸς αʹ"	"Rhetoric"	"Attic/Koine"	"Perseus"	4590	150.5	4022
+"0284-039"	101	200	"Aelius Aristides"	"Συμμαχικὸς βʹ"	"Rhetoric"	"Attic/Koine"	"Perseus"	4782	150.5	4205
+"0284-040"	101	200	"Aelius Aristides"	"Συμβουλευτικὸς περὶ τοῦ μὴ δεῖν κωμῳδεῖν"	"Oratory"	"Attic/Koine"	"Perseus"	2420	150.5	2146
+"0284-041"	101	200	"Aelius Aristides"	"Ἐπιστολὴ περὶ Σμύρνης"	"Epistolography"	"Attic/Koine"	"Perseus"	1355	150.5	1184
+"0284-042"	101	200	"Aelius Aristides"	"Περὶ ὁμονοίας ταῖς πόλεσιν"	"Oratory"	"Attic/Koine"	"Perseus"	7257	150.5	6523
+"0284-043"	101	200	"Aelius Aristides"	"Ῥοδιακός"	"Oratory"	"Attic/Koine"	"Perseus"	5971	150.5	5320
+"0284-044"	101	200	"Aelius Aristides"	"Ῥοδίοις περὶ ὁμονοίας"	"Oratory"	"Attic/Koine"	"Perseus"	4917	150.5	4383
+"0284-045"	101	200	"Aelius Aristides"	"Πρὸς Πλάτωνα περὶ ῥητορικῆς"	"Rhetoric"	"Attic/Koine"	"Perseus"	34683	150.5	30636
+"0284-046"	101	200	"Aelius Aristides"	"Πρὸς Πλάτωνα ὑπὲρ τῶν τεττάρων"	"Rhetoric"	"Attic/Koine"	"Perseus"	58829	150.5	52171
+"0284-047"	101	200	"Aelius Aristides"	"Πρὸς Καπίτωνα"	"Oratory"	"Attic/Koine"	"Perseus"	4987	150.5	4349
+"0284-048"	101	200	"Aelius Aristides"	"Αἰγύπτιος"	"Oratory"	"Attic/Koine"	"Perseus"	12209	150.5	10930
+"0284-049"	101	200	"Aelius Aristides"	"Περὶ τοῦ παραφθέγματος"	"Rhetoric"	"Attic/Koine"	"Perseus"	13050	150.5	11345
+"0284-050"	101	200	"Aelius Aristides"	"Κατὰ τῶν ἐξορχουμένων"	"Oratory"	"Attic/Koine"	"Perseus"	4712	150.5	4154
+"0284-051"	101	200	"Aelius Aristides"	"Πρὸς τοὺς αἰτιωμένους ὅτι μὴ μελετῴη"	"Oratory"	"Attic/Koine"	"Perseus"	2569	150.5	2258
+"0284-052"	101	200	"Aelius Aristides"	"Πρεσβευτικὸς πρὸς Ἀχιλλέα"	"Rhetoric"	"Attic/Koine"	"Perseus"	3946	150.5	3489
+"0284-053"	101	200	"Aelius Aristides"	"Πρὸς Δημοσθένη περὶ ἀτελείας"	"Rhetoric"	"Attic/Koine"	"Perseus"	10300	150.5	9119
+"0284-054"	101	200	"Aelius Aristides"	"Πρὸς Λεπτίνην ὑπὲρ ἀτελείας"	"Rhetoric"	"Attic/Koine"	"Perseus"	12419	150.5	11051
+"0284-055"	101	200	"Aelius Aristides"	"Πανηγυρικὸς ἐπὶ τῷ ὕδατι ἐν Περγάμῳ"	"Oratory"	"Attic/Koine"	"Perseus"	400	150.5	362
+"0284-056"	101	200	"Aelius Aristides"	"Ars rhetorica"	"Rhetoric"	"Attic/Koine"	"Perseus"	27127	150.5	22852
+"1813-001"	101	200	"Anonymus De Plantis Aegyptiis"	"Fragmentum"	"Scientific Poetry"	NA	"Loeb (public domain)"	149	150.5	133
+"0082-001"	101	200	"Apollonius Dyscolus"	"De pronominibus"	"Language"	NA	"http://schmidhauser.us"	31461	150.5	26545
+"0082-002"	101	200	"Apollonius Dyscolus"	"De adverbiis"	"Language"	NA	"http://schmidhauser.us"	30058	150.5	25409
+"0082-003"	101	200	"Apollonius Dyscolus"	"De conjunctionibus"	"Language"	NA	"http://schmidhauser.us"	14218	150.5	12017
+"0082-004"	101	200	"Apollonius Dyscolus"	"De constructione"	"Language"	NA	"http://schmidhauser.us"	69872	150.5	60458
+"0719-001"	101	200	"Aretaeus"	"De causis et signis acutorum morborum libri duo"	"Medicine"	"Ionic"	"Perseus"	11502	150.5	9501
+"0719-002"	101	200	"Aretaeus"	"De causis et signis diuturnorum morborum libri duo"	"Medicine"	"Ionic"	"Perseus"	21032	150.5	17250
+"0719-003"	101	200	"Aretaeus"	"De curatione acutorum morborum libri duo"	"Medicine"	"Ionic"	"Perseus"	19458	150.5	16301
+"0719-004"	101	200	"Aretaeus"	"De curatione diuturnorum morborum libri duo"	"Medicine"	"Ionic"	"Perseus"	9788	150.5	8038
+"2148-001"	101	200	"Aristodemus"	"Fragmenta"	"History"	NA	"https://github.com/PietroLiuzzo/Aristodemo"	3203	150.5	2846
+"0553-001"	101	200	"Artemidorus"	"Onirocriticon"	"Oneirocritic"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	72342	150.5	64850
+"1205-001"	101	200	"Athenagoras"	"Legatio sive Supplicatio pro Christianis"	"Oratory"	NA	"First1K"	13146	150.5	11433
+"1205-002"	101	200	"Athenagoras"	"De resurrectione"	"Theology"	"Koine"	"First1K"	10044	150.5	9099
+"0614-001"	101	200	"Valerius Babrius"	"Mythiambi Aesopici"	"Lyric poetry"	NA	"First1K"	13928	150.5	11488
+"1252-002"	101	200	"Certamen Homeri Et Hesiodi"	"Certamen Homeri et Hesiodi"	"Narrative"	NA	"First1K"	2728	150.5	2416
+"0554-001"	101	200	"Chariton"	"De Chaerea et Callirhoe"	"Narrative"	NA	"Perseus"	41918	150.5	35129
+"1272-001"	101	200	"Cleomedes"	"De motu circulari corporum caelestium"	"Astronomy/Astrology"	NA	"http://www.astrologicon.org"	26883	150.5	23975
+"0361-001"	101	200	"Cleonides"	"Introductio harmonica"	"Music"	NA	"First1K"	4177	150.5	3623
+"1311-001"	101	200	"Didache Xii Apostolorum"	"Διδαχαὶ τῶν ἀποστολῶν"	"Theology"	"Koine"	"First1K"	2631	150.5	2220
+"1350-001"	101	200	"Epistula Ad Diognetum"	"Epistula ad Diognetum"	"Epistolography"	NA	"https://github.com/jtauber"	3087	150.5	2646
+"1353-001"	101	200	"Epitaphium Abercii"	"Epitaphium"	"Lyric poetry"	NA	"https://www.unine.ch/files/live/sites/u3a/files/shared/documents/Archives/AubertJJ_U3A_christianisme_2019_01_16.pdf"	173	150.5	150
+"0186-001"	101	200	"Marcus Cornelius Fronto"	"Ad Marcum Caesarem et invicem"	"Epistolography"	"Attic/Koine"	"http://remacle.org"	972	150.5	846
+"0186-002"	101	200	"Marcus Cornelius Fronto"	"Ad Marcum Caesarem et invicem"	"Epistolography"	"Attic/Koine"	"http://remacle.org"	325	150.5	294
+"0186-003"	101	200	"Marcus Cornelius Fronto"	"Ad amicos"	"Epistolography"	"Attic/Koine"	"http://remacle.org"	74	150.5	67
+"0186-004"	101	200	"Marcus Cornelius Fronto"	"Additamentum epistularum variarum acephalum"	"Epistolography"	"Attic/Koine"	"http://remacle.org"	2524	150.5	2206
+"0186-005"	101	200	"Marcus Cornelius Fronto"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	68	150.5	53
+"0057-001"	101	200	"Galenus"	"Adhortatio ad artes addiscendas"	"Medicine"	"Attic/Koine"	"First1K"	5797	150.5	5172
+"0057-002"	101	200	"Galenus"	"De optima doctrina"	"Medicine"	"Attic/Koine"	"First1K"	2181	150.5	1871
+"0057-003"	101	200	"Galenus"	"Quod optimus medicus sit quoque philosophus"	"Medicine"	"Attic/Koine"	"First1K"	1656	150.5	1413
+"0057-004"	101	200	"Galenus"	"De sectis ad eos qui introducuntur"	"Medicine"	"Attic/Koine"	"First1K"	7425	150.5	6320
+"0057-006"	101	200	"Galenus"	"De constitutione artis medicae ad Patrophilum"	"Medicine"	"Attic/Koine"	"First1K"	14060	150.5	12086
+"0057-007"	101	200	"Galenus"	"Ars medica"	"Medicine"	"Attic/Koine"	"First1K"	18994	150.5	16272
+"0057-008"	101	200	"Galenus"	"De elementis ex Hippocrate libri ii"	"Medicine"	"Attic/Koine"	"First1K"	16052	150.5	13657
+"0057-009"	101	200	"Galenus"	"De temperamentis libri iii"	"Medicine"	"Attic/Koine"	"First1K"	32791	150.5	28081
+"0057-010"	101	200	"Galenus"	"De naturalibus facultatibus"	"Medicine"	"Attic/Koine"	"First1K"	37146	150.5	32328
+"0057-011"	101	200	"Galenus"	"De anatomicis administrationibus libri ix"	"Medicine"	"Attic/Koine"	"First1K"	89559	150.5	79016
+"0057-012"	101	200	"Galenus"	"De ossibus ad tirones"	"Medicine"	"Attic/Koine"	"First1K"	7948	150.5	6972
+"0057-013"	101	200	"Galenus"	"De venarum arteriarumque dissectione"	"Medicine"	"Attic/Koine"	"First1K"	8472	150.5	7599
+"0057-014"	101	200	"Galenus"	"De nervorum dissectione"	"Medicine"	"Attic/Koine"	"First1K"	4043	150.5	3623
+"0057-015"	101	200	"Galenus"	"De instrumento odoratus"	"Medicine"	"Attic/Koine"	"First1K"	4837	150.5	4261
+"0057-016"	101	200	"Galenus"	"De uteri dissectione"	"Medicine"	"Attic/Koine"	"First1K"	3770	150.5	3285
+"0057-017"	101	200	"Galenus"	"De usu partium"	"Medicine"	"Attic/Koine"	"First1K"	222756	150.5	196623
+"0057-018"	101	200	"Galenus"	"De motu musculorum libri ii"	"Medicine"	"Attic/Koine"	"First1K"	17169	150.5	14931
+"0057-019"	101	200	"Galenus"	"De victu attenuante"	"Medicine"	"Attic/Koine"	"First1K"	7162	150.5	6566
+"0057-020"	101	200	"Galenus"	"De utilitate respirationis liber"	"Medicine"	"Attic/Koine"	"First1K"	7061	150.5	6123
+"0057-021"	101	200	"Galenus"	"De semine libri ii"	"Medicine"	"Attic/Koine"	"First1K"	23951	150.5	20992
+"0057-022"	101	200	"Galenus"	"De foetuum formatione libellus"	"Medicine"	"Attic/Koine"	"First1K"	8855	150.5	7839
+"0057-023"	101	200	"Galenus"	"An in arteriis natura sanguis contineatur"	"Medicine"	"Attic/Koine"	"First1K"	5488	150.5	4760
+"0057-024"	101	200	"Galenus"	"De optima corporis nostri constitutione"	"Medicine"	"Attic/Koine"	"First1K"	2040	150.5	1790
+"0057-025"	101	200	"Galenus"	"De bono habitu liber"	"Medicine"	"Attic/Koine"	"First1K"	957	150.5	826
+"0057-027"	101	200	"Galenus"	"Quod animi mores corporis temperamenta sequantur"	"Medicine"	"Attic/Koine"	"First1K"	9746	150.5	8468
+"0057-028"	101	200	"Galenus"	"De propriorum animi cuiuslibet affectuum dignotione et curatione"	"Medicine"	"Attic/Koine"	"First1K"	9701	150.5	8318
+"0057-029"	101	200	"Galenus"	"De animi cuiuslibet peccatorum dignotione et curatione"	"Medicine"	"Attic/Koine"	"First1K"	7366	150.5	6379
+"0057-030"	101	200	"Galenus"	"De atra bile"	"Medicine"	"Attic/Koine"	"First1K"	7233	150.5	6342
+"0057-031"	101	200	"Galenus"	"De usu pulsuum"	"Medicine"	"Attic/Koine"	"First1K"	5131	150.5	4504
+"0057-032"	101	200	"Galenus"	"De placitis Hippocratis et Platonis"	"Medicine"	"Attic/Koine"	"First1K"	109685	150.5	95919
+"0057-034"	101	200	"Galenus"	"De parvae pilae exercitio"	"Medicine"	"Attic/Koine"	"First1K"	2015	150.5	1728
+"0057-035"	101	200	"Galenus"	"De venereis"	"Medicine"	"Attic/Koine"	"First1K"	656	150.5	590
+"0057-036"	101	200	"Galenus"	"De sanitate tuenda libri vi"	"Medicine"	"Attic/Koine"	"First1K"	77722	150.5	67642
+"0057-038"	101	200	"Galenus"	"De rebus boni malique suci"	"Medicine"	"Attic/Koine"	"First1K"	11783	150.5	10321
+"0057-039"	101	200	"Galenus"	"De ptisana"	"Medicine"	"Attic/Koine"	"First1K"	2598	150.5	2235
+"0057-040"	101	200	"Galenus"	"De dignotione ex insomniis"	"Medicine"	"Attic/Koine"	"First1K"	565	150.5	501
+"0057-041"	101	200	"Galenus"	"De morborum differentiis"	"Medicine"	"Attic/Koine"	"First1K"	7699	150.5	6711
+"0057-042"	101	200	"Galenus"	"De causis morborum liber"	"Medicine"	"Attic/Koine"	"First1K"	6930	150.5	6160
+"0057-043"	101	200	"Galenus"	"De symptomatum differentiis liber"	"Medicine"	"Attic/Koine"	"First1K"	7618	150.5	6705
+"0057-044"	101	200	"Galenus"	"De symptomatum causis libri iii"	"Medicine"	"Attic/Koine"	"First1K"	33589	150.5	29748
+"0057-045"	101	200	"Galenus"	"De differentiis febrium libri ii"	"Medicine"	"Attic/Koine"	"First1K"	23935	150.5	21188
+"0057-046"	101	200	"Galenus"	"De morborum temporibus liber"	"Medicine"	"Attic/Koine"	"First1K"	6087	150.5	5326
+"0057-047"	101	200	"Galenus"	"De totius morbi temporibus liber"	"Medicine"	"Attic/Koine"	"First1K"	4111	150.5	3587
+"0057-048"	101	200	"Galenus"	"De typis liber"	"Medicine"	"Attic/Koine"	"First1K"	1818	150.5	1581
+"0057-049"	101	200	"Galenus"	"Adversus eos qui de typis scripserunt vel de circuitibus"	"Medicine"	"Attic/Koine"	"First1K"	6298	150.5	5519
+"0057-050"	101	200	"Galenus"	"De plenitudine liber"	"Medicine"	"Attic/Koine"	"First1K"	12949	150.5	11270
+"0057-051"	101	200	"Galenus"	"De tremore, palpitatione, convulsione et rigore liber"	"Medicine"	"Attic/Koine"	"First1K"	10546	150.5	9224
+"0057-052"	101	200	"Galenus"	"De comate secundum Hippocratem liber"	"Medicine"	"Attic/Koine"	"First1K"	3947	150.5	3301
+"0057-053"	101	200	"Galenus"	"De marcore liber"	"Medicine"	"Attic/Koine"	"First1K"	6659	150.5	5865
+"0057-054"	101	200	"Galenus"	"De tumoribus praeter naturam"	"Medicine"	"Attic/Koine"	"First1K"	4860	150.5	4258
+"0057-055"	101	200	"Galenus"	"De inaequali intemperie liber"	"Medicine"	"Attic/Koine"	"First1K"	3619	150.5	3183
+"0057-056"	101	200	"Galenus"	"De difficultate respirationis libri iii"	"Medicine"	"Attic/Koine"	"First1K"	36988	150.5	32283
+"0057-057"	101	200	"Galenus"	"De locis affectis libri vi"	"Medicine"	"Attic/Koine"	"First1K"	80060	150.5	70585
+"0057-058"	101	200	"Galenus"	"De pulsibus libellus ad tirones"	"Medicine"	"Attic/Koine"	"First1K"	6869	150.5	6000
+"0057-059"	101	200	"Galenus"	"De differentia pulsuum libri iv"	"Medicine"	"Attic/Koine"	"First1K"	49245	150.5	43068
+"0057-060"	101	200	"Galenus"	"De dignoscendis pulsibus libri iv"	"Medicine"	"Attic/Koine"	"First1K"	35937	150.5	31666
+"0057-061"	101	200	"Galenus"	"De causis pulsuum libri iv"	"Medicine"	"Attic/Koine"	"First1K"	36435	150.5	32436
+"0057-062"	101	200	"Galenus"	"De praesagitione ex pulsibus libri iv"	"Medicine"	"Attic/Koine"	"First1K"	41028	150.5	36700
+"0057-063"	101	200	"Galenus"	"Synopsis librorum suorum de pulsibus"	"Medicine"	"Attic/Koine"	"First1K"	17633	150.5	15718
+"0057-064"	101	200	"Galenus"	"De crisibus libri iii"	"Medicine"	"Attic/Koine"	"First1K"	39009	150.5	34340
+"0057-065"	101	200	"Galenus"	"De diebus decretoriis libri iii"	"Medicine"	"Attic/Koine"	"First1K"	31043	150.5	27630
+"0057-066"	101	200	"Galenus"	"De methodo medendi libri xiv"	"Medicine"	"Attic/Koine"	"First1K"	179163	150.5	159536
+"0057-067"	101	200	"Galenus"	"Ad Glauconem de medendi methodo libri ii"	"Medicine"	"Attic/Koine"	"First1K"	25760	150.5	23130
+"0057-068"	101	200	"Galenus"	"De venae sectione adversus Erasistratum"	"Medicine"	"Attic/Koine"	"First1K"	6843	150.5	6082
+"0057-069"	101	200	"Galenus"	"De venae sectione adversus Erasistrateos Romae degentes"	"Medicine"	"Attic/Koine"	"First1K"	10256	150.5	9184
+"0057-070"	101	200	"Galenus"	"De curandi ratione per venae sectionem"	"Medicine"	"Attic/Koine"	"First1K"	11356	150.5	10135
+"0057-071"	101	200	"Galenus"	"De hirudinibus, revulsione, cucurbitula, incisione et scarificatione"	"Medicine"	"Attic/Koine"	"First1K"	801	150.5	700
+"0057-072"	101	200	"Galenus"	"De purgantium medicamentorum facultate"	"Medicine"	"Attic/Koine"	"First1K"	3376	150.5	2995
+"0057-073"	101	200	"Galenus"	"Quos quibus catharticis medicamentis et quando purgare oporteat"	"Medicine"	"Attic/Koine"	"First1K"	2248	150.5	1985
+"0057-074"	101	200	"Galenus"	"Pro puero epileptico consilium"	"Medicine"	"Attic/Koine"	"First1K"	3644	150.5	3253
+"0057-075"	101	200	"Galenus"	"De simplicium medicamentorum temperamentis ac facultatibus libri xi"	"Medicine"	"Attic/Koine"	"First1K"	149539	150.5	133041
+"0057-076"	101	200	"Galenus"	"De compositione medicamentorum secundum locos libri x"	"Medicine"	"Attic/Koine"	"First1K"	169220	150.5	144501
+"0057-077"	101	200	"Galenus"	"De compositione medicamentorum per genera libri vii"	"Medicine"	"Attic/Koine"	"First1K"	122680	150.5	105130
+"0057-078"	101	200	"Galenus"	"De antidotis libri ii"	"Medicine"	"Attic/Koine"	"First1K"	34145	150.5	28143
+"0057-079"	101	200	"Galenus"	"De theriaca ad Pisonem"	"Medicine"	"Attic/Koine"	"First1K"	14733	150.5	13055
+"0057-081"	101	200	"Galenus"	"Institutio logica"	"Philosophy"	"Attic/Koine"	"First1K"	9656	150.5	8541
+"0057-082"	101	200	"Galenus"	"De sophismatis seu captionibus penes dictionem"	"Rhetoric"	"Attic/Koine"	"First1K"	2963	150.5	2570
+"0057-083"	101	200	"Galenus"	"De praenotione ad Posthumum"	"Medicine"	"Attic/Koine"	"First1K"	12584	150.5	11107
+"0057-084"	101	200	"Galenus"	"De substantia facultatum naturalium fragmentum"	"Medicine"	"Attic/Koine"	"First1K"	1610	150.5	1393
+"0057-085"	101	200	"Galenus"	"In Hippocratis de natura hominis librum commentarii iii"	"Medicine"	"Attic/Koine"	"First1K"	27838	150.5	24592
+"0057-086"	101	200	"Galenus"	"In Hippocratis vel Polybi opus de salubri victus ratione privatorum commentarius"	"Medicine"	"Attic/Koine"	"First1K"	7512	150.5	6650
+"0057-087"	101	200	"Galenus"	"In Hippocratis de victu acutorum commentaria iv"	"Medicine"	"Attic/Koine"	"First1K"	76430	150.5	67569
+"0057-089"	101	200	"Galenus"	"In Hippocratis librum primum epidemiarum commentarii iii"	"Medicine"	"Attic/Koine"	"First1K"	179490	150.5	157819
+"0057-092"	101	200	"Galenus"	"In Hippocratis aphorismos commentarii vii"	"Medicine"	"Attic/Koine"	"First1K"	109209	150.5	96897
+"0057-093"	101	200	"Galenus"	"Adversus Lycum libellus"	"Medicine"	"Attic/Koine"	"First1K"	8459	150.5	7536
+"0057-094"	101	200	"Galenus"	"Adversus ea quae a Juliano in Hippocratis aphorismos enuntiata sunt libellus"	"Medicine"	"Attic/Koine"	"First1K"	8672	150.5	7726
+"0057-095"	101	200	"Galenus"	"In Hippocratis librum de articulis et Galeni in eum commentarii iv"	"Medicine"	"Attic/Koine"	"First1K"	58352	150.5	52074
+"0057-096"	101	200	"Galenus"	"De humero iis modis prolapso quos Hippocrates non vidit"	"Medicine"	"Attic/Koine"	"First1K"	11148	150.5	9907
+"0057-099"	101	200	"Galenus"	"In Hippocratis prognosticum commentaria iii"	"Medicine"	"Attic/Koine"	"First1K"	48289	150.5	43226
+"0057-100"	101	200	"Galenus"	"In Hippocratis librum de fracturis commentarii iii"	"Medicine"	"Attic/Koine"	"First1K"	47050	150.5	42021
+"0057-101"	101	200	"Galenus"	"In Hippocratis librum de officina medici commentarii iii"	"Medicine"	"Attic/Koine"	"First1K"	46710	150.5	41439
+"0057-102"	101	200	"Galenus"	"De musculorum dissectione ad tirones"	"Medicine"	"Attic/Koine"	"First1K"	16136	150.5	14837
+"0057-103"	101	200	"Galenus"	"De consuetudinibus"	"Medicine"	"Attic/Koine"	"First1K"	4485	150.5	4035
+"0057-107"	101	200	"Galenus"	"De experientia medica"	"Medicine"	"Attic/Koine"	"First1K"	1178	150.5	1019
+"0057-111"	101	200	"Galenus"	"Quod qualitates incorporeae sint"	"Medicine"	"Attic/Koine"	"First1K"	3755	150.5	3347
+"0057-114"	101	200	"Galenus"	"De causis respirationis"	"Medicine"	"Attic/Koine"	"First1K"	775	150.5	677
+"1419-001"	101	200	"Hermas"	"Pastor"	"Religious Prophecy"	"Koine"	"https://github.com/jtauber"	32014	150.5	27370
+"0087-004"	101	200	"Aelius Herodianus et Pseudo-Herodianus"	"Περὶ διχρόνων"	"Language"	NA	"First1K"	4877	150.5	3911
+"1451-003"	101	200	"Josephus Et Aseneth"	"Confessio et precatio Aseneth"	"Religious Narrative"	"Koine"	"https://www.mohrsiebeck.com/en/book/joseph-und-aseneth-9783161564390"	14704	150.5	13164
+"0561-001"	101	200	"Longus"	"Daphnis et Chloe"	"Narrative"	"Attic/Koine"	"Perseus"	22837	150.5	19844
+"0062-001"	101	200	"Lucianus"	"Phalaris"	"Oratory"	"Attic/Koine"	"Perseus"	3295	150.5	2921
+"0062-002"	101	200	"Lucianus"	"Hippias"	"Oratory"	"Attic/Koine"	"Perseus"	1092	150.5	974
+"0062-003"	101	200	"Lucianus"	"Bacchus"	"Oratory"	"Attic/Koine"	"Perseus"	1188	150.5	1035
+"0062-004"	101	200	"Lucianus"	"Hercules"	"Oratory"	"Attic/Koine"	"Perseus"	875	150.5	767
+"0062-005"	101	200	"Lucianus"	"Electrum"	"Oratory"	"Attic/Koine"	"Perseus"	700	150.5	617
+"0062-006"	101	200	"Lucianus"	"Muscae encomium"	"Oratory"	"Attic/Koine"	"Perseus"	1346	150.5	1200
+"0062-007"	101	200	"Lucianus"	"Nigrinus"	"Philosophic Dialogue"	"Attic/Koine"	"Perseus"	4597	150.5	4089
+"0062-008"	101	200	"Lucianus"	"Demonax"	"Biography"	"Attic/Koine"	"Perseus"	3832	150.5	3128
+"0062-009"	101	200	"Lucianus"	"De domo"	"Oratory"	"Attic/Koine"	"Perseus"	3491	150.5	3156
+"0062-010"	101	200	"Lucianus"	"Patriae encomium"	"Oratory"	"Attic/Koine"	"Perseus"	1079	150.5	970
+"0062-011"	101	200	"Lucianus"	"Macrobii"	"Paradoxography"	"Attic/Koine"	"Perseus"	2354	150.5	2123
+"0062-012"	101	200	"Lucianus"	"Verae historiae"	"Narrative"	"Attic/Koine"	"Perseus"	12780	150.5	11241
+"0062-013"	101	200	"Lucianus"	"Calumniae non temere credendum"	"Oratory"	"Attic/Koine"	"Perseus"	3538	150.5	3181
+"0062-014"	101	200	"Lucianus"	"Lis consonantium"	"Oratory"	"Attic/Koine"	"Perseus"	1313	150.5	1158
+"0062-015"	101	200	"Lucianus"	"Symposium"	"Dialogue"	"Attic/Koine"	"Perseus"	5540	150.5	4727
+"0062-016"	101	200	"Lucianus"	"Cataplus"	"Dialogue"	"Attic/Koine"	"Perseus"	4603	150.5	3892
+"0062-017"	101	200	"Lucianus"	"Juppiter confutatus"	"Dialogue"	"Attic/Koine"	"Perseus"	2634	150.5	2291
+"0062-018"	101	200	"Lucianus"	"Juppiter tragoedus"	"Dialogue"	"Attic/Koine"	"Perseus"	7623	150.5	6573
+"0062-019"	101	200	"Lucianus"	"Gallus"	"Dialogue"	"Attic/Koine"	"Perseus"	6496	150.5	5637
+"0062-020"	101	200	"Lucianus"	"Prometheus"	"Dialogue"	"Attic/Koine"	"Perseus"	2748	150.5	2378
+"0062-021"	101	200	"Lucianus"	"Icaromenippus"	"Dialogue"	"Attic/Koine"	"Perseus"	6063	150.5	5280
+"0062-022"	101	200	"Lucianus"	"Timon"	"Dialogue"	"Attic/Koine"	"Perseus"	6835	150.5	5973
+"0062-023"	101	200	"Lucianus"	"Charon sive contemplantes"	"Dialogue"	"Attic/Koine"	"Perseus"	4803	150.5	4142
+"0062-024"	101	200	"Lucianus"	"Vitarum auctio"	"Dialogue"	"Attic/Koine"	"Perseus"	4091	150.5	3423
+"0062-025"	101	200	"Lucianus"	"Revivescentes sive piscator"	"Dialogue"	"Attic/Koine"	"Perseus"	7345	150.5	6311
+"0062-026"	101	200	"Lucianus"	"Bis accusatus sive tribunalia"	"Dialogue"	"Attic/Koine"	"Perseus"	6497	150.5	5677
+"0062-027"	101	200	"Lucianus"	"De sacrificiis"	"Oratory"	"Attic/Koine"	"Perseus"	1995	150.5	1801
+"0062-028"	101	200	"Lucianus"	"Adversus indoctum et libros multos ementem"	"Oratory"	"Attic/Koine"	"Perseus"	4334	150.5	3860
+"0062-029"	101	200	"Lucianus"	"Somnium sive vita Luciani"	"Oratory"	"Attic/Koine"	"Perseus"	2104	150.5	1813
+"0062-030"	101	200	"Lucianus"	"De parasito sive artem esse parasiticam"	"Dialogue"	"Attic/Koine"	"Perseus"	7450	150.5	6479
+"0062-031"	101	200	"Lucianus"	"Philopseudes sive incredulus"	"Dialogue"	"Attic/Koine"	"Perseus"	7552	150.5	6294
+"0062-032"	101	200	"Lucianus"	"Dearum judicium"	"Dialogue"	"Attic/Koine"	"Perseus"	2368	150.5	2000
+"0062-033"	101	200	"Lucianus"	"De mercede conductis potentium familiaribus"	"Oratory"	"Attic/Koine"	"Perseus"	8090	150.5	7184
+"0062-034"	101	200	"Lucianus"	"Anacharsis"	"Dialogue"	"Attic/Koine"	"Perseus"	7187	150.5	6390
+"0062-035"	101	200	"Lucianus"	"Menippus sive necyomantia"	"Dialogue"	"Attic/Koine"	"Perseus"	3741	150.5	3315
+"0062-036"	101	200	"Lucianus"	"De luctu"	"Oratory"	"Attic/Koine"	"Perseus"	1996	150.5	1795
+"0062-037"	101	200	"Lucianus"	"Rhetorum praeceptor"	"Rhetoric"	"Attic/Koine"	"Perseus"	4033	150.5	3566
+"0062-038"	101	200	"Lucianus"	"Alexander"	"Oratory"	"Attic/Koine"	"Perseus"	7929	150.5	6982
+"0062-039"	101	200	"Lucianus"	"Imagines"	"Dialogue"	"Attic/Koine"	"Perseus"	3700	150.5	3231
+"0062-040"	101	200	"Lucianus"	"Pro imaginibus"	"Dialogue"	"Attic/Koine"	"Perseus"	4092	150.5	3560
+"0062-041"	101	200	"Lucianus"	"De Syria dea"	"History"	"Ionic"	"Perseus"	7147	150.5	6276
+"0062-042"	101	200	"Lucianus"	"De morte Peregrini"	"Oratory"	"Attic/Koine"	"Perseus"	4829	150.5	4235
+"0062-043"	101	200	"Lucianus"	"Fugitivi"	"Dialogue"	"Attic/Koine"	"Perseus"	3692	150.5	3142
+"0062-044"	101	200	"Lucianus"	"Toxaris vel amicitia"	"Dialogue"	"Attic/Koine"	"Perseus"	11180	150.5	9754
+"0062-045"	101	200	"Lucianus"	"De saltatione"	"Dialogue"	"Attic/Koine"	"Perseus"	7960	150.5	7014
+"0062-046"	101	200	"Lucianus"	"Lexiphanes"	"Dialogue"	"Attic/Koine"	"Perseus"	3376	150.5	2873
+"0062-047"	101	200	"Lucianus"	"Eunuchus"	"Dialogue"	"Attic/Koine"	"Perseus"	1501	150.5	1318
+"0062-048"	101	200	"Lucianus"	"De astrologia"	"Astronomy/Astrology"	"Ionic"	"Perseus"	2225	150.5	1993
+"0062-049"	101	200	"Lucianus"	"Pseudologista"	"Oratory"	"Attic/Koine"	"Perseus"	4540	150.5	3969
+"0062-050"	101	200	"Lucianus"	"Deorum concilium"	"Dialogue"	"Attic/Koine"	"Perseus"	2145	150.5	1862
+"0062-051"	101	200	"Lucianus"	"Tyrannicida"	"Oratory"	"Attic/Koine"	"Perseus"	3396	150.5	2922
+"0062-052"	101	200	"Lucianus"	"Abdicatus"	"Oratory"	"Attic/Koine"	"Perseus"	5551	150.5	4903
+"0062-053"	101	200	"Lucianus"	"Quomodo historia conscribenda sit"	"History"	"Attic/Koine"	"Perseus"	8712	150.5	7655
+"0062-054"	101	200	"Lucianus"	"Dipsades"	"Oratory"	"Attic/Koine"	"Perseus"	1069	150.5	945
+"0062-055"	101	200	"Lucianus"	"Saturnalia"	"Dialogue"	"Attic/Koine"	"Perseus"	5983	150.5	5264
+"0062-056"	101	200	"Lucianus"	"Herodotus"	"Oratory"	"Attic/Koine"	"Perseus"	1054	150.5	935
+"0062-057"	101	200	"Lucianus"	"Zeuxis"	"Oratory"	"Attic/Koine"	"Perseus"	1808	150.5	1594
+"0062-058"	101	200	"Lucianus"	"Pro lapsu inter salutandum"	"Oratory"	"Attic/Koine"	"Perseus"	1870	150.5	1611
+"0062-059"	101	200	"Lucianus"	"Apologia"	"Oratory"	"Attic/Koine"	"Perseus"	2347	150.5	2090
+"0062-060"	101	200	"Lucianus"	"Harmonides"	"Oratory"	"Attic/Koine"	"Perseus"	1129	150.5	991
+"0062-061"	101	200	"Lucianus"	"Hesiodus"	"Dialogue"	"Attic/Koine"	"Perseus"	1061	150.5	948
+"0062-062"	101	200	"Lucianus"	"Scytha"	"Oratory"	"Attic/Koine"	"Perseus"	2161	150.5	1850
+"0062-063"	101	200	"Lucianus"	"Hermotimus"	"Dialogue"	"Attic/Koine"	"Perseus"	16366	150.5	14174
+"0062-064"	101	200	"Lucianus"	"Prometheus es in verbis"	"Oratory"	"Attic/Koine"	"Perseus"	1159	150.5	1021
+"0062-065"	101	200	"Lucianus"	"Navigium"	"Dialogue"	"Attic/Koine"	"Perseus"	6148	150.5	5380
+"0062-066"	101	200	"Lucianus"	"Dialogi mortuorum"	"Dialogue"	"Attic/Koine"	"Perseus"	13221	150.5	11194
+"0062-067"	101	200	"Lucianus"	"Dialogi marini"	"Dialogue"	"Attic/Koine"	"Perseus"	4703	150.5	3955
+"0062-068"	101	200	"Lucianus"	"Dialogi deorum"	"Dialogue"	"Attic/Koine"	"Perseus"	8956	150.5	7593
+"0062-069"	101	200	"Lucianus"	"Dialogi meretricii"	"Dialogue"	"Attic/Koine"	"Perseus"	9581	150.5	7936
+"0062-070"	101	200	"Lucianus"	"Soloecista"	"Dialogue"	"Attic/Koine"	"Perseus"	2337	150.5	1739
+"0062-071"	101	200	"Lucianus"	"Podagra"	"Lyric poetry"	NA	"Perseus"	2155	150.5	1780
+"0562-001"	101	200	"Marcus Aurelius Antoninus Imperator"	"Τὰ εἰς ἑαυτόν"	"Philosophy"	"Koine"	"Perseus"	34226	150.5	29655
+"0563-001"	101	200	"Maximus"	"Dialexeis"	"Rhetoric"	"Attic/Koine"	"http://remacle.org"	79803	150.5	66375
+"1487-001"	101	200	"Maximus Astrologus"	"Περὶ καταρχῶν"	"Scientific Poetry"	"Ionic/Epic"	"First1K"	4592	150.5	4019
+"1487-002"	101	200	"Maximus Astrologus"	"Περὶ καταρχῶν"	"Astronomy/Astrology"	NA	"First1K"	2445	150.5	2078
+"0268-002"	101	200	"Mesomedes"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	129	150.5	104
+"0358-001"	101	200	"Nicomachus"	"Introductio arithmetica"	"Mathematics"	NA	"First1K"	27463	150.5	24041
+"0358-002"	101	200	"Nicomachus"	"Harmonicum enchiridion"	"Music"	NA	"First1K"	5512	150.5	4937
+"0358-004"	101	200	"Nicomachus"	"Excerpta"	"Music"	NA	"First1K"	2660	150.5	2367
+"0358-005"	101	200	"Nicomachus"	"Problemata arithmetica"	"Mathematics"	NA	"First1K"	1368	150.5	1175
+"0023-001"	101	200	"Oppianus"	"Halieutica"	"Scientific Poetry"	"Ionic/Epic"	"Perseus"	26437	150.5	23018
+"1550-001"	101	200	"Oracula Chaldaica"	"Oracula"	"Oracle"	NA	"http://ldysinger.stjohnsem.edu"	3013	150.5	2443
+"1772-001"	101	200	"Paraleipomena Jeremiou"	"Paraleipomena Jeremiou"	"Religious Narrative"	"Koine"	"https://ccat.sas.upenn.edu/rak//publics/pseudepig/ParJer-Greek.html"	4937	150.5	4176
+"0525-001"	101	200	"Pausanias"	"Graeciae descriptio"	"Geography"	"Koine"	"Perseus"	242433	150.5	218356
+"0671-001"	101	200	"Philumenus"	"De venenatis animalibus eorumque remediis"	"Medicine"	NA	"First1K"	10406	150.5	8990
+"1608-001"	101	200	"Phrynichus"	"Praeparatio sophistica"	"Language"	"Attic/Koine"	"https://github.com/s8stchro"	17197	150.5	13492
+"1608-002"	101	200	"Phrynichus"	"Eclogae"	"Language"	"Attic/Koine"	"https://github.com/s8stchro"	10322	150.5	8344
+"0542-001"	101	200	"Julius Pollux"	"Onomasticon"	"Language"	"Attic/Koine"	"https://github.com/s8stchro"	144900	150.5	115258
+"0616-001"	101	200	"Polyaenus"	"Strategemata"	"Military"	NA	"http://attalus.org"	68134	150.5	59963
+"1637-001"	101	200	"Protevangelium Jacobi"	"Protevangelium Jacobi"	"Religious History"	"Koine"	"http://jewishchristianlit.com"	4762	150.5	4140
+"1271-002"	101	200	"Pseudo-Clemens"	"Epistula ii ad Corinthios"	"Epistolography"	NA	"First1K"	3525	150.5	3032
+"0613-001"	101	200	"Pseudo-Demetrius"	"De elocutione"	"Rhetoric"	NA	"Perseus"	18683	150.5	15525
+"0061-001"	101	200	"Pseudo-Lucianus"	"Asinus"	"Narrative"	"Attic/Koine"	"https://www.hs-augsburg.de/~harsch/augustana.html"	11014	150.5	9757
+"0061-009"	101	200	"Pseudo-Lucianus"	"Epigramma"	"Lyric poetry"	NA	"https://www.dbbe.ugent.be"	33	150.5	28
+"0061-010"	101	200	"Pseudo-Lucianus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	1267	150.5	1045
+"0606-001"	101	200	"Rufus"	"Ars rhetorica"	"Rhetoric"	NA	"First1K"	1665	150.5	1428
+"0527-018"	101	200	"Septuaginta"	"Esdras ii"	"Religious History"	"Koine"	"https://el.wikisource.org"	15171	150.5	13344
+"1766-001"	101	200	"Tatianus"	"Oratio ad Graecos"	"Oratory"	NA	"Perseus"	11829	150.5	10300
+"1724-001"	101	200	"Theon"	"De utilitate mathematicae"	"Mathematics"	NA	"https://iris.unito.it/handle/2318/1685018"	42052	150.5	37438
+"1725-001"	101	200	"Theophilus"	"Ad Autolycum"	"Oratory"	"Koine"	"https://el.wikisource.org"	24920	150.5	21748
+"0098-001"	101	200	"Zenobius Sophista"	"Epitome collectionum Lucilli Tarrhaei et Didymi"	"Language"	NA	"https://el.wikisource.org"	24313	150.5	20363
+"0384-002"	101	300	"Acta Justini Et Septem Sodalium"	"Acta Justini et septem sodalium"	"Religious Narrative"	"Koine"	"https://www.heiligenlexikon.de"	960	200.5	786
+"0391-001"	101	300	"Acta Scillitanorum Martyrum"	"Acta Scillitanorum martyrum sive passio Sperati et sociorum"	"Religious Narrative"	"Koine"	"https://hal-hprints.archives-ouvertes.fr/hprints-01550024"	758	200.5	647
+"0545-001"	101	300	"Claudius Aelianus"	"De natura animalium"	"Biology"	"Attic/Koine"	"Perseus"	117496	200.5	103868
+"0545-002"	101	300	"Claudius Aelianus"	"Varia historia"	"Paradoxography"	"Attic/Koine"	"Perseus"	44160	200.5	38762
+"0545-003"	101	300	"Claudius Aelianus"	"Epistulae rusticae"	"Epistolography"	"Attic/Koine"	"Perseus"	2429	200.5	2164
+"0732-001"	101	300	"Alexander"	"De mixtione"	"Medicine"	NA	"First1K"	11289	200.5	10070
+"0732-011"	101	300	"Alexander"	"De anima libri mantissa"	"Philosophy"	NA	"First1K"	40753	200.5	35911
+"0732-012"	101	300	"Alexander"	"Ἀπορίαι καὶ λύσεις"	"Philosophy"	NA	"First1K"	46248	200.5	40863
+"1131-001"	101	300	"Anonymus Ad Avircium Marcellum Contra Cataphrygas"	"Ad Avircium Marcellum contra Cataphrygas"	"Theology"	"Koine"	"https://www.hs-augsburg.de/~harsch/augustana.html"	1294	200.5	1172
+"0008-001"	101	300	"Athenaeus"	"Deipnosophistae"	"Polyhistory"	NA	"Perseus"	314256	200.5	266389
+"0141-002"	101	300	"Athenaeus"	"Epigramma"	"Lyric poetry"	NA	"Perseus"	45	200.5	38
+"0385-001"	101	300	"Cassius Dio"	"Historiae Romanae"	"History"	NA	"Perseus"	215016	200.5	191461
+"0555-001"	101	300	"Clemens Alexandrinus"	"Protrepticus"	"Philosophy"	"Koine"	"Perseus"	27814	200.5	23474
+"0555-002"	101	300	"Clemens Alexandrinus"	"Paedagogus"	"Philosophy"	"Koine"	"First1K"	67215	200.5	56764
+"0555-003"	101	300	"Clemens Alexandrinus"	"Hymnus Christi servatoris"	"Religious Poetry"	NA	"First1K"	177	200.5	137
+"0555-004"	101	300	"Clemens Alexandrinus"	"Stromata"	"Philosophy"	"Koine"	"http://remacle.org"	191379	200.5	163346
+"0555-005"	101	300	"Clemens Alexandrinus"	"Eclogae propheticae"	"Philosophy"	"Koine"	"First1K"	6024	200.5	4972
+"0555-006"	101	300	"Clemens Alexandrinus"	"Quis dives salvetur"	"Theology"	"Koine"	"Perseus"	10793	200.5	9286
+"0555-007"	101	300	"Clemens Alexandrinus"	"Excerpta ex Theodoto"	"Theology"	"Koine"	"First1K"	9007	200.5	7521
+"0555-008"	101	300	"Clemens Alexandrinus"	"Fragmenta"	"Theology"	"Koine"	"Perseus"	777	200.5	697
+"0592-001"	101	300	"Hermogenes"	"Progymnasmata"	"Rhetoric"	"Attic/Koine"	"First1K"	4730	200.5	3906
+"0592-002"	101	300	"Hermogenes"	"Περὶ στάσεων"	"Rhetoric"	"Attic/Koine"	"First1K"	12316	200.5	10508
+"0592-003"	101	300	"Hermogenes"	"Περὶ εὑρέσεως"	"Rhetoric"	"Attic/Koine"	"First1K"	23966	200.5	20394
+"0592-004"	101	300	"Hermogenes"	"Περὶ ἰδεῶν λόγου"	"Rhetoric"	"Attic/Koine"	"First1K"	46717	200.5	40497
+"0592-005"	101	300	"Hermogenes"	"Περὶ μεθόδου δεινότητος"	"Rhetoric"	"Attic/Koine"	"First1K"	7599	200.5	6300
+"0015-001"	101	300	"Herodianus"	"Ab excessu divi Marci"	"History"	NA	"First1K"	53141	200.5	47029
+"0024-001"	101	300	"Oppianus"	"Cynegetica"	"Scientific Poetry"	"Ionic/Epic"	"Perseus"	15894	200.5	13574
+"2042-001"	101	300	"Origenes"	"Contra Celsum"	"Theology"	"Koine"	"Perseus"	188817	200.5	166205
+"2042-005"	101	300	"Origenes"	"Commentarii in evangelium Joannis"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	176596	200.5	151496
+"2042-006"	101	300	"Origenes"	"Fragmenta in evangelium Joannis"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	25664	200.5	20393
+"2042-007"	101	300	"Origenes"	"Exhortatio ad martyrium"	"Theology"	"Koine"	"Perseus"	14701	200.5	12399
+"2042-008"	101	300	"Origenes"	"De oratione"	"Theology"	"Koine"	"Perseus"	33918	200.5	28102
+"2042-009"	101	300	"Origenes"	"In Jeremiam"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	67088	200.5	55053
+"2042-010"	101	300	"Origenes"	"Fragmenta in Jeremiam"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	9786	200.5	8128
+"2042-011"	101	300	"Origenes"	"Fragmenta in Lamentationes"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	12172	200.5	10346
+"2042-012"	101	300	"Origenes"	"Fragmentum in Lamentationes"	"Commentary"	"Koine"	"First1K"	186	200.5	159
+"2042-013"	101	300	"Origenes"	"De engastrimytho"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	4324	200.5	3579
+"2042-014"	101	300	"Origenes"	"Fragmenta in librum primum Regnorum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	2216	200.5	1612
+"2042-015"	101	300	"Origenes"	"Fragmentum in librum primum Regnorum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	95	200.5	83
+"2042-016"	101	300	"Origenes"	"Homiliae in Lucam"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	14469	200.5	11611
+"2042-018"	101	300	"Origenes"	"Dialogus cum Heraclide"	"Theology"	"Koine"	"https://www.documentacatholicaomnia.eu"	6667	200.5	5458
+"2042-020"	101	300	"Origenes"	"Philocalia sive Ecloga de operibus Origenis a Basilio et Gregorio Nazianzeno facta"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	16164	200.5	14188
+"2042-022"	101	300	"Origenes"	"Homiliae in Genesim"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	1187	200.5	1050
+"2042-023"	101	300	"Origenes"	"Homiliae in Exodum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	1121	200.5	919
+"2042-024"	101	300	"Origenes"	"Homiliae in Leviticum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	1884	200.5	1485
+"2042-025"	101	300	"Origenes"	"In Jesu Nave homiliae xxvi"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	5441	200.5	4276
+"2042-026"	101	300	"Origenes"	"Libri x in Canticum canticorum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	3585	200.5	2693
+"2042-027"	101	300	"Origenes"	"Homiliae in Ezechielem"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	1753	200.5	1330
+"2042-028"	101	300	"Origenes"	"Commentariorum series in evangelium Matthaei"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	5084	200.5	4346
+"2042-029"	101	300	"Origenes"	"Commentarium in evangelium Matthaei"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	25681	200.5	22221
+"2042-030"	101	300	"Origenes"	"Commentarium in evangelium Matthaei"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	104758	200.5	90495
+"2042-033"	101	300	"Origenes"	"Epistula ad Gregorium Thaumaturgum"	"Epistolography"	"Koine"	"https://www.documentacatholicaomnia.eu"	944	200.5	831
+"2042-040"	101	300	"Origenes"	"Epistula ad ignotum"	"Epistolography"	"Koine"	"https://www.documentacatholicaomnia.eu"	136	200.5	124
+"2042-045"	101	300	"Origenes"	"Epistula ad Africanum"	"Epistolography"	"Koine"	"https://www.documentacatholicaomnia.eu"	6223	200.5	5221
+"2042-046"	101	300	"Origenes"	"De resurrectione libri ii"	"Theology"	"Koine"	"https://www.documentacatholicaomnia.eu"	297	200.5	252
+"2042-047"	101	300	"Origenes"	"Commentarii in Genesim"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	7910	200.5	6756
+"2042-048"	101	300	"Origenes"	"Selecta in Genesim"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	12225	200.5	9680
+"2042-049"	101	300	"Origenes"	"Fragmenta ex commentariis in Exodum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	3969	200.5	3342
+"2042-050"	101	300	"Origenes"	"Selecta in Exodum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	3887	200.5	3170
+"2042-051"	101	300	"Origenes"	"Selecta in Leviticum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	1798	200.5	1470
+"2042-052"	101	300	"Origenes"	"Selecta in Numeros"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	2076	200.5	1689
+"2042-053"	101	300	"Origenes"	"Selecta in Deuteronomium"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	2986	200.5	2421
+"2042-054"	101	300	"Origenes"	"Selecta in Jesu Nave"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	1132	200.5	932
+"2042-055"	101	300	"Origenes"	"Selecta in Judices"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	344	200.5	266
+"2042-056"	101	300	"Origenes"	"In Ruth"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	64	200.5	50
+"2042-057"	101	300	"Origenes"	"Homiliae in Job"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	4288	200.5	3421
+"2042-059"	101	300	"Origenes"	"Fragmenta ex commentariis in Proverbia"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	4046	200.5	3298
+"2042-060"	101	300	"Origenes"	"In Canticum canticorum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	176	200.5	153
+"2042-061"	101	300	"Origenes"	"Fragmenta ex commentariis in Ezechielem"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	496	200.5	434
+"2042-062"	101	300	"Origenes"	"Selecta in Ezechielem"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	13447	200.5	11548
+"2042-063"	101	300	"Origenes"	"Fragmentum ex commentariis in Osee"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	698	200.5	554
+"2042-064"	101	300	"Origenes"	"Fragmentum ex homiliis in Acta apostolorum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	216	200.5	175
+"2042-065"	101	300	"Origenes"	"In epistulam ad Hebraeos homiliae"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	195	200.5	168
+"2042-066"	101	300	"Origenes"	"Adnotationes in Genesim"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	765	200.5	620
+"2042-067"	101	300	"Origenes"	"Adnotationes in Exodum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	291	200.5	237
+"2042-068"	101	300	"Origenes"	"Adnotationes in Leviticum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	764	200.5	610
+"2042-069"	101	300	"Origenes"	"Adnotationes in Numeros"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	261	200.5	193
+"2042-070"	101	300	"Origenes"	"Adnotationes in Deuteronomium"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	2685	200.5	2154
+"2042-071"	101	300	"Origenes"	"Adnotationes in Jesu filium Nave"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	201	200.5	163
+"2042-072"	101	300	"Origenes"	"Adnotationes in Judices"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	239	200.5	189
+"2042-073"	101	300	"Origenes"	"Homiliae in Job"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	10030	200.5	8235
+"2042-074"	101	300	"Origenes"	"Excerpta in Psalmos"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	10425	200.5	8655
+"2042-075"	101	300	"Origenes"	"Expositio in Proverbia"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	21229	200.5	17903
+"2042-076"	101	300	"Origenes"	"Scholia in Canticum canticorum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	8196	200.5	6939
+"2042-077"	101	300	"Origenes"	"Scholia in Matthaeum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	5214	200.5	4190
+"2042-078"	101	300	"Origenes"	"Scholia in Lucam"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	13442	200.5	11413
+"2042-079"	101	300	"Origenes"	"Commentarii in evangelium Joannis"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	70532	200.5	60383
+"2042-086"	101	300	"Origenes"	"Homiliae in Job"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	7417	200.5	6126
+"0638-001"	101	300	"Flavius Philostratus"	"Vita Apollonii"	"Biography"	"Attic/Koine"	"Perseus"	100923	200.5	84757
+"0638-003"	101	300	"Flavius Philostratus"	"Vitae sophistarum"	"Biography"	"Attic/Koine"	"Perseus"	33452	200.5	29198
+"0638-004"	101	300	"Flavius Philostratus"	"Heroicus"	"Dialogue"	"Attic/Koine"	"Perseus"	25261	200.5	21983
+"0638-005"	101	300	"Flavius Philostratus"	"Nero"	"Dialogue"	"Attic/Koine"	"Perseus"	1143	200.5	1003
+"0638-006"	101	300	"Flavius Philostratus"	"Epistulae et dialexeis"	"Epistolography"	"Attic/Koine"	"Perseus"	8914	200.5	7638
+"0638-007"	101	300	"Flavius Philostratus"	"De gymnastica"	"History"	"Attic/Koine"	"Perseus"	8774	200.5	7696
+"0638-009"	101	300	"Flavius Philostratus"	"Epigramma"	"Lyric poetry"	NA	"Perseus"	54	200.5	46
+"1600-001"	101	300	"Philostratus Major"	"Imagines"	"Art"	NA	"Perseus"	26321	200.5	23070
+"0094-002"	101	300	"Pseudo-Plutarchus"	"De musica"	"Music"	NA	"Perseus"	8933	200.5	7970
+"1665-001"	101	300	"Seniores Apud Irenaeum"	"Reliquiae plurium anonymorum"	"Theology"	"Koine"	"First1K"	373	200.5	324
+"1666-001"	101	300	"Sententiae Sexti"	"Sententiae Sexti"	"Philosophy"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	4331	200.5	3705
+"0544-001"	101	300	"Sextus Empiricus"	"Pyrrhoniae hypotyposes"	"Philosophy"	NA	"http://remacle.org"	59003	200.5	51587
+"1702-001"	101	300	"Testamentum Jobi"	"Testamentum Jobi"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	7696	200.5	6734
+"0641-001"	101	300	"Xenophon"	"Ephesiaca"	"Narrative"	NA	"Perseus"	19250	200.5	16559
+"0090-001"	201	300	"Agathemerus"	"Geographiae informatio"	"Geography"	NA	"Perseus"	2323	250.5	1964
+"1286-001"	201	300	"Corpus Hermeticum"	"Poimandres"	"Philosophy"	NA	"https://el.wikisource.org"	2676	250.5	2186
+"1286-002"	201	300	"Corpus Hermeticum"	"Dialogus"	"Philosophic Dialogue"	NA	"https://el.wikisource.org"	1574	250.5	1333
+"1286-003"	201	300	"Corpus Hermeticum"	"Hieros logos"	"Philosophy"	NA	"https://el.wikisource.org"	352	250.5	317
+"1286-004"	201	300	"Corpus Hermeticum"	"Πρὸς Τὰτ ὁ κρατὴρ ἢ μονάς"	"Philosophic Dialogue"	NA	"https://el.wikisource.org"	1035	250.5	877
+"1286-005"	201	300	"Corpus Hermeticum"	"Πρὸς Τὰτ υἱὸν ὅτι ἀφανὴς θεὸς φανερώτατός ἐστιν"	"Philosophic Dialogue"	NA	"https://el.wikisource.org"	1274	250.5	1049
+"1286-006"	201	300	"Corpus Hermeticum"	"Ὅτι ἐν μόνῳ τῷ θεῷ τὸ ἀγαθόν ἐστιν, ἀλλαχόθι δὲ οὐδαμοῦ"	"Philosophic Dialogue"	NA	"https://el.wikisource.org"	894	250.5	754
+"1286-007"	201	300	"Corpus Hermeticum"	"Ὅτι μέγιστον κακὸν ἐν ἀνθρώποις ἡ περὶ τοῦ θεοῦ ἀγνωσία"	"Philosophy"	NA	"https://el.wikisource.org"	287	250.5	238
+"1286-008"	201	300	"Corpus Hermeticum"	"Ὅτι οὐδὲν τῶν ὄντων ἀπόλλυται, ἀλλὰ τὰς μεταβολὰς ἀπωλείας καὶ θανάτους πλανώμενοι λέγουσιν"	"Philosophic Dialogue"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	529	250.5	451
+"1286-009"	201	300	"Corpus Hermeticum"	"Περὶ νοήσεως καὶ αἰσθήσεως. [ὅτι ἐν μόνῳ τῷ θεῷ τὸ καλὸν καὶ ἀγαθόν ἐστιν, ἀλλαχόθι δὲ οὐδαμοῦ]"	"Philosophic Dialogue"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	1125	250.5	958
+"1286-010"	201	300	"Corpus Hermeticum"	"Κλείς"	"Philosophic Dialogue"	NA	"https://el.wikisource.org"	2781	250.5	2378
+"1286-011"	201	300	"Corpus Hermeticum"	"Νοῦς πρὸς Ἑρμῆν"	"Philosophic Dialogue"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	2576	250.5	2151
+"1286-012"	201	300	"Corpus Hermeticum"	"Περὶ νοῦ κοινοῦ πρὸς Τάτ"	"Philosophic Dialogue"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	2410	250.5	2040
+"1286-013"	201	300	"Corpus Hermeticum"	"Πρὸς τὸν υἱὸν Τὰτ ἐν ὄρει λόγος ἀπόκρυφος, περὶ παλιγγενεσίας καὶ σιγῆς ἐπαγγελίας"	"Philosophic Dialogue"	NA	"http://ldysinger.stjohnsem.edu"	2162	250.5	1727
+"0004-001"	201	300	"Diogenes Laertius"	"Vitae philosophorum"	"Biography"	NA	"Perseus"	130661	250.5	110109
+"0004-002"	201	300	"Diogenes Laertius"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	1244	250.5	1042
+"2063-005"	201	300	"Gregorius Thaumaturgus"	"Epistula canonica"	"Epistolography"	NA	"https://el.orthodoxwiki.org"	1205	250.5	1037
+"0658-001"	201	300	"Heliodorus"	"Aethiopica"	"Narrative"	"Attic/Koine"	"First1K"	89151	250.5	76926
+"0658-002"	201	300	"Heliodorus"	"Epigrammata"	"Lyric poetry"	"Aeolic"	"Perseus"	102	250.5	82
+"2115-060"	201	300	"Hippolytus"	"Refutatio omnium haeresium"	"Theology"	"Koine"	"First1K"	81518	250.5	70125
+"2178-001"	201	300	"Cassius Longinus"	"Ars rhetorica"	"Rhetoric"	NA	"First1K"	6311	250.5	5463
+"2178-002"	201	300	"Cassius Longinus"	"Excerpta"	"Rhetoric"	NA	"First1K"	748	250.5	652
+"2583-001"	201	300	"Manetho"	"Apotelesmatica"	"Scientific Poetry"	"Ionic/Epic"	"First1K"	22992	250.5	19528
+"2009-001"	201	300	"Vitae Sancti Marini"	"Martyrium Marini"	"Religious Narrative"	"Koine"	"https://www.hs-augsburg.de/~harsch/augustana.html"	293	250.5	252
+"2016-001"	201	300	"Vitae Sanctorum Perpetuae Et Felicitatis"	"Passio Perpetuae et Felicitatis"	"Religious Narrative"	"Koine"	"http://users.uoa.gr/~nektar"	4566	250.5	3976
+"2007-001"	201	300	"Vitae Sanctorum Potamiaenae Et Basilidis"	"Martyrium Potamiaenae et Basilidis"	"Religious Narrative"	"Koine"	"https://www.hs-augsburg.de/~harsch/augustana.html"	421	250.5	383
+"0581-001"	201	300	"Paradoxographus Palatinus"	"Admiranda"	"Paradoxography"	NA	"https://sententiaeantiquae.com"	685	250.5	605
+"0077-001"	201	300	"Periplus Maris Magni"	"Stadiasmus sive periplus Maris Magni"	"Geography"	NA	"First1K"	6693	250.5	5639
+"0652-001"	201	300	"Philostratus Junior"	"Imagines"	"Art"	"Attic/Koine"	"Perseus"	8053	250.5	7206
+"2000-001"	201	300	"Plotinus"	"Enneades"	"Philosophy"	"Attic/Koine"	"First1K"	246704	250.5	215918
+"2034-001"	201	300	"Porphyrius"	"Vita Plotini"	"Biography"	NA	"http://remacle.org"	9190	250.5	8048
+"2034-002"	201	300	"Porphyrius"	"Vita Pythagorae"	"Biography"	NA	"First1K"	6551	250.5	5914
+"2034-003"	201	300	"Porphyrius"	"De abstinentia"	"Philosophy"	NA	"http://remacle.org"	39825	250.5	35099
+"2034-004"	201	300	"Porphyrius"	"De antro nympharum"	"Commentary"	NA	"http://remacle.org"	5554	250.5	4939
+"2034-005"	201	300	"Porphyrius"	"Ad Marcellam"	"Philosophy"	NA	"First1K"	5186	250.5	4686
+"2034-006"	201	300	"Porphyrius"	"Isagoge sive quinque voces"	"Commentary"	NA	"http://www.logicmuseum.com"	6369	250.5	5677
+"2034-008"	201	300	"Porphyrius"	"Sententiae ad intelligibilia ducentes"	"Philosophy"	NA	"https://el.wikisource.org"	8659	250.5	7711
+"2034-028"	201	300	"Porphyrius"	"Introductio in tetrabiblum Ptolemaei"	"Astronomy/Astrology"	NA	"http://www.astrologicon.org"	9671	250.5	8532
+"2046-001"	201	300	"Quintus"	"Posthomerica"	"Epic poetry"	"Ionic/Epic"	"Perseus"	69034	250.5	60504
+"2679-001"	201	300	"Testamentum Salomonis"	"Testamentum Salomonis"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	9298	250.5	8097
+"2679-002"	201	300	"Testamentum Salomonis"	"Testamentum Salomonis"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	85	250.5	76
+"2027-001"	201	300	"Valerius Apsines"	"Ars rhetorica"	"Rhetoric"	NA	"First1K"	21927	250.5	18758
+"2027-002"	201	300	"Valerius Apsines"	"Περὶ τῶν ἐσχηματισμένων προβλημάτων"	"Rhetoric"	NA	"First1K"	2128	250.5	1649
+"2135-001"	201	400	"Alypius"	"Isagoge musica"	"Music"	NA	"First1K"	5002	300.5	4824
+"2243-001"	201	400	"Apocalypsis Sedrach"	"Apocalypsis Sedrach"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	2741	300.5	2328
+"2136-001"	201	400	"Bacchius Geron"	"Isagoge artis musicae"	"Music"	NA	"First1K"	4108	300.5	3086
+"2137-001"	201	400	"Gaudentius"	"Harmonica introductio"	"Music"	NA	"First1K"	5446	300.5	4842
+"1386-001"	201	400	"Historia Alexandri Magni"	"Recensio α sive Recensio vetusta"	"Narrative"	NA	"http://attalus.org"	38750	300.5	33332
+"2023-002"	201	400	"Iamblichus"	"Protrepticus"	"Philosophy"	NA	"First1K"	29294	300.5	26282
+"2586-001"	201	400	"Menander"	"Διαίρεσις τῶν ἐπιδεικτικῶν"	"Rhetoric"	NA	"https://eprints.ucm.es/id/eprint/51591"	10478	300.5	9043
+"2586-002"	201	400	"Menander"	"Περὶ ἐπιδεικτικῶν"	"Rhetoric"	NA	"https://eprints.ucm.es/id/eprint/51591"	22476	300.5	19650
+"2959-001"	201	400	"Methodius Episcopus"	"Symposium sive Convivium decem virginum"	"Philosophic Dialogue"	NA	"https://edoc.ub.uni-muenchen.de/22522/"	32608	300.5	28301
+"2959-002"	201	400	"Methodius Episcopus"	"De Libero Arbitrio"	"Philosophic Dialogue"	NA	"First1K"	8251	300.5	7245
+"2959-005"	201	400	"Methodius Episcopus"	"De Creatis (Fragmenta Ap. Photium, Bibl. Cod. 235)"	"Philosophic Dialogue"	NA	"First1K"	2198	300.5	1890
+"2966-002"	201	400	"Phileas"	"Epistula ad Thmuitanos"	"Epistolography"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	739	300.5	660
+"0094-001"	201	400	"Pseudo-Plutarchus"	"De fluviis"	"Geography"	NA	"First1K"	7438	300.5	6515
+"0094-003"	201	400	"Pseudo-Plutarchus"	"Placita philosophorum"	"History"	NA	"Perseus"	17532	300.5	15506
+"0647-001"	201	400	"Triphiodorus"	"Ἅλωσις Ἰλίου"	"Epic poetry"	"Ionic/Epic"	"Perseus"	4840	300.5	4265
+"0096-002a"	-800	800	"Aesopus et Aesopica"	"Fabulae"	"Narrative"	NA	"https://obvil.sorbonne-universite.fr/corpus/fabula-numerica/anonymes_chambry"	80361	0	67521
+"0096-002b"	-800	800	"Aesopus et Aesopica"	"Fabulae"	"Narrative"	NA	"First1K"	48460	0	39651
+"2003-001"	301	400	"Flavius Claudius Julianus Imperator"	"Ἐγκώμιον εἰς τὸν αὐτοκράτορα Κωνστάντιον"	"Oratory"	NA	"Perseus"	13052	350.5	11688
+"2236-001"	301	400	"Paeanius"	"Breviarium ab urbe condita"	"History"	NA	"First1K"	26295	350.5	23952
+"1443-001"	1	200	"Ignatius"	"Epistulae vii genuinae"	"Epistolography"	NA	"First1K"	9127	100.5	7793
+"1484-001"	101	200	"Vitae Sancti Polycarpi"	"Epistula ecclesiae Smyrnensis de martyrio sancti Polycarpi"	"Epistolography"	NA	"First1K"	3061	150.5	2656
