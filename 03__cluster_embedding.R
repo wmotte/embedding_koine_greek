@@ -148,10 +148,6 @@ p_sil <- ggplot( df_sil, aes( x = x, y = y ) ) +
 # Save the plot
 ggsave( p_sil, file = file.path( outdir, "silhouette.png" ), width = 6, height = 4, dpi = 600, bg = 'white' )
 
-
-stop( '..........' )
-
-
 # Find medoids for optimal clustering
 optimal_clusters <- cutree( hc_result, k = optimal_k_sil )
 medoid_result <- find_cluster_medoids( embedding_sample, optimal_clusters )
