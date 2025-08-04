@@ -22,44 +22,8 @@ get_preparation <- function( sentence, outdir, term_count_min )
     it <- itoken( tokens, progressbar = TRUE )
     vocab <- create_vocabulary( it )
     
-    # prune to get rid of maximal "@" BE CAREFUL! 'term_count_max' will remove everything above freq of @!!
-    #vocab <- prune_vocabulary( vocab, term_count_max = vocab[ vocab$term == '@', 'term_count' ] - 1 )
-    
-
-    terms_to_remove <- c(     
-        "𐅻",
-        "ς#",
-        "⋖ʹ",
-        "ϟʹ",
-        "𝈒𝈩",
-        ",",
-        "𝈚𝈿",
-        "Ϡ",
-        "_",
-        "⩹ʹ",
-        "Ϟʹ",
-        "Ι𝈶",
-        "Ϡʹ",
-        "𐅻̅",
-        "𐆄",
-        "γ#",
-        "Ιϡ",
-        "Φ𝈓̓" ,
-        "̓",
-        "Ε𝈈",
-        "Μ𝈳",
-        "Σϡ",
-        "ϡ",
-        "ʹ",
-        "∠ʹ",
-        "𝈖𝈪",
-        "Ρ𝈱",
-        "͵ε",
-        "𝈛𝈾",
-        "α#",
-        "ε#",
-        "Ζ𝈸",
-        "Θ𝈍" )
+    # artificial separator between texts
+    terms_to_remove <- c( "@" )   
     
     for( term in terms_to_remove )
     {

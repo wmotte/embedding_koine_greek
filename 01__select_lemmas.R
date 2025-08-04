@@ -57,6 +57,16 @@ parse_treebank <- function( xml_file )
     # some lemmas have spaces i.e. in 0081-001: "Κοριλ ́λα"
     df$lemma <- gsub( " ", "", df$lemma )
 
+    # Create the pattern using | (OR operator) to match any of the characters
+    pattern <- "𐅻|#|ϟ|,|Ϡ|_|ϡ|Ϟʹ|𐆄|ʹ|∠"
+    
+    # Use grepl to get logical vector indicating which cells contain any of these characters
+    #result <- grepl( pattern, df$lemma )
+    
+    matches <- grepl( pattern, df$lemma )
+    
+    df <- df[ !matches, ]
+    
     # if chapter is NA set to 0
     if( sum( is.na( df$chapter ) ) == nrow( df ) )
         df$chapter <- 0
