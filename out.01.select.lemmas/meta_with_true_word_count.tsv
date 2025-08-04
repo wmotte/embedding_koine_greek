@@ -24,7 +24,7 @@
 "0627-003"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"Prognosticon"	"Medicine"	"Ionic"	"First1K"	6087	-400.5	5261
 "0627-004"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De diaeta in morbis acutis"	"Medicine"	"Ionic"	"First1K"	7143	-400.5	6199
 "0627-005"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De diaeta acutorum"	"Medicine"	"Ionic"	"First1K"	6447	-400.5	5367
-"0627-006"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De morbis popularibus"	"Medicine"	"Ionic"	"First1K"	53855	-400.5	42046
+"0627-006"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De morbis popularibus"	"Medicine"	"Ionic"	"First1K"	53855	-400.5	42030
 "0627-007"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De capitis vulneribus"	"Medicine"	"Ionic"	"First1K"	5821	-400.5	5041
 "0627-008"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De officina medici"	"Medicine"	"Ionic"	"First1K"	2819	-400.5	2174
 "0627-009"	-500	-301	"Hippocrates et Corpus Hippocraticum"	"De fracturis"	"Medicine"	"Ionic"	"First1K"	13226	-400.5	11316
@@ -187,7 +187,7 @@
 "0059-035"	-500	-301	"Plato"	"Epinomis"	"Philosophic Dialogue"	"Attic"	"Perseus"	7244	-400.5	6378
 "0059-036"	-500	-301	"Plato"	"Epistulae"	"Epistolography"	"Attic"	"Perseus"	19483	-400.5	17172
 "0497-005"	-500	-301	"Plato Comicus"	"Epigramma"	"Lyric poetry"	"Ionic/Epic"	"https://el.wikisource.org"	95	-400.5	75
-"0065-001"	-500	-301	"Scylax"	"Periplus Scylacis"	"Geography"	"Attic"	"https://camws.org"	9978	-400.5	8357
+"0065-001"	-500	-301	"Scylax"	"Periplus Scylacis"	"Geography"	"Attic"	"https://camws.org"	9978	-400.5	8351
 "0032-001"	-500	-301	"Xenophon"	"Hellenica"	"History"	"Attic"	"Perseus"	75656	-400.5	66792
 "0032-002"	-500	-301	"Xenophon"	"Memorabilia"	"Biography"	"Attic"	"Perseus"	42236	-400.5	36268
 "0032-003"	-500	-301	"Xenophon"	"Oeconomicus"	"Philosophic Dialogue"	"Attic"	"Perseus"	20938	-400.5	17998
@@ -258,8 +258,8 @@
 "0086-052"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"De anima"	"Philosophy"	"Attic"	"https://el.wikisource.org"	2790	-350.5	2444
 "0086-054"	-400	-301	"Aristoteles et Corpus Aristotelicum"	"Physicorum libri septimi textus alter"	"Physics"	"Attic"	"First1K"	2624	-350.5	2299
 "0088-003"	-400	-301	"Aristoxenus"	"Elementa rhythmica"	"Music"	"Attic"	"https://rucore.libraries.rutgers.edu/rutgers-lib/25847"	2496	-350.5	2217
-"1210-001"	-400	-301	"Autolycus"	"De sphaera quae movetur"	"Astronomy/Astrology"	"Attic"	"First1K"	4433	-350.5	4036
-"1210-002"	-400	-301	"Autolycus"	"De ortibus et occasibus"	"Astronomy/Astrology"	"Attic"	"First1K"	11370	-350.5	10216
+"1210-001"	-400	-301	"Autolycus"	"De sphaera quae movetur"	"Astronomy/Astrology"	"Attic"	"First1K"	4433	-350.5	3949
+"1210-002"	-400	-301	"Autolycus"	"De ortibus et occasibus"	"Astronomy/Astrology"	"Attic"	"First1K"	11370	-350.5	10142
 "0535-001"	-400	-301	"Demades"	"Fragmenta"	"Oratory"	"Attic"	"Perseus"	2286	-350.5	2014
 "0014-001"	-400	-301	"Demosthenes"	"Olynthiaca 1"	"Oratory"	"Attic"	"Perseus"	2158	-350.5	1860
 "0014-002"	-400	-301	"Demosthenes"	"Olynthiaca 2"	"Oratory"	"Attic"	"Perseus"	2387	-350.5	2067
@@ -340,7 +340,7 @@
 "0618-001"	-400	-201	"Antigoni Epistula"	"Epistula"	"Epistolography"	NA	"http://remacle.org"	110	-300.5	99
 "0653-001"	-400	-201	"Aratus"	"Phaenomena"	"Scientific Poetry"	"Ionic/Epic"	"Perseus"	9019	-300.5	7838
 "0653-002"	-400	-201	"Aratus"	"Fragmentum"	"Scientific Poetry"	NA	"Perseus"	61	-300.5	50
-"1181-001"	-400	-201	"Aristarchus"	"De magnitudinibus et distantiis solis et lunae"	"Astronomy/Astrology"	NA	"First1K"	7900	-300.5	6970
+"1181-001"	-400	-201	"Aristarchus"	"De magnitudinibus et distantiis solis et lunae"	"Astronomy/Astrology"	NA	"First1K"	7900	-300.5	6858
 "0533-003"	-400	-201	"Callimachus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	2422	-300.5	1975
 "0533-004"	-400	-201	"Callimachus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	2494	-300.5	2052
 "0533-006"	-400	-201	"Callimachus"	"Aetia"	"Lyric poetry"	NA	"http://dcc.dickinson.edu"	4972	-300.5	3756
@@ -377,35 +377,35 @@
 "0001-001"	-300	-201	"Apollonius Rhodius"	"Argonautica"	"Epic poetry"	"Ionic/Epic"	"Perseus"	45941	-250.5	39143
 "0570-002"	-300	-201	"Archelaus"	"Epigramma"	"Lyric poetry"	"Doric"	"Perseus"	37	-250.5	29
 "0552-001"	-300	-201	"Archimedes"	"De sphaera et cylindro"	"Mathematics"	"Koine"	"First1K"	28728	-250.5	25682
-"0552-002"	-300	-201	"Archimedes"	"Dimensio circuli"	"Mathematics"	"Koine"	"First1K"	1218	-250.5	1086
-"0552-003"	-300	-201	"Archimedes"	"De conoidibus et sphaeroidibus"	"Mathematics"	"Doric"	"First1K"	25189	-250.5	22794
-"0552-004"	-300	-201	"Archimedes"	"De lineis spiralibus"	"Mathematics"	"Doric"	"First1K"	15871	-250.5	14353
-"0552-005"	-300	-201	"Archimedes"	"De planorum aequilibriis"	"Mathematics"	"Doric"	"First1K"	10058	-250.5	8997
+"0552-002"	-300	-201	"Archimedes"	"Dimensio circuli"	"Mathematics"	"Koine"	"First1K"	1218	-250.5	1075
+"0552-003"	-300	-201	"Archimedes"	"De conoidibus et sphaeroidibus"	"Mathematics"	"Doric"	"First1K"	25189	-250.5	22793
+"0552-004"	-300	-201	"Archimedes"	"De lineis spiralibus"	"Mathematics"	"Doric"	"First1K"	15871	-250.5	14332
+"0552-005"	-300	-201	"Archimedes"	"De planorum aequilibriis"	"Mathematics"	"Doric"	"First1K"	10058	-250.5	8995
 "0552-006"	-300	-201	"Archimedes"	"Arenarius"	"Mathematics"	"Doric"	"First1K"	5513	-250.5	5049
 "0552-007"	-300	-201	"Archimedes"	"Quadratura parabolae"	"Mathematics"	"Doric"	"First1K"	6521	-250.5	5793
 "0552-009"	-300	-201	"Archimedes"	"Stomachion"	"Mathematics"	"Koine"	"First1K"	502	-250.5	418
 "0552-010"	-300	-201	"Archimedes"	"Ad Eratosthenem methodus"	"Mathematics"	"Koine"	"First1K"	10942	-250.5	9671
-"0552-011"	-300	-201	"Archimedes"	"Liber assumptorum"	"Mathematics"	"Doric"	"First1K"	4201	-250.5	3660
-"0552-012"	-300	-201	"Archimedes"	"Problema bovinum"	"Scientific Poetry"	NA	"First1K"	764	-250.5	697
-"0552-013"	-300	-201	"Archimedes"	"Fragmenta"	"Mathematics"	"Koine"	"First1K"	1336	-250.5	1173
+"0552-011"	-300	-201	"Archimedes"	"Liber assumptorum"	"Mathematics"	"Doric"	"First1K"	4201	-250.5	3659
+"0552-012"	-300	-201	"Archimedes"	"Problema bovinum"	"Scientific Poetry"	NA	"First1K"	764	-250.5	694
+"0552-013"	-300	-201	"Archimedes"	"Fragmenta"	"Mathematics"	"Koine"	"First1K"	1336	-250.5	1168
 "0131-001"	-300	-201	"Archimelus"	"Epigramma"	"Lyric poetry"	NA	"Perseus"	48	-250.5	38
 "1183-001"	-300	-201	"Aristeae Epistula"	"Aristeae epistula ad Philocratem"	"Epistolography"	NA	"https://el.wikisource.org"	15131	-250.5	12932
 "0137-001"	-300	-201	"Asclepiades"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	1516	-250.5	1213
 "0174-001"	-300	-201	"Diotimus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	295	-250.5	248
 "2622-001"	-300	-201	"Dorieus Poeta"	"Epigramma"	"Lyric poetry"	NA	"Perseus"	63	-250.5	53
-"1799-001"	-300	-201	"Euclides"	"Elementa"	"Mathematics"	NA	"Perseus"	176472	-250.5	152811
+"1799-001"	-300	-201	"Euclides"	"Elementa"	"Mathematics"	NA	"Perseus"	176472	-250.5	152809
 "1799-008"	-300	-201	"Euclides"	"Data"	"Mathematics"	NA	"First1K"	4741	-250.5	4209
-"1799-010"	-300	-201	"Euclides"	"Opticorum recensio Theonis"	"Mathematics"	NA	"First1K"	11629	-250.5	10199
-"1799-011"	-300	-201	"Euclides"	"Catoptrica"	"Mathematics"	NA	"First1K"	6122	-250.5	5320
-"1799-012"	-300	-201	"Euclides"	"Phaenomena"	"Astronomy/Astrology"	NA	"First1K"	9197	-250.5	8015
-"1799-013"	-300	-201	"Euclides"	"Phaenomena"	"Astronomy/Astrology"	NA	"First1K"	761	-250.5	673
-"1799-014"	-300	-201	"Euclides"	"Phaenomena"	"Astronomy/Astrology"	NA	"First1K"	2730	-250.5	2382
-"1799-015"	-300	-201	"Euclides"	"Sectio canonis"	"Music"	NA	"First1K"	2854	-250.5	2482
+"1799-010"	-300	-201	"Euclides"	"Opticorum recensio Theonis"	"Mathematics"	NA	"First1K"	11629	-250.5	9977
+"1799-011"	-300	-201	"Euclides"	"Catoptrica"	"Mathematics"	NA	"First1K"	6122	-250.5	5249
+"1799-012"	-300	-201	"Euclides"	"Phaenomena"	"Astronomy/Astrology"	NA	"First1K"	9197	-250.5	7933
+"1799-013"	-300	-201	"Euclides"	"Phaenomena"	"Astronomy/Astrology"	NA	"First1K"	761	-250.5	660
+"1799-014"	-300	-201	"Euclides"	"Phaenomena"	"Astronomy/Astrology"	NA	"First1K"	2730	-250.5	2365
+"1799-015"	-300	-201	"Euclides"	"Sectio canonis"	"Music"	NA	"First1K"	2854	-250.5	2455
 "1799-017"	-300	-201	"Euclides"	"Epigramma"	"Lyric poetry"	NA	"First1K"	57	-250.5	46
 "0221-004"	-300	-201	"Euphorion"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	71	-250.5	62
 "0198-001"	-300	-201	"Hedylus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	185	-250.5	150
 "1391-001"	-300	-201	"Hegemon"	"Epigramma"	"Lyric poetry"	"Doric"	"Perseus"	30	-250.5	24
-"1405-001"	-300	-201	"Heraclides Criticus"	"Descriptio Graeciae"	"Geography"	NA	"First1K"	3123	-250.5	2683
+"1405-001"	-300	-201	"Heraclides Criticus"	"Descriptio Graeciae"	"Geography"	NA	"First1K"	3123	-250.5	2680
 "0051-001"	-300	-201	"Melissa"	"Fragmentum epistulae ad Clearetam"	"Philosophy"	"Doric"	"http://chaerephon.e-monsite.com"	239	-250.5	217
 "0218-002"	-300	-201	"Nicaenetus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	147	-250.5	120
 "1533-001"	-300	-201	"Nicias"	"Epigrammata"	"Lyric poetry"	"Doric"	"Perseus"	208	-250.5	169
@@ -434,7 +434,7 @@
 "0036-002"	-200	-101	"Bion"	"Epithalamium Achillis et Deidameiae"	"Lyric poetry"	"Doric"	"Perseus"	276	-150.5	231
 "0036-003"	-200	-101	"Bion"	"Fragmenta"	"Lyric poetry"	"Doric"	"Perseus"	1038	-150.5	873
 "0063-001"	-200	-101	"Dionysius Thrax"	"Ars grammatica"	"Language"	NA	"https://el.wikisource.org"	3991	-150.5	3160
-"1431-003"	-200	-101	"Hipparchus"	"In Arati et Eudoxi phaenomena commentariorum libri iii"	"Philosophy"	NA	"First1K"	31722	-150.5	28439
+"1431-003"	-200	-101	"Hipparchus"	"In Arati et Eudoxi phaenomena commentariorum libri iii"	"Philosophy"	NA	"First1K"	31722	-150.5	28435
 "1493-001"	-200	-101	"Melinno"	"Εἰς Ῥώμην"	"Lyric poetry"	"Doric"	"http://chaerephon.e-monsite.com"	98	-150.5	84
 "0035-001"	-200	-101	"Moschus"	"Eros drapeta"	"Lyric poetry"	"Doric"	"Perseus"	306	-150.5	245
 "0035-002"	-200	-101	"Moschus"	"Europa"	"Lyric poetry"	"Ionic/Epic"	"Perseus"	1329	-150.5	1143
@@ -478,7 +478,7 @@
 "0527-045"	-200	-101	"Septuaginta"	"Aggaeus"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	1078	-150.5	951
 "0527-046"	-200	-101	"Septuaginta"	"Zacharias"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	5641	-150.5	4983
 "0527-047"	-200	-101	"Septuaginta"	"Malachias"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	1632	-150.5	1414
-"0527-048"	-200	-101	"Septuaginta"	"Isaias"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	31653	-150.5	27480
+"0527-048"	-200	-101	"Septuaginta"	"Isaias"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	31653	-150.5	27479
 "0527-049"	-200	-101	"Septuaginta"	"Jeremias"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	33200	-150.5	29023
 "0527-050"	-200	-101	"Septuaginta"	"Baruch"	"Religious Poetry"	"Koine"	"https://el.wikisource.org"	2980	-150.5	2625
 "0527-051"	-200	-101	"Septuaginta"	"Threni seu Lamentationes"	"Religious Poetry"	"Koine"	"https://el.wikisource.org"	2925	-150.5	2453
@@ -495,10 +495,10 @@
 "1464-001"	-200	-1	"Liber Jubilaeorum"	"Fragmenta"	"Religious History"	"Koine"	"https://el.wikisource.org"	3170	-100.5	2773
 "0556-001"	-100	-1	"Asclepiodotus"	"Tactica"	"Military"	NA	"Perseus"	7414	-50.5	6527
 "1803-001a"	-100	-1	"Bruti Epistulae"	"Epistulae"	"Epistolography"	NA	"https://www.academia.edu/24558475/The_Greek_letters_ascribed_to_Brutus_HSCP_108_2015_"	2097	-50.5	1852
-"0357-001"	-100	-1	"Didymus Scriptor De Mensuris"	"Mensurae marmorum ac lignorum"	"Mathematics"	NA	"First1K"	1557	-50.5	1310
+"0357-001"	-100	-1	"Didymus Scriptor De Mensuris"	"Mensurae marmorum ac lignorum"	"Mathematics"	NA	"First1K"	1557	-50.5	1293
 "0165-001"	-100	-1	"Diodorus"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	239	-50.5	193
-"0060-001"	-100	-1	"Diodorus Siculus"	"Bibliotheca historica"	"History"	"Attic/Koine"	"Perseus"	419079	-50.5	380780
-"0081-001"	-100	-1	"Dionysius Halicarnassensis"	"Antiquitates Romanae"	"History"	"Attic/Koine"	"Perseus"	317135	-50.5	286989
+"0060-001"	-100	-1	"Diodorus Siculus"	"Bibliotheca historica"	"History"	"Attic/Koine"	"Perseus"	419079	-50.5	380776
+"0081-001"	-100	-1	"Dionysius Halicarnassensis"	"Antiquitates Romanae"	"History"	"Attic/Koine"	"Perseus"	317135	-50.5	286987
 "0081-002"	-100	-1	"Dionysius Halicarnassensis"	"De antiquis oratoribus"	"Rhetoric"	"Attic/Koine"	"Perseus"	972	-50.5	884
 "0081-003"	-100	-1	"Dionysius Halicarnassensis"	"De Lysia"	"Rhetoric"	"Attic/Koine"	"Perseus"	8803	-50.5	7840
 "0081-004"	-100	-1	"Dionysius Halicarnassensis"	"De Isocrate"	"Rhetoric"	"Attic/Koine"	"Perseus"	7181	-50.5	6447
@@ -510,7 +510,7 @@
 "0081-011"	-100	-1	"Dionysius Halicarnassensis"	"De Thucydidis idiomatibus"	"Rhetoric"	"Attic/Koine"	"Perseus"	3007	-50.5	2631
 "0081-012"	-100	-1	"Dionysius Halicarnassensis"	"De compositione verborum"	"Rhetoric"	"Attic/Koine"	"Perseus"	23402	-50.5	20701
 "0081-015"	-100	-1	"Dionysius Halicarnassensis"	"Epistula ad Pompeium Geminum"	"Rhetoric"	"Attic/Koine"	"Perseus"	4911	-50.5	4356
-"1383-001"	-100	-1	"Geminus"	"Elementa astronomiae"	"Astronomy/Astrology"	NA	"http://www.astrologicon.org"	22551	-50.5	20380
+"1383-001"	-100	-1	"Geminus"	"Elementa astronomiae"	"Astronomy/Astrology"	NA	"http://www.astrologicon.org"	22551	-50.5	20369
 "1804-001"	-100	-1	"Ninus"	"Ninus"	"Narrative"	NA	"http://amsdottorato.unibo.it/8789/1/Subrani_%20Elena_Tesi.pdf"	1339	-50.5	1116
 "1804-004"	-100	-1	"Ninus"	"Ninus"	"Narrative"	NA	"http://amsdottorato.unibo.it/8789/1/Subrani_%20Elena_Tesi.pdf"	169	-50.5	129
 "0655-001"	-100	-1	"Parthenius"	"Narrationes amatoriae"	"Mythography"	NA	"Perseus"	7337	-50.5	6433
@@ -557,22 +557,22 @@
 "0039-001"	1	100	"Bruti-Mithridatis Epistulae"	"Epistula"	"Epistolography"	NA	"https://www.academia.edu/24558475/The_Greek_letters_ascribed_to_Brutus_HSCP_108_2015_"	377	50.5	337
 "1271-001"	1	100	"Clemens Romanus et Clementina"	"Epistula i ad Corinthios"	"Epistolography"	"Koine"	"First1K"	11393	50.5	9863
 "2632-001"	1	100	"Comarius"	"De lapide philosophorum"	"Alchemy"	NA	"First1K"	2674	50.5	2298
-"0656-001"	1	100	"Dioscorides Pedanius"	"De materia medica"	"Medicine"	NA	"https://uses.plantnet-project.org"	109743	50.5	93998
+"0656-001"	1	100	"Dioscorides Pedanius"	"De materia medica"	"Medicine"	NA	"https://uses.plantnet-project.org"	109743	50.5	93965
 "2139-001"	1	100	"Epitaphium Sicili"	"Sicili epitaphium"	"Lyric poetry"	NA	"First1K"	75	50.5	58
 "0526-001"	1	100	"Flavius Josephus"	"Antiquitates Judaicae"	"History"	NA	"Perseus"	336649	50.5	307375
 "0526-002"	1	100	"Flavius Josephus"	"Josephi vita"	"Biography"	NA	"Perseus"	17634	50.5	15883
 "0526-003"	1	100	"Flavius Josephus"	"Contra Apionem"	"Philosophy"	NA	"Perseus"	22843	50.5	20761
 "0526-004"	1	100	"Flavius Josephus"	"De bello Judaico libri vii"	"History"	NA	"Perseus"	139462	50.5	126235
-"0559-001"	1	100	"Heron"	"Pneumatica"	"Engineering"	NA	"First1K"	24994	50.5	22372
-"0559-002"	1	100	"Heron"	"De automatis"	"Engineering"	NA	"First1K"	10270	50.5	9153
-"0559-004"	1	100	"Heron"	"Mechanicorum fragmenta"	"Engineering"	NA	"First1K"	4881	50.5	4227
-"0559-005"	1	100	"Heron"	"Catoptrica"	"Engineering"	NA	"First1K"	567	50.5	489
-"0559-006"	1	100	"Heron"	"Metrica"	"Mathematics"	NA	"First1K"	22665	50.5	19639
-"0559-007"	1	100	"Heron"	"Dioptra"	"Engineering"	NA	"First1K"	14755	50.5	12811
-"0559-010"	1	100	"Heron"	"Stereometrica"	"Mathematics"	NA	"First1K"	21221	50.5	17393
-"0559-011"	1	100	"Heron"	"De mensuris"	"Mathematics"	NA	"First1K"	6143	50.5	4980
-"0559-012"	1	100	"Heron"	"Belopoeica"	"Engineering"	NA	"First1K"	6026	50.5	5324
-"0559-014"	1	100	"Heron"	"Fragmenta Heroniana"	"Mathematics"	NA	"First1K"	3566	50.5	2827
+"0559-001"	1	100	"Heron"	"Pneumatica"	"Engineering"	NA	"First1K"	24994	50.5	22207
+"0559-002"	1	100	"Heron"	"De automatis"	"Engineering"	NA	"First1K"	10270	50.5	9123
+"0559-004"	1	100	"Heron"	"Mechanicorum fragmenta"	"Engineering"	NA	"First1K"	4881	50.5	4192
+"0559-005"	1	100	"Heron"	"Catoptrica"	"Engineering"	NA	"First1K"	567	50.5	473
+"0559-006"	1	100	"Heron"	"Metrica"	"Mathematics"	NA	"First1K"	22665	50.5	19194
+"0559-007"	1	100	"Heron"	"Dioptra"	"Engineering"	NA	"First1K"	14755	50.5	12679
+"0559-010"	1	100	"Heron"	"Stereometrica"	"Mathematics"	NA	"First1K"	21221	50.5	17377
+"0559-011"	1	100	"Heron"	"De mensuris"	"Mathematics"	NA	"First1K"	6143	50.5	4978
+"0559-012"	1	100	"Heron"	"Belopoeica"	"Engineering"	NA	"First1K"	6026	50.5	5269
+"0559-014"	1	100	"Heron"	"Fragmenta Heroniana"	"Mathematics"	NA	"First1K"	3566	50.5	2806
 "0560-001"	1	100	"Longinus"	"De sublimitate"	"Rhetoric"	NA	"Perseus"	14855	50.5	12774
 "0031-001"	1	100	"Novum Testamentum"	"Evangelium secundum Matthaeum"	"Religious History"	"Koine"	"https://github.com/morphgnt/sblgnt"	21015	50.5	18323
 "0031-002"	1	100	"Novum Testamentum"	"Evangelium secundum Marcum"	"Religious History"	"Koine"	"https://github.com/morphgnt/sblgnt"	12998	50.5	11270
@@ -607,7 +607,7 @@
 "0527-026"	1	100	"Septuaginta"	"Machabaeorum iv"	"Religious Wisdom"	"Koine"	"https://el.wikisource.org"	9077	50.5	8071
 "1701-001"	1	100	"Testamentum Abrahae"	"Testamentum Abrahae"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	7953	50.5	6955
 "1701-002"	1	100	"Testamentum Abrahae"	"Testamentum Abrahae"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	3766	50.5	3218
-"1703-001"	1	100	"Teucer"	"De duodecim signis"	"Astronomy/Astrology"	NA	"https://el.wikisource.org"	6331	50.5	5111
+"1703-001"	1	100	"Teucer"	"De duodecim signis"	"Astronomy/Astrology"	NA	"https://el.wikisource.org"	6331	50.5	5045
 "1747-001"	1	100	"Vitae Adam Et Evae"	"Vita Adam et Evae"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	5129	50.5	4473
 "1765-003"	1	100	"Vitae Aesopi"	"Vita Pl vel Accursiana"	"Narrative"	NA	"First1K"	14136	50.5	11338
 "1765-004"	1	100	"Vitae Aesopi"	"Vita"	"Narrative"	NA	"First1K"	305	50.5	280
@@ -786,7 +786,7 @@
 "0007-131"	1	200	"Plutarchus"	"De esu carnium i"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	1811	100.5	1586
 "0007-132"	1	200	"Plutarchus"	"De esu carnium ii"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	1437	100.5	1267
 "0007-133"	1	200	"Plutarchus"	"Platonicae quaestiones"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	7146	100.5	6285
-"0007-134"	1	200	"Plutarchus"	"De animae procreatione in Timaeo"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	10640	100.5	9593
+"0007-134"	1	200	"Plutarchus"	"De animae procreatione in Timaeo"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	10640	100.5	9584
 "0007-135"	1	200	"Plutarchus"	"Epitome libri de animae procreatione in Timaeo"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	1364	100.5	1225
 "0007-136"	1	200	"Plutarchus"	"De Stoicorum repugnantiis"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	13861	100.5	12302
 "0007-137"	1	200	"Plutarchus"	"Stoicos absurdiora poetis dicere"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	579	100.5	507
@@ -795,7 +795,7 @@
 "0007-140"	1	200	"Plutarchus"	"Adversus Colotem"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	11467	100.5	10129
 "0007-141"	1	200	"Plutarchus"	"De latenter vivendo"	"Philosophy"	"Attic/Koine"	"https://el.wikisource.org"	1487	100.5	1268
 "1622-001"	1	200	"Polycarpus"	"Epistula ad Philippenses"	"Epistolography"	NA	"First1K"	1321	100.5	1146
-"0548-001"	1	200	"Pseudo-Apollodorus"	"Bibliotheca"	"Mythography"	NA	"Perseus"	31359	100.5	27314
+"0548-001"	1	200	"Pseudo-Apollodorus"	"Bibliotheca"	"Mythography"	NA	"Perseus"	31359	100.5	27313
 "0548-002"	1	200	"Pseudo-Apollodorus"	"Bibliotheca"	"Mythography"	NA	"Perseus"	9037	100.5	7919
 "0564-003"	1	200	"Rufus"	"De corporis humani appellationibus"	"Medicine"	NA	"https://deepblue.lib.umich.edu/handle/2027.42/95946"	5842	100.5	4868
 "0564-004"	1	200	"Rufus"	"De partibus corporis humani"	"Medicine"	NA	"https://deepblue.lib.umich.edu/handle/2027.42/95946"	2634	100.5	2279
@@ -869,14 +869,14 @@
 "0719-002"	101	200	"Aretaeus"	"De causis et signis diuturnorum morborum libri duo"	"Medicine"	"Ionic"	"Perseus"	21032	150.5	17250
 "0719-003"	101	200	"Aretaeus"	"De curatione acutorum morborum libri duo"	"Medicine"	"Ionic"	"Perseus"	19458	150.5	16301
 "0719-004"	101	200	"Aretaeus"	"De curatione diuturnorum morborum libri duo"	"Medicine"	"Ionic"	"Perseus"	9788	150.5	8038
-"2148-001"	101	200	"Aristodemus"	"Fragmenta"	"History"	NA	"https://github.com/PietroLiuzzo/Aristodemo"	3203	150.5	2846
+"2148-001"	101	200	"Aristodemus"	"Fragmenta"	"History"	NA	"https://github.com/PietroLiuzzo/Aristodemo"	3203	150.5	2845
 "0553-001"	101	200	"Artemidorus"	"Onirocriticon"	"Oneirocritic"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	72342	150.5	64850
 "1205-001"	101	200	"Athenagoras"	"Legatio sive Supplicatio pro Christianis"	"Oratory"	NA	"First1K"	13146	150.5	11433
 "1205-002"	101	200	"Athenagoras"	"De resurrectione"	"Theology"	"Koine"	"First1K"	10044	150.5	9099
 "0614-001"	101	200	"Valerius Babrius"	"Mythiambi Aesopici"	"Lyric poetry"	NA	"First1K"	13928	150.5	11488
 "1252-002"	101	200	"Certamen Homeri Et Hesiodi"	"Certamen Homeri et Hesiodi"	"Narrative"	NA	"First1K"	2728	150.5	2416
 "0554-001"	101	200	"Chariton"	"De Chaerea et Callirhoe"	"Narrative"	NA	"Perseus"	41918	150.5	35129
-"1272-001"	101	200	"Cleomedes"	"De motu circulari corporum caelestium"	"Astronomy/Astrology"	NA	"http://www.astrologicon.org"	26883	150.5	23975
+"1272-001"	101	200	"Cleomedes"	"De motu circulari corporum caelestium"	"Astronomy/Astrology"	NA	"http://www.astrologicon.org"	26883	150.5	23974
 "0361-001"	101	200	"Cleonides"	"Introductio harmonica"	"Music"	NA	"First1K"	4177	150.5	3623
 "1311-001"	101	200	"Didache Xii Apostolorum"	"Διδαχαὶ τῶν ἀποστολῶν"	"Theology"	"Koine"	"First1K"	2631	150.5	2220
 "1350-001"	101	200	"Epistula Ad Diognetum"	"Epistula ad Diognetum"	"Epistolography"	NA	"https://github.com/jtauber"	3087	150.5	2646
@@ -895,13 +895,13 @@
 "0057-008"	101	200	"Galenus"	"De elementis ex Hippocrate libri ii"	"Medicine"	"Attic/Koine"	"First1K"	16052	150.5	13657
 "0057-009"	101	200	"Galenus"	"De temperamentis libri iii"	"Medicine"	"Attic/Koine"	"First1K"	32791	150.5	28081
 "0057-010"	101	200	"Galenus"	"De naturalibus facultatibus"	"Medicine"	"Attic/Koine"	"First1K"	37146	150.5	32328
-"0057-011"	101	200	"Galenus"	"De anatomicis administrationibus libri ix"	"Medicine"	"Attic/Koine"	"First1K"	89559	150.5	79016
+"0057-011"	101	200	"Galenus"	"De anatomicis administrationibus libri ix"	"Medicine"	"Attic/Koine"	"First1K"	89559	150.5	79014
 "0057-012"	101	200	"Galenus"	"De ossibus ad tirones"	"Medicine"	"Attic/Koine"	"First1K"	7948	150.5	6972
 "0057-013"	101	200	"Galenus"	"De venarum arteriarumque dissectione"	"Medicine"	"Attic/Koine"	"First1K"	8472	150.5	7599
-"0057-014"	101	200	"Galenus"	"De nervorum dissectione"	"Medicine"	"Attic/Koine"	"First1K"	4043	150.5	3623
+"0057-014"	101	200	"Galenus"	"De nervorum dissectione"	"Medicine"	"Attic/Koine"	"First1K"	4043	150.5	3620
 "0057-015"	101	200	"Galenus"	"De instrumento odoratus"	"Medicine"	"Attic/Koine"	"First1K"	4837	150.5	4261
 "0057-016"	101	200	"Galenus"	"De uteri dissectione"	"Medicine"	"Attic/Koine"	"First1K"	3770	150.5	3285
-"0057-017"	101	200	"Galenus"	"De usu partium"	"Medicine"	"Attic/Koine"	"First1K"	222756	150.5	196623
+"0057-017"	101	200	"Galenus"	"De usu partium"	"Medicine"	"Attic/Koine"	"First1K"	222756	150.5	196614
 "0057-018"	101	200	"Galenus"	"De motu musculorum libri ii"	"Medicine"	"Attic/Koine"	"First1K"	17169	150.5	14931
 "0057-019"	101	200	"Galenus"	"De victu attenuante"	"Medicine"	"Attic/Koine"	"First1K"	7162	150.5	6566
 "0057-020"	101	200	"Galenus"	"De utilitate respirationis liber"	"Medicine"	"Attic/Koine"	"First1K"	7061	150.5	6123
@@ -946,7 +946,7 @@
 "0057-062"	101	200	"Galenus"	"De praesagitione ex pulsibus libri iv"	"Medicine"	"Attic/Koine"	"First1K"	41028	150.5	36700
 "0057-063"	101	200	"Galenus"	"Synopsis librorum suorum de pulsibus"	"Medicine"	"Attic/Koine"	"First1K"	17633	150.5	15718
 "0057-064"	101	200	"Galenus"	"De crisibus libri iii"	"Medicine"	"Attic/Koine"	"First1K"	39009	150.5	34340
-"0057-065"	101	200	"Galenus"	"De diebus decretoriis libri iii"	"Medicine"	"Attic/Koine"	"First1K"	31043	150.5	27630
+"0057-065"	101	200	"Galenus"	"De diebus decretoriis libri iii"	"Medicine"	"Attic/Koine"	"First1K"	31043	150.5	27628
 "0057-066"	101	200	"Galenus"	"De methodo medendi libri xiv"	"Medicine"	"Attic/Koine"	"First1K"	179163	150.5	159536
 "0057-067"	101	200	"Galenus"	"Ad Glauconem de medendi methodo libri ii"	"Medicine"	"Attic/Koine"	"First1K"	25760	150.5	23130
 "0057-068"	101	200	"Galenus"	"De venae sectione adversus Erasistratum"	"Medicine"	"Attic/Koine"	"First1K"	6843	150.5	6082
@@ -957,10 +957,10 @@
 "0057-073"	101	200	"Galenus"	"Quos quibus catharticis medicamentis et quando purgare oporteat"	"Medicine"	"Attic/Koine"	"First1K"	2248	150.5	1985
 "0057-074"	101	200	"Galenus"	"Pro puero epileptico consilium"	"Medicine"	"Attic/Koine"	"First1K"	3644	150.5	3253
 "0057-075"	101	200	"Galenus"	"De simplicium medicamentorum temperamentis ac facultatibus libri xi"	"Medicine"	"Attic/Koine"	"First1K"	149539	150.5	133041
-"0057-076"	101	200	"Galenus"	"De compositione medicamentorum secundum locos libri x"	"Medicine"	"Attic/Koine"	"First1K"	169220	150.5	144501
-"0057-077"	101	200	"Galenus"	"De compositione medicamentorum per genera libri vii"	"Medicine"	"Attic/Koine"	"First1K"	122680	150.5	105130
-"0057-078"	101	200	"Galenus"	"De antidotis libri ii"	"Medicine"	"Attic/Koine"	"First1K"	34145	150.5	28143
-"0057-079"	101	200	"Galenus"	"De theriaca ad Pisonem"	"Medicine"	"Attic/Koine"	"First1K"	14733	150.5	13055
+"0057-076"	101	200	"Galenus"	"De compositione medicamentorum secundum locos libri x"	"Medicine"	"Attic/Koine"	"First1K"	169220	150.5	141318
+"0057-077"	101	200	"Galenus"	"De compositione medicamentorum per genera libri vii"	"Medicine"	"Attic/Koine"	"First1K"	122680	150.5	102878
+"0057-078"	101	200	"Galenus"	"De antidotis libri ii"	"Medicine"	"Attic/Koine"	"First1K"	34145	150.5	27401
+"0057-079"	101	200	"Galenus"	"De theriaca ad Pisonem"	"Medicine"	"Attic/Koine"	"First1K"	14733	150.5	13025
 "0057-081"	101	200	"Galenus"	"Institutio logica"	"Philosophy"	"Attic/Koine"	"First1K"	9656	150.5	8541
 "0057-082"	101	200	"Galenus"	"De sophismatis seu captionibus penes dictionem"	"Rhetoric"	"Attic/Koine"	"First1K"	2963	150.5	2570
 "0057-083"	101	200	"Galenus"	"De praenotione ad Posthumum"	"Medicine"	"Attic/Koine"	"First1K"	12584	150.5	11107
@@ -968,21 +968,21 @@
 "0057-085"	101	200	"Galenus"	"In Hippocratis de natura hominis librum commentarii iii"	"Medicine"	"Attic/Koine"	"First1K"	27838	150.5	24592
 "0057-086"	101	200	"Galenus"	"In Hippocratis vel Polybi opus de salubri victus ratione privatorum commentarius"	"Medicine"	"Attic/Koine"	"First1K"	7512	150.5	6650
 "0057-087"	101	200	"Galenus"	"In Hippocratis de victu acutorum commentaria iv"	"Medicine"	"Attic/Koine"	"First1K"	76430	150.5	67569
-"0057-089"	101	200	"Galenus"	"In Hippocratis librum primum epidemiarum commentarii iii"	"Medicine"	"Attic/Koine"	"First1K"	179490	150.5	157819
-"0057-092"	101	200	"Galenus"	"In Hippocratis aphorismos commentarii vii"	"Medicine"	"Attic/Koine"	"First1K"	109209	150.5	96897
+"0057-089"	101	200	"Galenus"	"In Hippocratis librum primum epidemiarum commentarii iii"	"Medicine"	"Attic/Koine"	"First1K"	179490	150.5	157810
+"0057-092"	101	200	"Galenus"	"In Hippocratis aphorismos commentarii vii"	"Medicine"	"Attic/Koine"	"First1K"	109209	150.5	96896
 "0057-093"	101	200	"Galenus"	"Adversus Lycum libellus"	"Medicine"	"Attic/Koine"	"First1K"	8459	150.5	7536
 "0057-094"	101	200	"Galenus"	"Adversus ea quae a Juliano in Hippocratis aphorismos enuntiata sunt libellus"	"Medicine"	"Attic/Koine"	"First1K"	8672	150.5	7726
-"0057-095"	101	200	"Galenus"	"In Hippocratis librum de articulis et Galeni in eum commentarii iv"	"Medicine"	"Attic/Koine"	"First1K"	58352	150.5	52074
+"0057-095"	101	200	"Galenus"	"In Hippocratis librum de articulis et Galeni in eum commentarii iv"	"Medicine"	"Attic/Koine"	"First1K"	58352	150.5	52073
 "0057-096"	101	200	"Galenus"	"De humero iis modis prolapso quos Hippocrates non vidit"	"Medicine"	"Attic/Koine"	"First1K"	11148	150.5	9907
 "0057-099"	101	200	"Galenus"	"In Hippocratis prognosticum commentaria iii"	"Medicine"	"Attic/Koine"	"First1K"	48289	150.5	43226
 "0057-100"	101	200	"Galenus"	"In Hippocratis librum de fracturis commentarii iii"	"Medicine"	"Attic/Koine"	"First1K"	47050	150.5	42021
-"0057-101"	101	200	"Galenus"	"In Hippocratis librum de officina medici commentarii iii"	"Medicine"	"Attic/Koine"	"First1K"	46710	150.5	41439
+"0057-101"	101	200	"Galenus"	"In Hippocratis librum de officina medici commentarii iii"	"Medicine"	"Attic/Koine"	"First1K"	46710	150.5	41438
 "0057-102"	101	200	"Galenus"	"De musculorum dissectione ad tirones"	"Medicine"	"Attic/Koine"	"First1K"	16136	150.5	14837
 "0057-103"	101	200	"Galenus"	"De consuetudinibus"	"Medicine"	"Attic/Koine"	"First1K"	4485	150.5	4035
 "0057-107"	101	200	"Galenus"	"De experientia medica"	"Medicine"	"Attic/Koine"	"First1K"	1178	150.5	1019
 "0057-111"	101	200	"Galenus"	"Quod qualitates incorporeae sint"	"Medicine"	"Attic/Koine"	"First1K"	3755	150.5	3347
 "0057-114"	101	200	"Galenus"	"De causis respirationis"	"Medicine"	"Attic/Koine"	"First1K"	775	150.5	677
-"1419-001"	101	200	"Hermas"	"Pastor"	"Religious Prophecy"	"Koine"	"https://github.com/jtauber"	32014	150.5	27370
+"1419-001"	101	200	"Hermas"	"Pastor"	"Religious Prophecy"	"Koine"	"https://github.com/jtauber"	32014	150.5	27369
 "0087-004"	101	200	"Aelius Herodianus et Pseudo-Herodianus"	"Περὶ διχρόνων"	"Language"	NA	"First1K"	4877	150.5	3911
 "1451-003"	101	200	"Josephus Et Aseneth"	"Confessio et precatio Aseneth"	"Religious Narrative"	"Koine"	"https://www.mohrsiebeck.com/en/book/joseph-und-aseneth-9783161564390"	14704	150.5	13164
 "0561-001"	101	200	"Longus"	"Daphnis et Chloe"	"Narrative"	"Attic/Koine"	"Perseus"	22837	150.5	19844
@@ -1062,19 +1062,19 @@
 "1487-001"	101	200	"Maximus Astrologus"	"Περὶ καταρχῶν"	"Scientific Poetry"	"Ionic/Epic"	"First1K"	4592	150.5	4019
 "1487-002"	101	200	"Maximus Astrologus"	"Περὶ καταρχῶν"	"Astronomy/Astrology"	NA	"First1K"	2445	150.5	2078
 "0268-002"	101	200	"Mesomedes"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	129	150.5	104
-"0358-001"	101	200	"Nicomachus"	"Introductio arithmetica"	"Mathematics"	NA	"First1K"	27463	150.5	24041
+"0358-001"	101	200	"Nicomachus"	"Introductio arithmetica"	"Mathematics"	NA	"First1K"	27463	150.5	24031
 "0358-002"	101	200	"Nicomachus"	"Harmonicum enchiridion"	"Music"	NA	"First1K"	5512	150.5	4937
-"0358-004"	101	200	"Nicomachus"	"Excerpta"	"Music"	NA	"First1K"	2660	150.5	2367
-"0358-005"	101	200	"Nicomachus"	"Problemata arithmetica"	"Mathematics"	NA	"First1K"	1368	150.5	1175
+"0358-004"	101	200	"Nicomachus"	"Excerpta"	"Music"	NA	"First1K"	2660	150.5	2363
+"0358-005"	101	200	"Nicomachus"	"Problemata arithmetica"	"Mathematics"	NA	"First1K"	1368	150.5	1172
 "0023-001"	101	200	"Oppianus"	"Halieutica"	"Scientific Poetry"	"Ionic/Epic"	"Perseus"	26437	150.5	23018
 "1550-001"	101	200	"Oracula Chaldaica"	"Oracula"	"Oracle"	NA	"http://ldysinger.stjohnsem.edu"	3013	150.5	2443
 "1772-001"	101	200	"Paraleipomena Jeremiou"	"Paraleipomena Jeremiou"	"Religious Narrative"	"Koine"	"https://ccat.sas.upenn.edu/rak//publics/pseudepig/ParJer-Greek.html"	4937	150.5	4176
 "0525-001"	101	200	"Pausanias"	"Graeciae descriptio"	"Geography"	"Koine"	"Perseus"	242433	150.5	218356
-"0671-001"	101	200	"Philumenus"	"De venenatis animalibus eorumque remediis"	"Medicine"	NA	"First1K"	10406	150.5	8990
+"0671-001"	101	200	"Philumenus"	"De venenatis animalibus eorumque remediis"	"Medicine"	NA	"First1K"	10406	150.5	8976
 "1608-001"	101	200	"Phrynichus"	"Praeparatio sophistica"	"Language"	"Attic/Koine"	"https://github.com/s8stchro"	17197	150.5	13492
 "1608-002"	101	200	"Phrynichus"	"Eclogae"	"Language"	"Attic/Koine"	"https://github.com/s8stchro"	10322	150.5	8344
-"0542-001"	101	200	"Julius Pollux"	"Onomasticon"	"Language"	"Attic/Koine"	"https://github.com/s8stchro"	144900	150.5	115258
-"0616-001"	101	200	"Polyaenus"	"Strategemata"	"Military"	NA	"http://attalus.org"	68134	150.5	59963
+"0542-001"	101	200	"Julius Pollux"	"Onomasticon"	"Language"	"Attic/Koine"	"https://github.com/s8stchro"	144900	150.5	115253
+"0616-001"	101	200	"Polyaenus"	"Strategemata"	"Military"	NA	"http://attalus.org"	68134	150.5	59962
 "1637-001"	101	200	"Protevangelium Jacobi"	"Protevangelium Jacobi"	"Religious History"	"Koine"	"http://jewishchristianlit.com"	4762	150.5	4140
 "1271-002"	101	200	"Pseudo-Clemens"	"Epistula ii ad Corinthios"	"Epistolography"	NA	"First1K"	3525	150.5	3032
 "0613-001"	101	200	"Pseudo-Demetrius"	"De elocutione"	"Rhetoric"	NA	"Perseus"	18683	150.5	15525
@@ -1084,8 +1084,8 @@
 "0606-001"	101	200	"Rufus"	"Ars rhetorica"	"Rhetoric"	NA	"First1K"	1665	150.5	1428
 "0527-018"	101	200	"Septuaginta"	"Esdras ii"	"Religious History"	"Koine"	"https://el.wikisource.org"	15171	150.5	13344
 "1766-001"	101	200	"Tatianus"	"Oratio ad Graecos"	"Oratory"	NA	"Perseus"	11829	150.5	10300
-"1724-001"	101	200	"Theon"	"De utilitate mathematicae"	"Mathematics"	NA	"https://iris.unito.it/handle/2318/1685018"	42052	150.5	37438
-"1725-001"	101	200	"Theophilus"	"Ad Autolycum"	"Oratory"	"Koine"	"https://el.wikisource.org"	24920	150.5	21748
+"1724-001"	101	200	"Theon"	"De utilitate mathematicae"	"Mathematics"	NA	"https://iris.unito.it/handle/2318/1685018"	42052	150.5	37377
+"1725-001"	101	200	"Theophilus"	"Ad Autolycum"	"Oratory"	"Koine"	"https://el.wikisource.org"	24920	150.5	21735
 "0098-001"	101	200	"Zenobius Sophista"	"Epitome collectionum Lucilli Tarrhaei et Didymi"	"Language"	NA	"https://el.wikisource.org"	24313	150.5	20363
 "0384-002"	101	300	"Acta Justini Et Septem Sodalium"	"Acta Justini et septem sodalium"	"Religious Narrative"	"Koine"	"https://www.heiligenlexikon.de"	960	200.5	786
 "0391-001"	101	300	"Acta Scillitanorum Martyrum"	"Acta Scillitanorum martyrum sive passio Sperati et sociorum"	"Religious Narrative"	"Koine"	"https://hal-hprints.archives-ouvertes.fr/hprints-01550024"	758	200.5	647
@@ -1096,13 +1096,13 @@
 "0732-011"	101	300	"Alexander"	"De anima libri mantissa"	"Philosophy"	NA	"First1K"	40753	200.5	35911
 "0732-012"	101	300	"Alexander"	"Ἀπορίαι καὶ λύσεις"	"Philosophy"	NA	"First1K"	46248	200.5	40863
 "1131-001"	101	300	"Anonymus Ad Avircium Marcellum Contra Cataphrygas"	"Ad Avircium Marcellum contra Cataphrygas"	"Theology"	"Koine"	"https://www.hs-augsburg.de/~harsch/augustana.html"	1294	200.5	1172
-"0008-001"	101	300	"Athenaeus"	"Deipnosophistae"	"Polyhistory"	NA	"Perseus"	314256	200.5	266389
+"0008-001"	101	300	"Athenaeus"	"Deipnosophistae"	"Polyhistory"	NA	"Perseus"	314256	200.5	266385
 "0141-002"	101	300	"Athenaeus"	"Epigramma"	"Lyric poetry"	NA	"Perseus"	45	200.5	38
-"0385-001"	101	300	"Cassius Dio"	"Historiae Romanae"	"History"	NA	"Perseus"	215016	200.5	191461
+"0385-001"	101	300	"Cassius Dio"	"Historiae Romanae"	"History"	NA	"Perseus"	215016	200.5	191460
 "0555-001"	101	300	"Clemens Alexandrinus"	"Protrepticus"	"Philosophy"	"Koine"	"Perseus"	27814	200.5	23474
 "0555-002"	101	300	"Clemens Alexandrinus"	"Paedagogus"	"Philosophy"	"Koine"	"First1K"	67215	200.5	56764
 "0555-003"	101	300	"Clemens Alexandrinus"	"Hymnus Christi servatoris"	"Religious Poetry"	NA	"First1K"	177	200.5	137
-"0555-004"	101	300	"Clemens Alexandrinus"	"Stromata"	"Philosophy"	"Koine"	"http://remacle.org"	191379	200.5	163346
+"0555-004"	101	300	"Clemens Alexandrinus"	"Stromata"	"Philosophy"	"Koine"	"http://remacle.org"	191379	200.5	163337
 "0555-005"	101	300	"Clemens Alexandrinus"	"Eclogae propheticae"	"Philosophy"	"Koine"	"First1K"	6024	200.5	4972
 "0555-006"	101	300	"Clemens Alexandrinus"	"Quis dives salvetur"	"Theology"	"Koine"	"Perseus"	10793	200.5	9286
 "0555-007"	101	300	"Clemens Alexandrinus"	"Excerpta ex Theodoto"	"Theology"	"Koine"	"First1K"	9007	200.5	7521
@@ -1174,7 +1174,7 @@
 "2042-077"	101	300	"Origenes"	"Scholia in Matthaeum"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	5214	200.5	4190
 "2042-078"	101	300	"Origenes"	"Scholia in Lucam"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	13442	200.5	11413
 "2042-079"	101	300	"Origenes"	"Commentarii in evangelium Joannis"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	70532	200.5	60383
-"2042-086"	101	300	"Origenes"	"Homiliae in Job"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	7417	200.5	6126
+"2042-086"	101	300	"Origenes"	"Homiliae in Job"	"Commentary"	"Koine"	"https://www.documentacatholicaomnia.eu"	7417	200.5	6125
 "0638-001"	101	300	"Flavius Philostratus"	"Vita Apollonii"	"Biography"	"Attic/Koine"	"Perseus"	100923	200.5	84757
 "0638-003"	101	300	"Flavius Philostratus"	"Vitae sophistarum"	"Biography"	"Attic/Koine"	"Perseus"	33452	200.5	29198
 "0638-004"	101	300	"Flavius Philostratus"	"Heroicus"	"Dialogue"	"Attic/Koine"	"Perseus"	25261	200.5	21983
@@ -1189,7 +1189,7 @@
 "0544-001"	101	300	"Sextus Empiricus"	"Pyrrhoniae hypotyposes"	"Philosophy"	NA	"http://remacle.org"	59003	200.5	51587
 "1702-001"	101	300	"Testamentum Jobi"	"Testamentum Jobi"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	7696	200.5	6734
 "0641-001"	101	300	"Xenophon"	"Ephesiaca"	"Narrative"	NA	"Perseus"	19250	200.5	16559
-"0090-001"	201	300	"Agathemerus"	"Geographiae informatio"	"Geography"	NA	"Perseus"	2323	250.5	1964
+"0090-001"	201	300	"Agathemerus"	"Geographiae informatio"	"Geography"	NA	"Perseus"	2323	250.5	1950
 "1286-001"	201	300	"Corpus Hermeticum"	"Poimandres"	"Philosophy"	NA	"https://el.wikisource.org"	2676	250.5	2186
 "1286-002"	201	300	"Corpus Hermeticum"	"Dialogus"	"Philosophic Dialogue"	NA	"https://el.wikisource.org"	1574	250.5	1333
 "1286-003"	201	300	"Corpus Hermeticum"	"Hieros logos"	"Philosophy"	NA	"https://el.wikisource.org"	352	250.5	317
@@ -1203,12 +1203,12 @@
 "1286-011"	201	300	"Corpus Hermeticum"	"Νοῦς πρὸς Ἑρμῆν"	"Philosophic Dialogue"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	2576	250.5	2151
 "1286-012"	201	300	"Corpus Hermeticum"	"Περὶ νοῦ κοινοῦ πρὸς Τάτ"	"Philosophic Dialogue"	NA	"https://www.hs-augsburg.de/~harsch/augustana.html"	2410	250.5	2040
 "1286-013"	201	300	"Corpus Hermeticum"	"Πρὸς τὸν υἱὸν Τὰτ ἐν ὄρει λόγος ἀπόκρυφος, περὶ παλιγγενεσίας καὶ σιγῆς ἐπαγγελίας"	"Philosophic Dialogue"	NA	"http://ldysinger.stjohnsem.edu"	2162	250.5	1727
-"0004-001"	201	300	"Diogenes Laertius"	"Vitae philosophorum"	"Biography"	NA	"Perseus"	130661	250.5	110109
+"0004-001"	201	300	"Diogenes Laertius"	"Vitae philosophorum"	"Biography"	NA	"Perseus"	130661	250.5	110073
 "0004-002"	201	300	"Diogenes Laertius"	"Epigrammata"	"Lyric poetry"	NA	"Perseus"	1244	250.5	1042
 "2063-005"	201	300	"Gregorius Thaumaturgus"	"Epistula canonica"	"Epistolography"	NA	"https://el.orthodoxwiki.org"	1205	250.5	1037
 "0658-001"	201	300	"Heliodorus"	"Aethiopica"	"Narrative"	"Attic/Koine"	"First1K"	89151	250.5	76926
 "0658-002"	201	300	"Heliodorus"	"Epigrammata"	"Lyric poetry"	"Aeolic"	"Perseus"	102	250.5	82
-"2115-060"	201	300	"Hippolytus"	"Refutatio omnium haeresium"	"Theology"	"Koine"	"First1K"	81518	250.5	70125
+"2115-060"	201	300	"Hippolytus"	"Refutatio omnium haeresium"	"Theology"	"Koine"	"First1K"	81518	250.5	70115
 "2178-001"	201	300	"Cassius Longinus"	"Ars rhetorica"	"Rhetoric"	NA	"First1K"	6311	250.5	5463
 "2178-002"	201	300	"Cassius Longinus"	"Excerpta"	"Rhetoric"	NA	"First1K"	748	250.5	652
 "2583-001"	201	300	"Manetho"	"Apotelesmatica"	"Scientific Poetry"	"Ionic/Epic"	"First1K"	22992	250.5	19528
@@ -1216,7 +1216,7 @@
 "2016-001"	201	300	"Vitae Sanctorum Perpetuae Et Felicitatis"	"Passio Perpetuae et Felicitatis"	"Religious Narrative"	"Koine"	"http://users.uoa.gr/~nektar"	4566	250.5	3976
 "2007-001"	201	300	"Vitae Sanctorum Potamiaenae Et Basilidis"	"Martyrium Potamiaenae et Basilidis"	"Religious Narrative"	"Koine"	"https://www.hs-augsburg.de/~harsch/augustana.html"	421	250.5	383
 "0581-001"	201	300	"Paradoxographus Palatinus"	"Admiranda"	"Paradoxography"	NA	"https://sententiaeantiquae.com"	685	250.5	605
-"0077-001"	201	300	"Periplus Maris Magni"	"Stadiasmus sive periplus Maris Magni"	"Geography"	NA	"First1K"	6693	250.5	5639
+"0077-001"	201	300	"Periplus Maris Magni"	"Stadiasmus sive periplus Maris Magni"	"Geography"	NA	"First1K"	6693	250.5	5607
 "0652-001"	201	300	"Philostratus Junior"	"Imagines"	"Art"	"Attic/Koine"	"Perseus"	8053	250.5	7206
 "2000-001"	201	300	"Plotinus"	"Enneades"	"Philosophy"	"Attic/Koine"	"First1K"	246704	250.5	215918
 "2034-001"	201	300	"Porphyrius"	"Vita Plotini"	"Biography"	NA	"http://remacle.org"	9190	250.5	8048
@@ -1226,17 +1226,17 @@
 "2034-005"	201	300	"Porphyrius"	"Ad Marcellam"	"Philosophy"	NA	"First1K"	5186	250.5	4686
 "2034-006"	201	300	"Porphyrius"	"Isagoge sive quinque voces"	"Commentary"	NA	"http://www.logicmuseum.com"	6369	250.5	5677
 "2034-008"	201	300	"Porphyrius"	"Sententiae ad intelligibilia ducentes"	"Philosophy"	NA	"https://el.wikisource.org"	8659	250.5	7711
-"2034-028"	201	300	"Porphyrius"	"Introductio in tetrabiblum Ptolemaei"	"Astronomy/Astrology"	NA	"http://www.astrologicon.org"	9671	250.5	8532
+"2034-028"	201	300	"Porphyrius"	"Introductio in tetrabiblum Ptolemaei"	"Astronomy/Astrology"	NA	"http://www.astrologicon.org"	9671	250.5	8493
 "2046-001"	201	300	"Quintus"	"Posthomerica"	"Epic poetry"	"Ionic/Epic"	"Perseus"	69034	250.5	60504
 "2679-001"	201	300	"Testamentum Salomonis"	"Testamentum Salomonis"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	9298	250.5	8097
 "2679-002"	201	300	"Testamentum Salomonis"	"Testamentum Salomonis"	"Religious Narrative"	"Koine"	"https://el.wikisource.org"	85	250.5	76
 "2027-001"	201	300	"Valerius Apsines"	"Ars rhetorica"	"Rhetoric"	NA	"First1K"	21927	250.5	18758
 "2027-002"	201	300	"Valerius Apsines"	"Περὶ τῶν ἐσχηματισμένων προβλημάτων"	"Rhetoric"	NA	"First1K"	2128	250.5	1649
-"2135-001"	201	400	"Alypius"	"Isagoge musica"	"Music"	NA	"First1K"	5002	300.5	4824
+"2135-001"	201	400	"Alypius"	"Isagoge musica"	"Music"	NA	"First1K"	5002	300.5	4823
 "2243-001"	201	400	"Apocalypsis Sedrach"	"Apocalypsis Sedrach"	"Religious Prophecy"	"Koine"	"https://el.wikisource.org"	2741	300.5	2328
 "2136-001"	201	400	"Bacchius Geron"	"Isagoge artis musicae"	"Music"	NA	"First1K"	4108	300.5	3086
-"2137-001"	201	400	"Gaudentius"	"Harmonica introductio"	"Music"	NA	"First1K"	5446	300.5	4842
-"1386-001"	201	400	"Historia Alexandri Magni"	"Recensio α sive Recensio vetusta"	"Narrative"	NA	"http://attalus.org"	38750	300.5	33332
+"2137-001"	201	400	"Gaudentius"	"Harmonica introductio"	"Music"	NA	"First1K"	5446	300.5	4841
+"1386-001"	201	400	"Historia Alexandri Magni"	"Recensio α sive Recensio vetusta"	"Narrative"	NA	"http://attalus.org"	38750	300.5	33325
 "2023-002"	201	400	"Iamblichus"	"Protrepticus"	"Philosophy"	NA	"First1K"	29294	300.5	26282
 "2586-001"	201	400	"Menander"	"Διαίρεσις τῶν ἐπιδεικτικῶν"	"Rhetoric"	NA	"https://eprints.ucm.es/id/eprint/51591"	10478	300.5	9043
 "2586-002"	201	400	"Menander"	"Περὶ ἐπιδεικτικῶν"	"Rhetoric"	NA	"https://eprints.ucm.es/id/eprint/51591"	22476	300.5	19650
@@ -1247,7 +1247,7 @@
 "0094-001"	201	400	"Pseudo-Plutarchus"	"De fluviis"	"Geography"	NA	"First1K"	7438	300.5	6515
 "0094-003"	201	400	"Pseudo-Plutarchus"	"Placita philosophorum"	"History"	NA	"Perseus"	17532	300.5	15506
 "0647-001"	201	400	"Triphiodorus"	"Ἅλωσις Ἰλίου"	"Epic poetry"	"Ionic/Epic"	"Perseus"	4840	300.5	4265
-"0096-002a"	-800	800	"Aesopus et Aesopica"	"Fabulae"	"Narrative"	NA	"https://obvil.sorbonne-universite.fr/corpus/fabula-numerica/anonymes_chambry"	80361	0	67521
+"0096-002a"	-800	800	"Aesopus et Aesopica"	"Fabulae"	"Narrative"	NA	"https://obvil.sorbonne-universite.fr/corpus/fabula-numerica/anonymes_chambry"	80361	0	67520
 "0096-002b"	-800	800	"Aesopus et Aesopica"	"Fabulae"	"Narrative"	NA	"First1K"	48460	0	39651
 "2003-001"	301	400	"Flavius Claudius Julianus Imperator"	"Ἐγκώμιον εἰς τὸν αὐτοκράτορα Κωνστάντιον"	"Oratory"	NA	"Perseus"	13052	350.5	11688
 "2236-001"	301	400	"Paeanius"	"Breviarium ab urbe condita"	"History"	NA	"First1K"	26295	350.5	23952

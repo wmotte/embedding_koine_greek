@@ -12,7 +12,7 @@
 
 library( "xml2" )
 library( "dplyr" )
-
+library( "ggplot2" )
 
 ################################################################################
 
@@ -44,7 +44,6 @@ parse_treebank <- function( xml_file )
     # remove non-required columns, sort and rename 'source'
     df <- df[, c( 'source', 'chapter', 'section', 'form', 'lemma', 'postag' ) ]
 
-    
     # remove .,;
     df <- df[ df$postag != 'u--------', ]
     
@@ -58,13 +57,10 @@ parse_treebank <- function( xml_file )
     df$lemma <- gsub( " ", "", df$lemma )
 
     # Create the pattern using | (OR operator) to match any of the characters
-    pattern <- "𐅻|#|ϟ|,|Ϡ|_|ϡ|Ϟʹ|𐆄|ʹ|∠"
+    pattern <- "𐅻|#|ϟ|,|Ϡ|_|ϡ|Ϟʹ|𐆄|∠" 
     
     # Use grepl to get logical vector indicating which cells contain any of these characters
-    #result <- grepl( pattern, df$lemma )
-    
     matches <- grepl( pattern, df$lemma )
-    
     df <- df[ !matches, ]
     
     # if chapter is NA set to 0
@@ -75,8 +71,6 @@ parse_treebank <- function( xml_file )
     
     return( df )
 }
-
- 
 
 
 ################################################################################
@@ -99,7 +93,7 @@ meta$true_n_words <- NA
 # container to store all lemmas
 full <- NULL
 
-# each text seperately
+# each text separately
 for( i in 1:nrow( meta ) )
 {
     tlg <- meta[ i, 'tlg' ]
@@ -218,7 +212,7 @@ if( !file.exists( outfile ) )
 # get Biblical texts only [n=84]
 meta_bib <- meta[ meta$author %in% c( 'Septuaginta', 'Novum Testamentum' ), ]
 
-# total words = 749_678
+# total words = 749_677
 sum( meta_bib$true_n_words )
 
 ## get all lemma's in LXX + NT

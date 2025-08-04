@@ -68,7 +68,7 @@ find_cluster_medoids <- function( data, clusters )
 outdir <- 'out.03.cluster.embedding'
 dir.create( outdir, showWarnings = FALSE )
 
-# Load your data (assuming it's already loaded)
+# Load the glove model (embedding)
 load( 'out.02.make.glove/saved_glove__5.RData' )
 
 # only keep LXX-NT lemmas
@@ -88,9 +88,9 @@ hc_result <- fastcluster::hclust( dist_matrix, method = "ward.D2" )
 
 
 # Test different numbers of clusters (reasonable range for interpretation)
-# Louw-nida has 93 semantic domains, so start at 90 and run to 300 
+# Louw-Nida has 93 semantic domains, so start at 90 and run to 180
 # to be sure to capture a reasonable range
-k_range <- 90:300
+k_range <- 90:180
 
 # Silhouette method
 silhouette_scores <- numeric( length( k_range ) )
@@ -124,10 +124,8 @@ for (i in seq_along( k_range))
 
 # Find optimal k
 optimal_k_sil <- k_range[ which.max( silhouette_scores ) ]
-optimal_k_elbow <- k_range[ which.min( diff( diff( wss_scores ) ) ) + 1]  # Elbow method
 
-paste( "Optimal k (Silhouette):", optimal_k_sil ) # 190
-paste( "Optimal k (Elbow):", optimal_k_elbow ) # 210
+paste( "Optimal k (Silhouette):", optimal_k_sil ) # 155
 paste( "Max Silhouette Score:", round( max( silhouette_scores ), 4 ) ) 
 
 #######
@@ -142,25 +140,16 @@ p_sil <- ggplot( df_sil, aes( x = x, y = y ) ) +
         geom_line(color = "#2C3E50", linewidth = 1, alpha = 0.5) +
         geom_point(color = "#2980B9", size = 2, alpha = 0.5 ) +
         geom_vline( xintercept = optimal_k_sil, linetype = "dashed", color = "gray30" ) +
-        scale_x_continuous( breaks = seq( 80, 360, 20 ) ) +
+        scale_x_continuous( breaks = seq( 90, 180, 10 ) ) +
         labs( x = "Number of Clusters (k)", y = "Average Silhouette Score" ) +
     theme_minimal(base_size = 14) +
     theme_bw()
 
-# elbow analysis
-df_elbow <- data.frame( x = k_range, y = wss_scores )
-
-# Elbow plot
-p_elbow <- ggplot( df_elbow, aes( x = x, y = y ) ) +
-    geom_line(color = "#2C3E50", linewidth = 1, alpha = 0.5) +
-    geom_point(color = "#2980B9", size = 2, alpha = 0.5 ) +
-    geom_vline( xintercept = optimal_k_elbow, linetype = "dashed", color = "gray30" ) +
-    scale_x_continuous( breaks = seq( 80, 360, 20 ) ) +
-    labs( x = "Number of Clusters (k)", y = "Within-cluster Sum of Squares" ) +
-    theme_minimal(base_size = 14) +
-    theme_bw()
+# Save the plot
+ggsave( p_sil, file = file.path( outdir, "silhouette.png" ), width = 6, height = 4, dpi = 600, bg = 'white' )
 
 
+stop( '..........' )
 
 
 # Find medoids for optimal clustering
@@ -250,9 +239,7 @@ save( lemma_cluster_df, cluster_summary_ordered, hc_result, optimal_k_sil,
 
 # Export to TSV files
 readr::write_tsv( lemma_cluster_df, file.path( outdir, "lemma_clusters.tsv" ), quote = 'all' )
-
 readr::write_tsv( cluster_summary_ordered, file.path( outdir, "cluster_summary.tsv" ), quote = 'all' )
-
 
 # Create a detailed cluster breakdown showing all lemmas per cluster
 cluster_breakdown <- split(lemma_cluster_df$lemma, lemma_cluster_df$cluster_id)

@@ -77,7 +77,7 @@ p_freq <- ggplot( vocabs, aes( x = 1:nrow( vocabs ), y = term_count ) ) +
     geom_line(color = "steelblue", linewidth = 1.1 ) +
     scale_y_log10( labels = scales::label_comma(),  breaks = c(5, 10, 50, 100, 500, 1000, 5000, 10000, 5e5, 1e5, 5e5, 1e6) ) +
     annotation_logticks( sides = "l" ) +
-    scale_x_continuous( breaks = c( 1, 4000, 8000, 12000, 16000, 20000, 24000, 28000, 32000, 36000, 39913 ) ) +
+    scale_x_continuous( breaks = c( 1, 4000, 8000, 12000, 16000, 20000, 24000, 28000, 32000, 36000, 40000 ) ) +
     labs( x = "Lemma (sorted from high to low prevalence)", y = "Prevalence" ) +
     theme_bw() 
 
@@ -105,7 +105,7 @@ p_freq2 <-
     facet_wrap( ~group, nrow = 2 ) +
     scale_y_log10( labels = scales::label_comma(), breaks = c(5, 10, 50, 100, 500, 1000, 5000, 10000, 5e5, 1e5, 5e5, 1e6) ) +
     annotation_logticks( sides = "l" ) +
-    scale_x_continuous( labels = scales::label_comma(), breaks = c( 1, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 39913 ) ) +
+    scale_x_continuous( labels = scales::label_comma(), breaks = c( 1, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000 ) ) +
     labs( x = "Lemma (sorted from high to low prevalence)", y = "Lemma Prevalence" ) +
     theme_bw() +
     theme( legend.position = 'none' ) +
@@ -139,11 +139,11 @@ wv_main <- glove$fit_transform( tcm, n_iter = n_iter, convergence_tol = 0.00001,
 # get context matrix
 wv_context <- glove$components
 
-# 150 x 39944
+# 150 x 39889
 dim( wv_context )
 
 # combine main embedding and context embedding (sum) into one matrix
-# 39944 x 150
+# 39889 x 150
 dim( embedding <- wv_main + t( wv_context ) )
 
 # save files to disk
