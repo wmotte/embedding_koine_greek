@@ -314,3 +314,12 @@ for( i in 1:nrow( cluster_summary_ordered ) )
 # Convert to JSON and save
 json_output <- toJSON( medoid_clusters_json, pretty = TRUE, auto_unbox = FALSE )
 writeLines( json_output, file.path( outdir, "medoid_clusters.json" ) )
+
+# required post-processing (remove "σ"):
+# "0527-013" "21" "21.13" "σας" "σ" "a-p---fg-" "Septuaginta" "Regnorum iii" --> σος 
+# I.e.,:   "cluster_id": "11",
+#          "medoid": "Ἀρεοπαγίτης",
+#          "size": 143,
+#          "label": "Civic and Religious Roles"
+
+

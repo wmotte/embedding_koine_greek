@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greek Text Cluster Analyzer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 15px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #2c3e50, #34495e);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            font-weight: 300;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1rem;
+        }
+
+        .controls {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .file-input {
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+
+        .file-input:hover {
+            background: #0056b3;
+        }
+
+        .file-info {
+            color: #6c757d;
+            font-style: italic;
+        }
+
+        .divider {
+            height: 30px;
+            width: 1px;
+            background: #dee2e6;
+            margin: 0 10px;
+        }
+
+        .example-label {
+            font-weight: 600;
+            color: #495057;
+            font-size: 0.9rem;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 0;
+            min-height: 700px;
+        }
+
+        .left-panel {
+            background: #f8f9fa;
+            border-right: 1px solid #e9ecef;
+            overflow-y: auto;
+            max-height: 700px;
+        }
+
+        .panel-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            padding: 20px 20px 0 20px;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 15px;
+        }
+
+        .meta-group {
+            margin-bottom: 10px;
+        }
+
+        .meta-group-header {
+            background: #e9ecef;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-left: 4px solid #007bff;
+            transition: all 0.3s;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .meta-group-header:hover {
+            background: #dee2e6;
+        }
+
+        .meta-group-header.collapsed {
+            border-left-color: #6c757d;
+        }
+
+        .meta-group-title {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 0.95rem;
+            margin-bottom: 4px;
+        }
+
+        .meta-group-count {
+            font-size: 0.8rem;
+            color: #6c757d;
+        }
+
+        .clusters-list {
+            background: white;
+            border-left: 4px solid #007bff;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .clusters-list.collapsed {
+            display: none;
+        }
+
+        .cluster-item {
+            padding: 10px 20px;
+            cursor: pointer;
+            border-bottom: 1px solid #f8f9fa;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .cluster-item:hover {
+            background: #f8f9fa;
+        }
+
+        .cluster-item.selected {
+            background: #e3f2fd;
+            border-left: 3px solid #2196f3;
+        }
+
+        .cluster-label {
+            font-weight: 500;
+            color: #2c3e50;
+            font-size: 0.9rem;
+            margin-bottom: 4px;
+            line-height: 1.3;
+        }
+
+        .cluster-info {
+            font-size: 0.75rem;
+            color: #6c757d;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cluster-medoid {
+            font-family: 'Times New Roman', serif;
+            font-weight: 600;
+        }
+
+        .right-panel {
+            background: white;
+            overflow-y: auto;
+            max-height: 700px;
+            padding: 20px;
+        }
+
+        .cluster-details {
+            margin-bottom: 25px;
+        }
+
+        .cluster-details h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+
+        .cluster-meta {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #28a745;
+        }
+
+        .cluster-description {
+            line-height: 1.5;
+            color: #495057;
+            margin-bottom: 12px;
+        }
+
+        .cluster-rationale {
+            line-height: 1.5;
+            color: #6c757d;
+            font-style: italic;
+            font-size: 0.9rem;
+        }
+
+        .lemmas-container h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .fit-legend {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            font-size: 0.85rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 3px;
+            border: 1px solid #dee2e6;
+        }
+
+        .lemmas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 12px;
+        }
+
+        .lemma-item {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 12px;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .lemma-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 6px;
+            background: var(--fit-color);
+        }
+
+        .lemma-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .lemma-item.medoid {
+            border-color: #28a745;
+            background: linear-gradient(135deg, #f0f8f0 0%, #e8f5e8 100%);
+        }
+
+        .lemma-item.medoid::before {
+            background: #28a745;
+        }
+
+        .lemma-text {
+            font-family: 'Times New Roman', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 6px;
+        }
+
+        .lemma-fit {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #495057;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .fit-bar {
+            flex: 1;
+            height: 6px;
+            background: #e9ecef;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .fit-fill {
+            height: 100%;
+            background: var(--fit-color);
+            transition: width 0.3s ease;
+            border-radius: 3px;
+        }
+
+        .fit-percentage {
+            min-width: 35px;
+            text-align: right;
+        }
+
+        .medoid-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: #28a745;
+            color: white;
+            font-size: 0.7rem;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6c757d;
+        }
+
+        .empty-state h3 {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+
+        @media (max-width: 1024px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+            
+            .left-panel {
+                max-height: 300px;
+                border-right: none;
+                border-bottom: 1px solid #e9ecef;
+            }
+            
+            .lemmas-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 15px;
+            }
+            
+            .divider {
+                height: 1px;
+                width: 100%;
+                margin: 5px 0;
+            }
+            
+            .lemmas-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏛️ Greek Text Cluster Analyzer</h1>
+            <p>Explore semantic groupings of lemmas in the LXX and New Testament</p>
+        </div>
+
+        <div class="controls">
+            <label for="fileInput" class="file-input">
+                📁 Load JSON File
+            </label>
+            <input type="file" id="fileInput" accept=".json" style="display: none;">
+            <span class="file-info" id="fileInfo">No file selected</span>
+            
+            <div class="divider"></div>
+            
+            <span class="example-label">📚 Example:</span>
+            <select id="example-select" style="padding: 8px 12px; font-size: 0.9rem; border-radius: 6px; border: 1px solid #ced4da; min-width: 200px;">
+                <option value="">Select example data...</option>
+                <option value="merged_clusters_example.json">Greek Cluster Data (Sample)</option>
+            </select>
+        </div>
+
+        <div class="content">
+            <div class="left-panel">
+                <div class="panel-title">🗂️ Semantic Groups & Clusters</div>
+                <div id="metaGroupsList">
+                    <div class="empty-state">
+                        <h3>No Data Loaded</h3>
+                        <p>Please load a JSON file or select an example to explore the cluster structure.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-panel">
+                <div class="panel-title">📊 Cluster Analysis</div>
+                <div id="clusterContent">
+                    <div class="empty-state">
+                        <h3>Select a Cluster</h3>
+                        <p>Choose a cluster from the left panel to view its lemmas and semantic coherence analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class GreekClusterAnalyzer {
+            constructor() {
+                this.data = null;
+                this.selectedCluster = null;
+                
+                this.initializeEventListeners();
+            }
+
+            initializeEventListeners() {
+                // File input
+                document.getElementById('fileInput').addEventListener('change', (e) => {
+                    this.loadFile(e.target.files[0]);
+                });
+
+                // Example loading
+                document.getElementById('example-select').addEventListener('change', (e) => {
+                    if (e.target.value) {
+                        this.loadExample(e.target.value);
+                    }
+                });
+            }
+
+            async loadExample(filename) {
+                try {
+                    // For this demo, we'll use the provided example data
+                    const exampleData = {
+                        "meta_groups": [
+                            {
+                                "meta_group_id": 1,
+                                "meta_label": "Religious and Biblical Themes",
+                                "description": "Clusters containing biblical names, religious concepts, worship practices, and theological themes",
+                                "clusters": [
+                                    {
+                                        "cluster_id": "2",
+                                        "medoid": "προετοιμάζω",
+                                        "size": 208,
+                                        "label": "Proper Nouns and Unrelated Verbs",
+                                        "rationale": "This cluster is semantically incoherent, primarily composed of a large number of proper nouns such as `Αβρααμ`, `Ὀλοφέρνης`, and `Τωβίτ`. The remaining members are verbs with no discernible shared meaning, making the medoid `προετοιμάζω` (to prepare beforehand) unrepresentative of the cluster as a whole.",
+                                        "members": [
+                                            {
+                                                "lemma": ["περιδύω"],
+                                                "intracluster_fit_percentage": [85.5]
+                                            },
+                                            {
+                                                "lemma": ["Μασέκ"],
+                                                "intracluster_fit_percentage": [4.3]
+                                            },
+                                            {
+                                                "lemma": ["ἀπόλοιπος"],
+                                                "intracluster_fit_percentage": [28.0]
+                                            },
+                                            {
+                                                "lemma": ["ψευδολογέω"],
+                                                "intracluster_fit_percentage": [77.8]
+                                            },
+                                            {
+                                                "lemma": ["Μαασίας"],
+                                                "intracluster_fit_percentage": [20.8]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cluster_id": "7",
+                                        "medoid": "διαφλέγω",
+                                        "size": 165,
+                                        "label": "Covenant, Kinship, and Community",
+                                        "rationale": "This cluster is rich in terms describing covenantal relationships, family, and community life. It includes words like `ὁρκωμοσία` (oath), `συμβουλευτής` (counselor), and `φιλάγαθος` (loving what is good), alongside many proper names from biblical narratives.",
+                                        "members": [
+                                            {
+                                                "lemma": ["ἔπαρμα"],
+                                                "intracluster_fit_percentage": [32.9]
+                                            },
+                                            {
+                                                "lemma": ["Ἰαΐρ"],
+                                                "intracluster_fit_percentage": [70.1]
+                                            },
+                                            {
+                                                "lemma": ["νυσταγμός"],
+                                                "intracluster_fit_percentage": [73.8]
+                                            },
+                                            {
+                                                "lemma": ["ἀντίψυχος"],
+                                                "intracluster_fit_percentage": [44.5]
+                                            },
+                                            {
+                                                "lemma": ["μολόχη"],
+                                                "intracluster_fit_percentage": [46.3]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "meta_group_id": 2,
+                                "meta_label": "Human Body and Health",
+                                "description": "Clusters related to anatomy, medicine, illness, and healing",
+                                "clusters": [
+                                    {
+                                        "cluster_id": "82",
+                                        "medoid": "τείνω",
+                                        "size": 53,
+                                        "label": "Anatomy and Physical Extension",
+                                        "rationale": "This cluster consists of words for parts of the body and terms describing physical extension and position. It includes `τείνω` (to stretch), `χείρ` (hand), `πούς` (foot), `σκέλος` (leg), and `βραχίων` (arm).",
+                                        "members": [
+                                            {
+                                                "lemma": ["στηρίζω"],
+                                                "intracluster_fit_percentage": [38.5]
+                                            },
+                                            {
+                                                "lemma": ["λαγών"],
+                                                "intracluster_fit_percentage": [44.2]
+                                            },
+                                            {
+                                                "lemma": ["βραχίων"],
+                                                "intracluster_fit_percentage": [69.2]
+                                            },
+                                            {
+                                                "lemma": ["μῦς"],
+                                                "intracluster_fit_percentage": [5.8]
+                                            },
+                                            {
+                                                "lemma": ["περιλαμβάνω"],
+                                                "intracluster_fit_percentage": [46.2]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    };
+                    
+                    this.processData(exampleData, filename);
+                } catch (error) {
+                    alert(`Error loading example: ${error.message}`);
+                }
+            }
+
+            async loadFile(file) {
+                if (!file) return;
+
+                try {
+                    const text = await this.readFileAsText(file);
+                    const jsonData = JSON.parse(text);
+                    this.processData(jsonData, file.name);
+                } catch (error) {
+                    alert('Error loading file: ' + error.message);
+                }
+            }
+
+            readFileAsText(file) {
+                return new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onload = e => resolve(e.target.result);
+                    reader.onerror = () => reject(new Error('Failed to read file'));
+                    reader.readAsText(file);
+                });
+            }
+
+            processData(jsonData, filename) {
+                this.data = jsonData;
+                
+                const totalClusters = this.data.meta_groups.reduce((sum, group) => sum + group.clusters.length, 0);
+                const totalLemmas = this.data.meta_groups.reduce((sum, group) => 
+                    sum + group.clusters.reduce((cSum, cluster) => cSum + cluster.size, 0), 0);
+                
+                document.getElementById('fileInfo').textContent = 
+                    `${filename} (${this.data.meta_groups.length} meta-groups, ${totalClusters} clusters, ~${totalLemmas} lemmas)`;
+                
+                this.displayMetaGroups();
+                this.clearClusterContent();
+            }
+
+            displayMetaGroups() {
+                const container = document.getElementById('metaGroupsList');
+                
+                const html = this.data.meta_groups.map(metaGroup => `
+                    <div class="meta-group">
+                        <div class="meta-group-header collapsed" onclick="analyzer.toggleMetaGroup(${metaGroup.meta_group_id})">
+                            <div class="meta-group-title">${metaGroup.meta_label}</div>
+                            <div class="meta-group-count">${metaGroup.clusters.length} ${metaGroup.clusters.length === 1 ? 'cluster' : 'clusters'}</div>
+                        </div>
+                        <div class="clusters-list collapsed" id="clusters-${metaGroup.meta_group_id}">
+                            ${metaGroup.clusters.map(cluster => `
+                                <div class="cluster-item" onclick="analyzer.selectCluster(${metaGroup.meta_group_id}, '${cluster.cluster_id}')">
+                                    <div class="cluster-label">${cluster.label}</div>
+                                    <div class="cluster-info">
+                                        <span class="cluster-medoid">${cluster.medoid}</span>
+                                        <span>${cluster.size} lemmas</span>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `).join('');
+                
+                container.innerHTML = html;
+            }
+
+            toggleMetaGroup(metaGroupId) {
+                const header = document.querySelector(`.meta-group-header[onclick*="${metaGroupId}"]`);
+                const clustersList = document.getElementById(`clusters-${metaGroupId}`);
+                
+                const isCollapsed = clustersList.classList.contains('collapsed');
+                
+                if (isCollapsed) {
+                    clustersList.classList.remove('collapsed');
+                    header.classList.remove('collapsed');
+                } else {
+                    clustersList.classList.add('collapsed');
+                    header.classList.add('collapsed');
+                }
+            }
+
+            selectCluster(metaGroupId, clusterId) {
+                // Remove previous selection
+                document.querySelectorAll('.cluster-item').forEach(item => {
+                    item.classList.remove('selected');
+                });
+                
+                // Add selection to clicked item
+                event.currentTarget.classList.add('selected');
+                
+                // Find and display the cluster
+                const metaGroup = this.data.meta_groups.find(g => g.meta_group_id === metaGroupId);
+                const cluster = metaGroup.clusters.find(c => c.cluster_id === clusterId);
+                
+                this.selectedCluster = cluster;
+                this.displayCluster(cluster, metaGroup);
+            }
+
+            displayCluster(cluster, metaGroup) {
+                const container = document.getElementById('clusterContent');
+                
+                // Check if medoid is already in members list
+                const medoidExists = cluster.members.some(member => member.lemma[0] === cluster.medoid);
+                
+                let allMembers;
+                if (medoidExists) {
+                    // Update the existing medoid entry to have 100% fit
+                    allMembers = cluster.members.map(member => {
+                        if (member.lemma[0] === cluster.medoid) {
+                            return {
+                                lemma: member.lemma,
+                                intracluster_fit_percentage: [100]
+                            };
+                        }
+                        return member;
+                    });
+                } else {
+                    // Add medoid as separate entry
+                    allMembers = [
+                        {
+                            lemma: [cluster.medoid],
+                            intracluster_fit_percentage: [100]
+                        },
+                        ...cluster.members
+                    ];
+                }
+                
+                // Sort by fit percentage (high to low)
+                allMembers.sort((a, b) => b.intracluster_fit_percentage[0] - a.intracluster_fit_percentage[0]);
+                
+                const html = `
+                    <div class="cluster-details">
+                        <div class="cluster-meta">
+                            <h2 style="color: #007bff; margin-bottom: 8px; font-size: 1.3rem;">${metaGroup.meta_label}</h2>
+                            <div class="cluster-description" style="margin-bottom: 15px;">
+                                ${this.formatText(metaGroup.description)}
+                            </div>
+                        </div>
+                        
+                        <h3 style="color: #2c3e50; margin: 20px 0 10px 0; font-size: 1.2rem;">${cluster.label}</h3>
+                        
+                        <div class="cluster-rationale" style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #6c757d;">
+                            <strong>Information:</strong> ${this.formatText(cluster.rationale)}
+                        </div>
+                    </div>
+                    
+                    <div class="lemmas-container">
+                        <h3>
+                            📋 Lemmas
+                            <span style="font-size: 0.8rem; color: #6c757d; font-weight: normal;">
+                                
+                            </span>
+                        </h3>
+                        
+                        <div class="fit-legend">
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: #2c5aa0;"></div>
+                                <span>High fit (80-100%)</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: #5a9bd4;"></div>
+                                <span>Medium fit (40-79%)</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: #8bb6e8;"></div>
+                                <span>Low fit (0-39%)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="lemmas-grid">
+                            ${allMembers.map(member => {
+                                const lemma = member.lemma[0];
+                                const fit = member.intracluster_fit_percentage[0];
+                                const isMedoid = lemma === cluster.medoid;
+                                const fitColor = this.getFitColor(fit);
+                                
+                                return `
+                                    <div class="lemma-item ${isMedoid ? 'medoid' : ''}" style="--fit-color: ${fitColor}">
+                                        ${isMedoid ? '<div class="medoid-badge">MEDOID</div>' : ''}
+                                        <div class="lemma-text">${lemma}</div>
+                                        <div class="lemma-fit">
+                                            <div class="fit-bar">
+                                                <div class="fit-fill" style="width: ${fit}%; --fit-color: ${fitColor}"></div>
+                                            </div>
+                                            <div class="fit-percentage">${fit}%</div>
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                `;
+                
+                container.innerHTML = html;
+            }
+
+            getFitColor(percentage) {
+                if (percentage >= 80) return '#2c5aa0';
+                if (percentage >= 40) return '#5a9bd4';
+                return '#8bb6e8';
+            }
+
+            formatText(text) {
+                // Replace backticks and straight quotes with curly quotes around Greek text
+                return text.replace(/`([^`]+)`/g, '\u201C$1\u201D')
+                          .replace(/'/g, '\u2019')
+                          .replace(/"/g, '\u201C')
+                          .replace(/"/g, '\u201D');
+            }
+
+            clearClusterContent() {
+                document.getElementById('clusterContent').innerHTML = `
+                    <div class="empty-state">
+                        <h3>Select a Cluster</h3>
+                        <p>Choose a cluster from the left panel to view its lemmas and semantic coherence analysis.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Initialize the application
+        const analyzer = new GreekClusterAnalyzer();
+    </script>
+</body>
+</html>
