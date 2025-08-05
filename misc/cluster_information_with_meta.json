@@ -1,0 +1,1236 @@
+{
+  "meta_groups": [
+    {
+      "meta_group_id": 1,
+      "meta_label": "Religious and Biblical Themes",
+      "description": "Clusters containing biblical names, religious concepts, worship practices, and theological themes",
+      "clusters": [
+        {
+          "cluster_id": "2",
+          "medoid": "προετοιμάζω",
+          "size": "208",
+          "label": "Proper Nouns and Unrelated Verbs",
+          "rationale": "This cluster is semantically incoherent, primarily composed of a large number of proper nouns such as `Αβρααμ`, `Ὀλοφέρνης`, and `Τωβίτ`. The remaining members are verbs with no discernible shared meaning, making the medoid `προετοιμάζω` (to prepare beforehand) unrepresentative of the cluster as a whole."
+        },
+        {
+          "cluster_id": "7",
+          "medoid": "διαφλέγω",
+          "size": "165",
+          "label": "Covenant, Kinship, and Community",
+          "rationale": "This cluster is rich in terms describing covenantal relationships, family, and community life. It includes words like `ὁρκωμοσία` (oath), `συμβουλευτής` (counselor), and `φιλάγαθος` (loving what is good), alongside many proper names from biblical narratives."
+        },
+        {
+          "cluster_id": "9",
+          "medoid": "ἀνυπέρθετος",
+          "size": "155",
+          "label": "Community, Dwelling, and Worship",
+          "rationale": "This cluster revolves around community life, religious practice, and places of dwelling. It features terms like `οἰκόνομος` (steward), `συγκοινωνέω` (to share in), `ἁγιαστήριον` (sanctuary), and `προσκυνάω` (to worship)."
+        },
+        {
+          "cluster_id": "11",
+          "medoid": "Ἀρεοπαγίτης",
+          "size": "144",
+          "label": "Civic and Religious Roles",
+          "rationale": "This cluster is characterized by terms from civic and religious life, including titles like the medoid `Ἀρεοπαγίτης` (Areopagite) and `κεντυρίων` (centurion). It also contains religious concepts like `ἁγιωσύνη` (holiness) and names of associated places like `Ἰόππη` (Joppa)."
+        },
+        {
+          "cluster_id": "18",
+          "medoid": "μεσιτεύω",
+          "size": "127",
+          "label": "Mediation, Ritual, and Sacred Objects",
+          "rationale": "This cluster combines themes of mediation, as in the medoid `μεσιτεύω`, with religious ritual (`ὁλοκάρπωμα`) and adorned objects (`χρυσοχάλινος`). Many terms relate to priestly duties, offerings, and decorated items used in worship."
+        },
+        {
+          "cluster_id": "24",
+          "medoid": "σκοτάω",
+          "size": "117",
+          "label": "Biblical Names, Titles, and Concepts",
+          "rationale": "This cluster is heavily populated with proper names from the Bible (`Ἀδελφός`, `Ἄνθρωπος`, `Λίθος`), divine titles (`Εὐλογητός`), and theological concepts. The medoid `σκοτάω` (to be darkened) may relate to divine judgment or the human condition in these narratives."
+        },
+        {
+          "cluster_id": "28",
+          "medoid": "ἐκθαμβέω",
+          "size": "113",
+          "label": "Amazement and Biblical Proper Nouns",
+          "rationale": "This cluster is a mix of words expressing amazement, like the medoid `ἐκθαμβέω` (to be greatly amazed), and a large number of proper names from biblical texts (`Ἰουδίθ`, `Γεδσών`, `Βοόζ`). The emotional terms may describe reactions within the narratives associated with these figures."
+        },
+        {
+          "cluster_id": "30",
+          "medoid": "παρατυγχάνω",
+          "size": "110",
+          "label": "Religious Rites, Prophecy, and Mystery",
+          "rationale": "The cluster centers on religious and supernatural concepts. It contains `μυστήριον` (mystery), `θρησκεία` (religion), `μαντεύομαι` (to prophesy), and `ἱερουργία` (priestly service), all related to the sacred and divine."
+        },
+        {
+          "cluster_id": "31",
+          "medoid": "ἐλάττωσις",
+          "size": "109",
+          "label": "Feasts, Provisions, and Religious Observance",
+          "rationale": "This cluster relates to feasts, provisions, and religious celebrations. Key terms include `πάσχα` (Passover), `σκηνοπηγία` (Feast of Tabernacles), `γεῦμα` (meal), and `πρωτοκλισία` (chief seat at a feast)."
+        },
+        {
+          "cluster_id": "35",
+          "medoid": "ἐπονομάζω",
+          "size": "103",
+          "label": "Theological Concepts and Divine Names",
+          "rationale": "This cluster is rich in theological language, including terms for divine attributes (`ἀθανασία`, `μεγαλωσύνη`), human responses to God (`πτωχεύω`, `ἐξομολόγησις`), and core concepts like `Υἱός` (Son) and `ἀπαρχή` (first fruits)."
+        },
+        {
+          "cluster_id": "39",
+          "medoid": "φαρμακός",
+          "size": "97",
+          "label": "Sorcery, Idolatry, and Foreign Peoples",
+          "rationale": "This cluster centers on foreign or forbidden practices. It includes `φαρμακός` (sorcerer), `ἐξακολουθέω` (to follow after, imitate), and `κατάκριμα` (condemnation), alongside names of foreign peoples and places (`Μαδιάμ`, `Σικίμος`)."
+        },
+        {
+          "cluster_id": "43",
+          "medoid": "καταδαπανάω",
+          "size": "94",
+          "label": "Consumption and Biblical Proper Nouns",
+          "rationale": "This cluster is a mix of verbs related to consumption, like the medoid `καταδαπανάω` (to consume completely), and a large number of proper names (`Ἑλιφάς`, `Νωεμίς`, `Γαμαλιήλ`). The actions may relate to events in the lives of these biblical figures."
+        },
+        {
+          "cluster_id": "51",
+          "medoid": "τοπαρχία",
+          "size": "80",
+          "label": "Administrative Districts and Proper Nouns",
+          "rationale": "This cluster is characterized by terms for administrative regions, like the medoid `τοπαρχία` (toparchy), and a high concentration of proper names (`Δημᾶς`, `Μελχισεδέκ`, `Σεβαστός`). The terms seem to relate to the governance and geography of the ancient world."
+        },
+        {
+          "cluster_id": "57",
+          "medoid": "συντροχάζω",
+          "size": "74",
+          "label": "Running Together and Proper Nouns",
+          "rationale": "The cluster is defined by the medoid `συντροχάζω` (to run together with) and a large collection of proper names (`Ἐσρών`, `Ἰσσάχαρ`, `Ζεβεδαῖος`). The name `Ἐπιφανής` (Epiphanes) is also present, suggesting a connection to historical or biblical narratives of assembly or conflict."
+        },
+        {
+          "cluster_id": "69",
+          "medoid": "ὁπηνίκα",
+          "size": "63",
+          "label": "Biblical Patriarchs and Matriarchs",
+          "rationale": "This cluster is predominantly composed of major figures from the Old Testament, especially patriarchs and matriarchs. Key names include `Σάρρα`, `Ἄγαρ`, `Λώτ`, `Ἅβραμ`, and `Ἰεζεκιήλ`, indicating a focus on foundational biblical narratives."
+        },
+        {
+          "cluster_id": "72",
+          "medoid": "Τωβίας",
+          "size": "59",
+          "label": "Kings and Leaders of Israel",
+          "rationale": "This cluster is a list of prominent kings, prophets, and leaders from the history of Israel. It includes major figures like `Ἱεροβοάμ`, `Ἐζεκίας`, `Σαμψών`, and `Ἀβεσσαλώμ`, indicating a clear focus on the rulers and narratives of the Hebrew Bible."
+        },
+        {
+          "cluster_id": "92",
+          "medoid": "Ῥεβέκκα",
+          "size": "47",
+          "label": "Biblical Patriarchs and Ancestors",
+          "rationale": "This cluster is a list of key ancestors and figures from the book of Genesis and Israel's early history. It includes `Ῥεβέκκα`, `Ἰσαάκ`, `Ἰακώβ`, `Ἁβραάμ`, and `Νῶε`, pointing to a focus on patriarchal narratives."
+        },
+        {
+          "cluster_id": "99",
+          "medoid": "λαός",
+          "size": "44",
+          "label": "Israel's Covenantal Worship",
+          "rationale": "This cluster contains core vocabulary related to the covenantal worship of Israel. It includes `λαός` (people), `ἱερεύς` (priest), `προσευχή` (prayer), `δικαίωμα` (ordinance), and the names of key figures like `Μωϋσῆς` and `Δαυίδ`."
+        },
+        {
+          "cluster_id": "101",
+          "medoid": "κιχράω",
+          "size": "42",
+          "label": "Lending and Borrowing",
+          "rationale": "The cluster is centered on the act of lending, as indicated by the medoid `κιχράω` (to lend). It is surrounded by proper names, primarily of priests and Levites (`Σαδώκ`, `Ἀσάφ`), suggesting a context of temple economy or records."
+        },
+        {
+          "cluster_id": "122",
+          "medoid": "ἐπιτελέω",
+          "size": "30",
+          "label": "Ritual, Feasting, and Performance",
+          "rationale": "This cluster's theme is the performance of rituals and the holding of feasts. Key terms include `ἐπιτελέω` (to complete, perform), `θυσία` (sacrifice), `ἑορτή` (festival), and `δεῖπνον` (dinner)."
+        },
+        {
+          "cluster_id": "124",
+          "medoid": "ἱερόν",
+          "size": "30",
+          "label": "Temples, Shrines, and Religious Objects",
+          "rationale": "This cluster contains vocabulary for sacred places and the objects within them. It includes `ἱερόν` (temple), `ναός` (shrine), `βωμός` (altar), and `ἄγαλμα` (statue)."
+        },
+        {
+          "cluster_id": "135",
+          "medoid": "ἁμάρτημα",
+          "size": "23",
+          "label": "Sin, Repentance, and Atonement",
+          "rationale": "This cluster contains core theological vocabulary related to sin and its remedy. It includes `ἁμάρτημα` (sin), `μετανοέω` (to repent), `βαπτίζω` (to baptize), and `σταυρόω` (to crucify)."
+        },
+        {
+          "cluster_id": "138",
+          "medoid": "ἀπέναντι",
+          "size": "21",
+          "label": "Facing or Opposite Position",
+          "rationale": "The cluster is unified by the concept of being opposite or in front of something, often in a ritual or confrontational context. The medoid `ἀπέναντι` (opposite) is joined by `κατέναντι` (over against) and objects like `θυσιαστήριον` (altar) and `χερουβίν`."
+        },
+        {
+          "cluster_id": "151",
+          "medoid": "προφήτης",
+          "size": "14",
+          "label": "Prophets and Apostles",
+          "rationale": "This cluster is a list of key roles and figures in the biblical tradition, focusing on prophets and apostles. It includes `προφήτης` (prophet), `ἀπόστολος` (apostle), and major names like `Μωσῆς`, `Παῦλος`, and `Ἰησοῦς`."
+        },
+        {
+          "cluster_id": "152",
+          "medoid": "Ζαβουλών",
+          "size": "13",
+          "label": "Tribes of Israel",
+          "rationale": "This cluster is composed of the names of the twelve tribes of Israel. It includes `Ζαβουλών`, `Ῥουβήν`, `Συμεών`, `Λευί`, and `Ιούδας`."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 2,
+      "meta_label": "Human Body and Health",
+      "description": "Clusters related to anatomy, medicine, illness, and healing",
+      "clusters": [
+        {
+          "cluster_id": "82",
+          "medoid": "τείνω",
+          "size": "53",
+          "label": "Anatomy and Physical Extension",
+          "rationale": "This cluster consists of words for parts of the body and terms describing physical extension and position. It includes `τείνω` (to stretch), `χείρ` (hand), `πούς` (foot), `σκέλος` (leg), and `βραχίων` (arm)."
+        },
+        {
+          "cluster_id": "93",
+          "medoid": "θεραπεύω",
+          "size": "47",
+          "label": "Healing, Medicine, and Treatment",
+          "rationale": "This cluster is highly coherent, focusing on the field of medicine and healing. It contains `θεραπεύω` (to heal), `ἰάομαι` (to heal), `ἰατρός` (physician), `νοσέω` (to be sick), and `φάρμακον` (drug)."
+        },
+        {
+          "cluster_id": "105",
+          "medoid": "οὐρά",
+          "size": "40",
+          "label": "External Body Parts",
+          "rationale": "This cluster is a list of external body parts of humans and animals. It includes `οὐρά` (tail), `κεφαλή` (head), `τράχηλος` (neck), `ὦμος` (shoulder), and `πώγων` (beard)."
+        },
+        {
+          "cluster_id": "110",
+          "medoid": "λεαίνω",
+          "size": "37",
+          "label": "Food Preparation and Ingredients",
+          "rationale": "This cluster contains verbs and nouns related to the preparation of food and medicinal compounds. It includes `λεαίνω` (to smooth, grind), `μείγνυμι` (to mix), `ἑψέω` (to boil), and ingredients like `ἔλαιον` (oil) and `μέλι` (honey)."
+        },
+        {
+          "cluster_id": "121",
+          "medoid": "δῆγμα",
+          "size": "30",
+          "label": "Bites, Stings, and Skin Ailments",
+          "rationale": "The cluster is focused on afflictions of the skin, often from bites or disease. The medoid `δῆγμα` (a bite) is joined by `λέπρα` (leprosy), `ψώρα` (the itch, mange), and `ἰοβόλος` (venomous)."
+        },
+        {
+          "cluster_id": "137",
+          "medoid": "ἐπιγίγνομαι",
+          "size": "22",
+          "label": "Symptoms of Illness",
+          "rationale": "This cluster consists of words describing the symptoms and bodily manifestations of illness. It includes `πυρετός` (fever), `σπασμός` (convulsion), `ἱδρώς` (sweat), and `ἔμετος` (vomit)."
+        },
+        {
+          "cluster_id": "143",
+          "medoid": "σπλάγχνον",
+          "size": "19",
+          "label": "Internal Organs",
+          "rationale": "This cluster is a list of internal organs of the body. It includes `σπλάγχνον` (inward parts, entrails), `ἧπαρ` (liver), `νεφρός` (kidney), and `πνεύμων` (lung)."
+        },
+        {
+          "cluster_id": "147",
+          "medoid": "παιδίον",
+          "size": "17",
+          "label": "Childbirth and Infancy",
+          "rationale": "This cluster contains vocabulary related to childbirth and the care of infants. It includes `παιδίον` (little child), `βρέφος` (infant), `τίκτω` (to give birth), and `θηλάζω` (to nurse)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 3,
+      "meta_label": "Social Structures and Governance",
+      "description": "Clusters related to leadership, law, social hierarchies, and civic roles",
+      "clusters": [
+        {
+          "cluster_id": "8",
+          "medoid": "καταβιβάζω",
+          "size": "162",
+          "label": "Social Hierarchies and Conflict",
+          "rationale": "The cluster combines terms for social roles (`μεγιστάν`, `πρεσβυτέριον`), kinship (`συγγενής`), and conflict (`νῖκος`, `ἀντιμισθία`). The medoid `καταβιβάζω` (to bring down) reflects the theme of changing social hierarchies and fortunes present in the group."
+        },
+        {
+          "cluster_id": "15",
+          "medoid": "μετάβολος",
+          "size": "136",
+          "label": "Moral Judgment and Social Status",
+          "rationale": "The cluster contains words describing moral judgment, such as `ἀμώμητος` (blameless) and `ἔνδικος` (just), alongside social roles like `κληρόνομος` (heir). The medoid `μετάβολος` (changeable) points to the theme of evaluating character and status."
+        },
+        {
+          "cluster_id": "16",
+          "medoid": "σκυθρωπός",
+          "size": "136",
+          "label": "Social Standing and Moral Qualities",
+          "rationale": "This cluster focuses on how individuals are perceived and their underlying moral qualities. It includes adjectives like the medoid `σκυθρωπός` (sad, gloomy), `σεμνός` (revered, honorable), and `ἄδοξος` (dishonored), which describe social and moral standing."
+        },
+        {
+          "cluster_id": "38",
+          "medoid": "παρανομέω",
+          "size": "98",
+          "label": "Transgression, Accusation, and Defense",
+          "rationale": "This cluster is focused on the legal and moral process of transgression and judgment. It includes `παρανομέω` (to transgress the law), `κατηγόρημα` (accusation), `ἀπολογία` (a defense), and `μνησικακέω` (to bear a grudge)."
+        },
+        {
+          "cluster_id": "52",
+          "medoid": "νεωστί",
+          "size": "79",
+          "label": "Reputation, Honor, and Public Standing",
+          "rationale": "This cluster centers on concepts of public reputation, honor, and status. It includes `ἔπαινος` (praise), `ἔντιμος` (honored), `ἄδοξος` (dishonored), and `ἀρχηγός` (leader), all related to an individual's standing in society."
+        },
+        {
+          "cluster_id": "54",
+          "medoid": "προΐστημι",
+          "size": "76",
+          "label": "Governance, Leadership, and Command",
+          "rationale": "This cluster is highly coherent, focusing on governance, political leadership, and military command. It contains numerous terms for rulers and states, such as `προΐστημι` (to rule), `στρατηγός` (general), `ἡγεμών` (leader), and `βασιλεία` (kingdom)."
+        },
+        {
+          "cluster_id": "58",
+          "medoid": "παραπέμπω",
+          "size": "74",
+          "label": "Companions, Attendants, and Social Roles",
+          "rationale": "This cluster is composed of words for various social roles, focusing on companions and attendants. It includes `παιδίσκη` (maidservant), `θεράπων` (attendant), `συνδειπνέω` (to dine with), and `συνανάκειμαι` (to recline at table with)."
+        },
+        {
+          "cluster_id": "74",
+          "medoid": "Λίβυς",
+          "size": "58",
+          "label": "Hellenistic Rulers and Peoples",
+          "rationale": "This cluster is composed almost entirely of names of Hellenistic kings, rulers, and the peoples they governed. It includes figures like `Λυσίμαχος`, `Πτολεμαῖος`, and `Ἀντίοχος`, and peoples such as `Γαλάτης` (Galatians) and `Σκύθης` (Scythians)."
+        },
+        {
+          "cluster_id": "80",
+          "medoid": "Φιλοπάτωρ",
+          "size": "53",
+          "label": "Ptolemaic and Seleucid Rulers",
+          "rationale": "This cluster is heavily focused on the geography and rulers of the Hellenistic period, particularly the Ptolemaic and Seleucid empires. It includes royal epithets like `Φιλοπάτωρ` and `Εὐεργέτης`, and figures like `Ναβουχοδονόσορ`."
+        },
+        {
+          "cluster_id": "90",
+          "medoid": "ὑποτίθημι",
+          "size": "48",
+          "label": "Accusation, Proof, and Judgment",
+          "rationale": "This cluster contains vocabulary from the domain of legal and logical argumentation. It includes `ὑποτίθημι` (to suppose, suggest), `μαρτυρία` (testimony), `ἀπόδειξις` (proof), and `κατηγορία` (accusation)."
+        },
+        {
+          "cluster_id": "104",
+          "medoid": "ἀδίκημα",
+          "size": "40",
+          "label": "Justice, Law, and Punishment",
+          "rationale": "This cluster contains vocabulary from the legal domain, focusing on justice, crime, and punishment. Key terms are `ἀδίκημα` (a wrong, crime), `δίκη` (justice, penalty), `κριτής` (judge), and `τιμωρία` (punishment)."
+        },
+        {
+          "cluster_id": "119",
+          "medoid": "πολίτης",
+          "size": "33",
+          "label": "Social Status, Kinship, and Property",
+          "rationale": "This cluster describes a person's social identity through status, relationships, and possessions. It includes `πολίτης` (citizen), `δοῦλος` (slave), `συγγενής` (relative), and `κτῆμα` (possession)."
+        },
+        {
+          "cluster_id": "149",
+          "medoid": "Γάϊος",
+          "size": "16",
+          "label": "Roman Names and Titles",
+          "rationale": "This cluster is a list of common Roman praenomina (first names) and titles. It includes names like `Γάϊος`, `Λούκιος`, and `Μάρκος`, along with the title `ὕπατος` (consul) and the city `Ῥώμη` (Rome)."
+        },
+        {
+          "cluster_id": "150",
+          "medoid": "νομοθετέω",
+          "size": "16",
+          "label": "Law, Custom, and Tradition",
+          "rationale": "This cluster contains vocabulary related to law, custom, and tradition. Key terms are `νομοθετέω` (to legislate), `νόμος` (law), `ἔθος` (custom), and `πάτριος` (ancestral)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 4,
+      "meta_label": "Language and Communication",
+      "description": "Clusters related to speech, writing, discourse, and information exchange",
+      "clusters": [
+        {
+          "cluster_id": "10",
+          "medoid": "πανηγυρίζω",
+          "size": "147",
+          "label": "Public Assembly, Speech, and Deception",
+          "rationale": "This cluster contains words related to public assembly and communication, such as the medoid `πανηγυρίζω` (to celebrate a public festival) and `λαλιά` (speech). It also includes a theme of deception with words like `συκοφάντης` (slanderer) and `ὑπόκρισις` (hypocrisy)."
+        },
+        {
+          "cluster_id": "23",
+          "medoid": "παραιτέομαι",
+          "size": "121",
+          "label": "Discourse, Deliberation, and Inquiry",
+          "rationale": "This cluster is composed almost entirely of words related to speech, thought, and the process of inquiry. It includes terms like `παραίνεσις` (advice), `ζήτησις` (inquiry), and `δημηγορέω` (to deliver a public speech), with the medoid `παραιτέομαι` (to ask for, decline) fitting this context."
+        },
+        {
+          "cluster_id": "50",
+          "medoid": "περιεργία",
+          "size": "83",
+          "label": "Inquiry, Meddling, and Proper Nouns",
+          "rationale": "The cluster contains words related to inquiry and excessive interest, such as the medoid `περιεργία` (curiosity, meddling). It is mixed with many proper names (`Πισιδία`, `Ἀκύλας`), suggesting a context of investigation or gossip surrounding these people and places."
+        },
+        {
+          "cluster_id": "73",
+          "medoid": "ἐμφαίνω",
+          "size": "59",
+          "label": "Rhetoric, Poetry, and Composition",
+          "rationale": "This cluster contains a rich vocabulary for rhetoric, poetry, and the art of composition. Terms include `ἐμφαίνω` (to exhibit, indicate), `λέξις` (speech, style), `ποίημα` (poem), and `ῥυθμός` (rhythm), all related to literary and verbal arts."
+        },
+        {
+          "cluster_id": "89",
+          "medoid": "μηνύω",
+          "size": "49",
+          "label": "Perception and Cognition",
+          "rationale": "This cluster is focused on the faculties of perception and cognition. It includes verbs like `μηνύω` (to reveal), `αἰσθάνομαι` (to perceive), and `νοέω` (to understand), covering both sensory input and mental processing."
+        },
+        {
+          "cluster_id": "96",
+          "medoid": "ἀκόλουθος",
+          "size": "46",
+          "label": "Writing, Narration, and Exposition",
+          "rationale": "This cluster is composed of words related to the act of writing, narrating, and explaining. It includes `ἀκόλουθος` (following, consequent), `συγγράφω` (to write), `ἱστορέω` (to inquire, narrate), and `ἐξηγέομαι` (to explain)."
+        },
+        {
+          "cluster_id": "131",
+          "medoid": "πῶς",
+          "size": "26",
+          "label": "Interrogative Words",
+          "rationale": "This cluster is composed of interrogative pronouns, adverbs, and adjectives used to ask questions. It includes `πῶς` (how?), `τίς` (who?, what?), `πότε` (when?), and `ποῦ` (where?)."
+        },
+        {
+          "cluster_id": "140",
+          "medoid": "φθέγγομαι",
+          "size": "20",
+          "label": "Sound and Speech",
+          "rationale": "This cluster contains words for making sounds, both articulate and inarticulate. It includes `φθέγγομαι` (to utter a sound), `λαλέω` (to speak), `βοάω` (to shout), and nouns like `φωνή` (voice) and `ἦχος` (sound)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 5,
+      "meta_label": "Physical Objects and Materials",
+      "description": "Clusters related to tools, weapons, clothing, buildings, and material objects",
+      "clusters": [
+        {
+          "cluster_id": "3",
+          "medoid": "πιαίνω",
+          "size": "204",
+          "label": "Instruments of Restraint and Control",
+          "rationale": "This cluster coheres around nouns for objects used to restrain, control, or punish. Key examples include `παγίς` (trap), `χαλινός` (bridle), `μάστιξ` (whip), and `μοχλός` (lever). The medoid `πιαίνω` (to fatten) is a clear semantic outlier in this otherwise consistent group."
+        },
+        {
+          "cluster_id": "14",
+          "medoid": "ὠμόλινον",
+          "size": "138",
+          "label": "Adornment, Value, and Renewal",
+          "rationale": "This cluster brings together concepts of adornment (`περίζωμα`, `ἐλεφάντινος`), value (`πολύτιμος`), and spiritual renewal (`ἀνανεόομαι`, `παλιγγενεσία`). The medoid `ὠμόλινον` (raw linen) relates to clothing and covering."
+        },
+        {
+          "cluster_id": "22",
+          "medoid": "ἐπιτέμνω",
+          "size": "122",
+          "label": "Maritime and Nautical Terms",
+          "rationale": "A significant portion of this cluster relates to the sea, ships, and sailing. Key terms include `ἱστίον` (sail), `κώπη` (oar), `πρύμνα` (stern), `ναυαγέω` (to shipwreck), and `πηδάλιον` (rudder), creating a strong maritime theme."
+        },
+        {
+          "cluster_id": "27",
+          "medoid": "βασίλειον",
+          "size": "114",
+          "label": "Buildings and Natural Landscapes",
+          "rationale": "The cluster is composed of nouns describing man-made structures and natural places. It includes `βασίλειον` (palace), `οἴκημα` (dwelling), `προάστειον` (suburb), `φάραγξ` (ravine), and `κρημνός` (cliff)."
+        },
+        {
+          "cluster_id": "53",
+          "medoid": "ἐνειλέω",
+          "size": "76",
+          "label": "Wrapping, Binding, and Covering",
+          "rationale": "The cluster's main theme is wrapping, binding, and covering. This is evident from the medoid `ἐνειλέω` (to roll in, wrap up) and members like `περιβόλαιον` (covering), `ὕφασμα` (woven fabric), and `δακτύλιον` (ring)."
+        },
+        {
+          "cluster_id": "61",
+          "medoid": "Ἀπελλῆς",
+          "size": "72",
+          "label": "Natural Elements and Created Objects",
+          "rationale": "This cluster contains a mix of natural elements like `ψάμμος` (sand) and `πηλός` (clay), and created objects like `πλίνθος` (brick). The presence of the proper name `Ἀπελλῆς` suggests a possible connection to narratives involving creation or building."
+        },
+        {
+          "cluster_id": "68",
+          "medoid": "τρίχωμα",
+          "size": "64",
+          "label": "Clothing, Appearance, and Social Bonds",
+          "rationale": "This cluster links items of clothing and appearance, like `τρίχωμα` (hair) and `δερμάτινος` (made of skin), with terms for social relationships, such as `φιλόστοργος` (loving one's family) and `σύνδουλος` (fellow slave)."
+        },
+        {
+          "cluster_id": "85",
+          "medoid": "ὁλόκληρος",
+          "size": "51",
+          "label": "Clothing, Adornment, and Ritual Actions",
+          "rationale": "This cluster brings together terms for clothing (`ἱμάτιον`, `χλαῖνα`), precious items (`μαργαρίτης`), and associated actions like `ἐνδύω` (to put on) and `ἀλείφω` (to anoint). The medoid `ὁλόκληρος` (whole, complete) can refer to a person being fully dressed or prepared."
+        },
+        {
+          "cluster_id": "91",
+          "medoid": "κίων",
+          "size": "47",
+          "label": "Furniture and Monumental Objects",
+          "rationale": "This cluster consists of nouns for furniture, architectural elements, and monumental objects. It includes `κίων` (pillar), `κλίνη` (couch), `θρόνος` (throne), and `μνημεῖον` (monument)."
+        },
+        {
+          "cluster_id": "126",
+          "medoid": "λίβανος",
+          "size": "29",
+          "label": "Spices, Incense, and Resins",
+          "rationale": "This cluster is composed of nouns for valuable aromatic substances. It includes `λίβανος` (frankincense), `σμύρνα` (myrrh), `κιννάμωμον` (cinnamon), and `νάρδος` (nard)."
+        },
+        {
+          "cluster_id": "130",
+          "medoid": "ἐγχέω",
+          "size": "26",
+          "label": "Pouring and Containers",
+          "rationale": "The cluster centers on the action of pouring and the vessels used for it. The medoid `ἐγχέω` (to pour in) is joined by `βάπτω` (to dip) and containers like `κεράμιον` (earthenware jar) and `ξέστης` (a liquid measure)."
+        },
+        {
+          "cluster_id": "134",
+          "medoid": "σίδηρος",
+          "size": "25",
+          "label": "Metals, Fire, and Forging",
+          "rationale": "This cluster brings together terms for metals and the process of working them with fire. It includes `σίδηρος` (iron), `χαλκός` (bronze), `χρυσός` (gold), and words like `πῦρ` (fire) and `κάμινος` (furnace)."
+        },
+        {
+          "cluster_id": "136",
+          "medoid": "πλήσσω",
+          "size": "22",
+          "label": "Weapons and Armor",
+          "rationale": "This cluster is a lexical field for ancient weaponry and armor. It includes `πλήσσω` (to strike), `ξίφος` (sword), `δόρυ` (spear), `τόξον` (bow), and `ἀσπίς` (shield)."
+        },
+        {
+          "cluster_id": "141",
+          "medoid": "σκάφος",
+          "size": "20",
+          "label": "Ships and Seafaring",
+          "rationale": "This cluster is a lexical field for ships and the people who sail them. It includes `σκάφος` (boat), `πλοῖον` (ship), `ναύτης` (sailor), and `κυβερνήτης` (pilot, helmsman)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 6,
+      "meta_label": "Moral Concepts and Character",
+      "description": "Clusters related to virtues, vices, ethical qualities, and moral judgment",
+      "clusters": [
+        {
+          "cluster_id": "4",
+          "medoid": "ἀποψύχω",
+          "size": "197",
+          "label": "Moral Qualities and Actions",
+          "rationale": "This cluster contains a strong concentration of words describing moral states and actions. It includes terms for sin like `ἁμαρτέω` (to sin) and vice like `φονεύς` (murderer), alongside virtues like `ἐλεήμων` (merciful). The medoid `ἀποψύχω` (to lose heart) relates to the emotional consequences of such moral conditions."
+        },
+        {
+          "cluster_id": "13",
+          "medoid": "ἀμάρτυρος",
+          "size": "140",
+          "label": "Testimony and Moral Status",
+          "rationale": "This cluster contains words related to witness and evidence, anchored by the medoid `ἀμάρτυρος` (without witness). It also includes terms describing moral states, such as `ἀσθενόω` (to weaken) and `ἀθῳόω` (to acquit), which are often subjects of testimony."
+        },
+        {
+          "cluster_id": "33",
+          "medoid": "οἰκειόω",
+          "size": "107",
+          "label": "Inherent Qualities and States",
+          "rationale": "The cluster is composed of adjectives describing inherent qualities, states, or capabilities. Examples include `ἄφοβος` (fearless), `εὔχρηστος` (useful), `ἐνδεής` (needy), and `ἄμεμπτος` (blameless), all describing a person's or thing's nature."
+        },
+        {
+          "cluster_id": "49",
+          "medoid": "ἀκολασία",
+          "size": "85",
+          "label": "Abstract Vices and Virtues",
+          "rationale": "This cluster consists almost entirely of abstract nouns describing moral vices and virtues. It includes `ἀκολασία` (licentiousness), `πλεονεξία` (greed), `ὕβρις` (insolence), and `εὐσέβεια` (piety), forming a clear lexicon of ethical concepts."
+        },
+        {
+          "cluster_id": "75",
+          "medoid": "ἐντρέπω",
+          "size": "56",
+          "label": "Sin, Reproach, and Divine Judgment",
+          "rationale": "The cluster focuses on themes of sin, shame, and divine judgment. Key terms include `ἐντρέπω` (to shame), `βεβηλόω` (to profane), `ἀνομία` (lawlessness), and `παροργίζω` (to provoke to anger), often in a covenantal context with `Ισραηλ` and `Ιερουσαλημ`."
+        },
+        {
+          "cluster_id": "83",
+          "medoid": "συγγνωστός",
+          "size": "52",
+          "label": "Forgiveness and Pardonable Offenses",
+          "rationale": "The cluster is centered on the idea of pardonable or understandable faults. The medoid `συγγνωστός` (pardonable) is the key, supported by terms that describe pitiable or relatable situations, distinguishing them from more severe transgressions."
+        },
+        {
+          "cluster_id": "84",
+          "medoid": "ἐπιεικής",
+          "size": "52",
+          "label": "Ethical Qualities and Character Traits",
+          "rationale": "This cluster is a collection of adjectives describing a person's character and ethical disposition. It includes `ἐπιεικής` (gentle, fair), `πρᾶος` (gentle), `σώφρων` (prudent), and their opposites like `πονηρός` (wicked) and `μωρός` (foolish)."
+        },
+        {
+          "cluster_id": "120",
+          "medoid": "θαυμαστός",
+          "size": "33",
+          "label": "Excellence, Wonder, and Virtue",
+          "rationale": "This cluster contains words used to express admiration for exceptional qualities and virtues. It includes `θαυμαστός` (wonderful), `ἀρετή` (virtue), `σοφία` (wisdom), and `κάλλος` (beauty)."
+        },
+        {
+          "cluster_id": "127",
+          "medoid": "διάνοια",
+          "size": "28",
+          "label": "Mind, Soul, and Human Nature",
+          "rationale": "This cluster contains vocabulary used in philosophical and psychological descriptions of human nature. It includes `διάνοια` (thought, mind), `ψυχή` (soul), `σῶμα` (body), and `λογικός` (rational)."
+        },
+        {
+          "cluster_id": "133",
+          "medoid": "φιλανθρωπία",
+          "size": "25",
+          "label": "Positive Social Virtues",
+          "rationale": "This cluster is a collection of abstract nouns describing positive social virtues and relationships. It includes `φιλανθρωπία` (love for humanity), `ὁμόνοια` (unanimity), `εἰρήνη` (peace), and `φιλία` (friendship)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 7,
+      "meta_label": "Natural World and Geography",
+      "description": "Clusters related to animals, plants, weather, geographical features, and places",
+      "clusters": [
+        {
+          "cluster_id": "32",
+          "medoid": "χορεύω",
+          "size": "107",
+          "label": "Decline, Mourning, and Destruction",
+          "rationale": "This cluster has a strong theme of decay, grief, and destruction. It includes words like `φθίω` (to decay), `ὀδυρμός` (lamentation), `καταστροφή` (destruction), and `πένθος` (grief). The medoid `χορεύω` (to dance) is a significant outlier."
+        },
+        {
+          "cluster_id": "45",
+          "medoid": "φλύαρος",
+          "size": "91",
+          "label": "Idle Talk and Natural Imagery",
+          "rationale": "The cluster contains words for foolish or idle talk, led by the medoid `φλύαρος` (gossipy, nonsensical). This is juxtaposed with a number of terms from the natural world, such as `κρίνον` (lily) and `κυνήγιον` (the hunt), creating a somewhat noisy group."
+        },
+        {
+          "cluster_id": "62",
+          "medoid": "καρποφορέω",
+          "size": "69",
+          "label": "Bearing Fruit and Cultivation",
+          "rationale": "The cluster is strongly themed around agriculture and growth. The medoid `καρποφορέω` (to bear fruit) is supported by members like `ζυμόω` (to leaven), `βλαστάνω` (to sprout), and `φύραμα` (dough), all related to cultivation and production."
+        },
+        {
+          "cluster_id": "64",
+          "medoid": "θηριόω",
+          "size": "66",
+          "label": "Savage Behavior and Foreign Peoples",
+          "rationale": "The cluster centers on the theme of savage or bestial behavior, as indicated by the medoid `θηριόω` (to make savage). This is linked with terms for foreign or hostile groups like `Ἀμμανῖτις` and `Ἀμαλήκ`, reflecting a perception of outsiders as uncivilized."
+        },
+        {
+          "cluster_id": "66",
+          "medoid": "δράκων",
+          "size": "66",
+          "label": "Animals and Wildlife",
+          "rationale": "This cluster is a well-defined bestiary, composed almost entirely of words for animals. It includes `δράκων` (dragon, serpent), `λέων` (lion), `λύκος` (wolf), `ἀετός` (eagle), and `ἰχθῦς` (fish), covering a wide range of creatures."
+        },
+        {
+          "cluster_id": "76",
+          "medoid": "Γάζα",
+          "size": "56",
+          "label": "Geographical and Ethnic Identity",
+          "rationale": "This cluster centers on geographical and ethnic identity, particularly in relation to Jewish law and territory. It includes places like `Γάζα`, peoples like `Ἀμορραῖος` (Amorite), and concepts like `περιτομή` (circumcision) and `ἀκροβυστία` (uncircumcision)."
+        },
+        {
+          "cluster_id": "81",
+          "medoid": "οἰκίζω",
+          "size": "53",
+          "label": "Settlement, Fortification, and Geography",
+          "rationale": "This cluster is thematically centered on settlement, military fortification, and geographical features. Key terms include `οἰκίζω` (to found, colonize), `τειχίζω` (to build a wall), `φρούριον` (fort), and `ποταμός` (river)."
+        },
+        {
+          "cluster_id": "86",
+          "medoid": "καταφέρω",
+          "size": "50",
+          "label": "Weather and Natural Phenomena",
+          "rationale": "This cluster is composed of words describing weather and powerful natural events. It includes `καταφέρω` (to bring down), `ὑετός` (rain), `χειμάζω` (to be storm-tossed), `σεισμός` (earthquake), and `βροντή` (thunder)."
+        },
+        {
+          "cluster_id": "97",
+          "medoid": "Ἔφεσος",
+          "size": "45",
+          "label": "Cities and Regions of the Hellenistic World",
+          "rationale": "This cluster is a gazetteer of prominent cities and regions in the ancient Greek and Roman world. It includes `Ἔφεσος`, `Ἀθῆναι`, `Κόρινθος`, `Συρία`, and `Κύπρος`, all major locations in the eastern Mediterranean."
+        },
+        {
+          "cluster_id": "111",
+          "medoid": "αὐξάνω",
+          "size": "37",
+          "label": "Growth, Change, and Vitality",
+          "rationale": "This cluster describes processes of growth, change, and life. Key terms are `αὐξάνω` (to grow), `μεταβάλλω` (to change), `γένεσις` (origin, birth), and `πνεῦμα` (spirit, breath), all related to dynamics of living things."
+        },
+        {
+          "cluster_id": "114",
+          "medoid": "πόα",
+          "size": "35",
+          "label": "Plants, Trees, and Their Parts",
+          "rationale": "This cluster consists of words for various types of plants and their constituent parts. It includes general terms like `πόα` (grass) and `δένδρον` (tree), specific plants like `ἄμπελος` (vine) and `συκῆ` (fig tree), and parts like `ῥίζα` (root) and `καρπός` (fruit)."
+        },
+        {
+          "cluster_id": "125",
+          "medoid": "βοῦς",
+          "size": "30",
+          "label": "Livestock and Domestic Animals",
+          "rationale": "This cluster is a lexical field for livestock and domestic animals. It includes `βοῦς` (ox), `ἵππος` (horse), `πρόβατον` (sheep), and `ποιμήν` (shepherd)."
+        },
+        {
+          "cluster_id": "132",
+          "medoid": "φώς",
+          "size": "25",
+          "label": "Light and Celestial Bodies",
+          "rationale": "This cluster contains words for light and the celestial bodies that produce it. It includes `φώς` (light), `ἥλιος` (sun), `σελήνη` (moon), and `ἀστήρ` (star)."
+        },
+        {
+          "cluster_id": "142",
+          "medoid": "ὥρα",
+          "size": "19",
+          "label": "Seasons and Times of Year",
+          "rationale": "The cluster contains words for seasons and specific times of the year. It includes `ὥρα` (hour, season), `χειμών` (winter), `θέρος` (summer), and `ἔαρ` (spring)."
+        },
+        {
+          "cluster_id": "145",
+          "medoid": "πλησίον",
+          "size": "18",
+          "label": "Geographical Places and Proximity",
+          "rationale": "This cluster contains nouns for different types of geographical places and a word for proximity. It includes `πόλις` (city), `κώμη` (village), `ὄρος` (mountain), and the adverb `πλησίον` (near)."
+        },
+        {
+          "cluster_id": "153",
+          "medoid": "νότος",
+          "size": "13",
+          "label": "Cardinal Directions and Wind",
+          "rationale": "This cluster contains the four cardinal directions and words related to wind. It includes `νότος` (south), `βορέας` (north), `ἀνατολή` (east), `δύσις` (west), and `ἄνεμος` (wind)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 8,
+      "meta_label": "Actions and Behaviors",
+      "description": "Clusters related to various types of human actions, movements, and behavioral patterns",
+      "clusters": [
+        {
+          "cluster_id": "1",
+          "medoid": "διηνεκής",
+          "size": "219",
+          "label": "Continuous Actions and Their Consequences",
+          "rationale": "This cluster centers on enduring actions and their resulting states, often with a negative moral valence. Verbs like `βλασφημέω` (to blaspheme) and `πλανάω` (to lead astray) are linked to nouns like `διαφθορά` (corruption) and `ἀπάτη` (deceit). The medoid `διηνεκής` (perpetual) underscores the theme of persistent behavior and its effects."
+        },
+        {
+          "cluster_id": "5",
+          "medoid": "ἀνεγείρω",
+          "size": "175",
+          "label": "Raising, Arousing, and Rebuilding",
+          "rationale": "The members strongly cohere around the concept of raising, building, and restoring. Key verbs include `διεγείρω` (to arouse), `ἀνοικοδομέω` (to rebuild), and `ἀνακαθίζω` (to sit up), all of which align perfectly with the medoid `ἀνεγείρω` (to raise up)."
+        },
+        {
+          "cluster_id": "12",
+          "medoid": "ἀναλύω",
+          "size": "144",
+          "label": "Departure, Destruction, and Settlement",
+          "rationale": "The cluster centers on themes of departure, ending, and settlement. It includes the medoid `ἀναλύω` (to depart), `ἀφανισμός` (destruction), `κατοικίζω` (to settle), and `μετοικίζω` (to remove to another place)."
+        },
+        {
+          "cluster_id": "17",
+          "medoid": "πλεονασμός",
+          "size": "129",
+          "label": "Intense and Excessive Actions",
+          "rationale": "This cluster is characterized by words denoting intense actions, often with a negative or excessive connotation. Examples include `μαστιγόω` (to whip), `ἀναθεματίζω` (to curse), and `καταβαρέω` (to weigh down), all related to the medoid `πλεονασμός` (abundance, excess)."
+        },
+        {
+          "cluster_id": "19",
+          "medoid": "ὀρθόω",
+          "size": "127",
+          "label": "Correcting, Strengthening, and Reviving",
+          "rationale": "The cluster is unified by the concept of making things straight, right, or alive again. This is evident in the medoid `ὀρθόω` (to set upright), as well as members like `δυναμόω` (to strengthen), `καινίζω` (to make new), and `ἀναζέω` (to boil up, revive)."
+        },
+        {
+          "cluster_id": "34",
+          "medoid": "ἐπιπέμπω",
+          "size": "104",
+          "label": "Sending, Giving, and Harming",
+          "rationale": "This cluster contains verbs of sending (`ἐπιπέμπω`), giving (`δῶρον`), and harming (`τραυματίζω`). It reflects a theme of transitive actions that have a direct effect on a recipient."
+        },
+        {
+          "cluster_id": "37",
+          "medoid": "ἐξοπλίζω",
+          "size": "101",
+          "label": "Equipping, Adorning, and Rescuing",
+          "rationale": "The cluster's theme is providing, equipping, and rescuing. This is seen in the medoid `ἐξοπλίζω` (to equip fully), and members like `καταχρυσόω` (to gild), `ἀμφιάζω` (to clothe), and `λυτρόω` (to redeem)."
+        },
+        {
+          "cluster_id": "40",
+          "medoid": "ἐξουθενόω",
+          "size": "96",
+          "label": "Contempt, Rejection, and Futility",
+          "rationale": "The cluster is unified by a theme of contempt, rejection, and worthlessness. This is evident in the medoid `ἐξουθενόω` (to treat with contempt), and members like `ἀτεκνόω` (to be childless), `μεταμελέομαι` (to regret), and `καύχησις` (boasting)."
+        },
+        {
+          "cluster_id": "41",
+          "medoid": "γεμίζω",
+          "size": "95",
+          "label": "Filling, Clothing, and Sustaining",
+          "rationale": "The cluster revolves around the concept of filling, covering, and providing for. This is seen in the medoid `γεμίζω` (to fill), and members like `περιζώννυμαι` (to gird), `στρωμνή` (bed), and `σιτομετρέω` (to measure out grain)."
+        },
+        {
+          "cluster_id": "44",
+          "medoid": "καταξιόω",
+          "size": "92",
+          "label": "Effort, Aspiration, and Evaluation",
+          "rationale": "This cluster is about striving, seeking, and being evaluated. It includes verbs like `ἀθλέω` (to contend) and `ἐπιζητέω` (to seek after), with `καταξιόω` (to deem worthy) representing the outcome of such efforts."
+        },
+        {
+          "cluster_id": "47",
+          "medoid": "ἐκλύω",
+          "size": "89",
+          "label": "Physical Force, Pressure, and Weakness",
+          "rationale": "This cluster is highly coherent, focusing on physical force and its effects. It includes verbs like `πιέζω` (to press) and `θλίβω` (to afflict), and states like `ἀλγέω` (to feel pain), with the medoid `ἐκλύω` (to loose, weaken) summarizing the result of such forces."
+        },
+        {
+          "cluster_id": "55",
+          "medoid": "μετακαλέω",
+          "size": "75",
+          "label": "Summoning, Growth, and Abundance",
+          "rationale": "The cluster combines the idea of summoning, as in the medoid `μετακαλέω` (to summon), with themes of natural growth and abundance, such as `βλαστός` (shoot), `κάρπιμος` (fruitful), and `πλατύνω` (to make wide)."
+        },
+        {
+          "cluster_id": "59",
+          "medoid": "ἀναποδίζω",
+          "size": "73",
+          "label": "Hindering and Fortifying",
+          "rationale": "This cluster contains words related to hindering, like the medoid `ἀναποδίζω` (to check, hinder), as well as terms for building up or fortifying, such as `ἐπιστηρίζω` (to support) and `πραιτώριον` (praetorium). It reflects a tension between obstruction and strengthening."
+        },
+        {
+          "cluster_id": "70",
+          "medoid": "ἀπαντάω",
+          "size": "63",
+          "label": "Movement, Travel, and Direction",
+          "rationale": "This cluster is highly coherent, consisting of verbs and adverbs related to movement and travel. It includes `ἀπαντάω` (to meet), `πορεύω` (to go), `τρέχω` (to run), and `ἀναβαίνω` (to go up), all describing motion from one place to another."
+        },
+        {
+          "cluster_id": "79",
+          "medoid": "συναπόλλυμι",
+          "size": "54",
+          "label": "Shared Negative Fate",
+          "rationale": "The cluster is defined by the medoid `συναπόλλυμι` (to destroy with or perish with), indicating a theme of shared negative fate. This is supported by members like `λοίδορος` (reviler) and `ἀκατάπαυστος` (incessant), which carry a strong negative charge."
+        },
+        {
+          "cluster_id": "107",
+          "medoid": "καταβάλλω",
+          "size": "39",
+          "label": "Demolition and Construction",
+          "rationale": "This cluster focuses on the construction and demolition of buildings and fortifications. It includes `καταβάλλω` (to throw down), `καθαιρέω` (to take down), `οἰκοδομέω` (to build), and objects like `τεῖχος` (wall) and `πύργος` (tower)."
+        },
+        {
+          "cluster_id": "108",
+          "medoid": "συλλέγω",
+          "size": "39",
+          "label": "Gathering, Abundance, and Scarcity",
+          "rationale": "The cluster revolves around the concepts of gathering, fullness, and lack. Key verbs are `συλλέγω` (to gather) and `ἀθροίζω` (to collect), contrasted with states like `πλήρης` (full) and `κενός` (empty)."
+        },
+        {
+          "cluster_id": "116",
+          "medoid": "μεταπέμπω",
+          "size": "35",
+          "label": "Sending, Summoning, and Assembling",
+          "rationale": "This cluster's theme is official communication and assembly. It includes verbs like `μεταπέμπω` (to send for), `συγκαλέω` (to call together), and nouns for messengers (`ἄγγελος`) and assemblies (`συνέδριον`)."
+        },
+        {
+          "cluster_id": "128",
+          "medoid": "ἀποκλείω",
+          "size": "28",
+          "label": "Opening, Closing, and Passage",
+          "rationale": "This cluster's theme is access and passage. It includes verbs like `ἀποκλείω` (to shut out) and `ἀνοίγνυμι` (to open), and nouns like `εἴσοδος` (entrance) and `πύλη` (gate)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 9,
+      "meta_label": "Numbers, Time, and Logic",
+      "description": "Clusters related to mathematical concepts, temporal expressions, and logical structures",
+      "clusters": [
+        {
+          "cluster_id": "48",
+          "medoid": "τότε",
+          "size": "86",
+          "label": "Temporal and Sequential Adverbs",
+          "rationale": "This cluster is composed of adverbs and conjunctions that establish temporal sequence and logical connection. Key members include `τότε` (then), `ἕως` (until), `πρίν` (before), and `ἔπειτα` (afterwards), all used to structure narrative and argument."
+        },
+        {
+          "cluster_id": "56",
+          "medoid": "γάρ",
+          "size": "75",
+          "label": "Core Grammatical and Logical Particles",
+          "rationale": "This cluster consists of the most fundamental particles, pronouns, and verbs used for constructing sentences and logical arguments in Greek. It includes `γάρ` (for), `δέ` (but), `καί` (and), `εἰμί` (to be), and `ὁ` (the), forming the basic toolkit of the language."
+        },
+        {
+          "cluster_id": "78",
+          "medoid": "διό",
+          "size": "55",
+          "label": "Causality, Logic, and Existence",
+          "rationale": "This cluster is composed of words used to express cause, logical consequence, and states of being. It includes `διό` (therefore), `αἰτία` (cause), `συμβαίνω` (to happen), and `ὑπάρχω` (to exist), forming a vocabulary for philosophical and logical reasoning."
+        },
+        {
+          "cluster_id": "103",
+          "medoid": "ὄγδοος",
+          "size": "40",
+          "label": "Ordinal Numbers and Time Periods",
+          "rationale": "This cluster is composed of ordinal numbers and units of time. It includes `ὄγδοος` (eighth), `τέταρτος` (fourth), `δέκατος` (tenth), and `πεντηκοστός` (fiftieth), used for counting days, months, and years."
+        },
+        {
+          "cluster_id": "123",
+          "medoid": "εἴκοσι",
+          "size": "30",
+          "label": "Cardinal Numbers and Time",
+          "rationale": "This cluster is composed of cardinal numbers and units of time. It includes `εἴκοσι` (twenty), `δέκα` (ten), `ἑκατόν` (one hundred), and time units like `ἔτος` (year) and `ἡμέρα` (day)."
+        },
+        {
+          "cluster_id": "139",
+          "medoid": "πλάτος",
+          "size": "20",
+          "label": "Measurement and Dimensions",
+          "rationale": "This cluster is composed of words for units of measurement and physical dimensions. It includes `πλάτος` (width), `μῆκος` (length), `βάθος` (depth), and units like `πῆχυς` (cubit) and `σπιθαμή` (span)."
+        },
+        {
+          "cluster_id": "144",
+          "medoid": "τρισχίλιοι",
+          "size": "18",
+          "label": "Large Cardinal Numbers",
+          "rationale": "This cluster is composed of large cardinal numbers, typically multiples of one hundred or one thousand. It includes `τρισχίλιοι` (three thousand), `μύριοι` (ten thousand), `διακόσιοι` (two hundred), and `πεντακισχίλιοι` (five thousand)."
+        },
+        {
+          "cluster_id": "148",
+          "medoid": "ἄρα",
+          "size": "17",
+          "label": "Geometry and Mathematics",
+          "rationale": "This cluster is composed of terms from geometry and mathematics. It includes `γωνία` (angle), `κύκλος` (circle), `τετράγωνος` (square), and `ἀριθμός` (number)."
+        },
+        {
+          "cluster_id": "154",
+          "medoid": "ἐφάπτω",
+          "size": "11",
+          "label": "Geometric Tangency",
+          "rationale": "This small, highly specific cluster contains geometric terms related to circles and lines. The medoid `ἐφάπτω` (to touch, be tangent to) defines the theme, supported by `κύκλος` (circle), `περιφέρεια` (circumference), and `κέντρον` (center)."
+        },
+        {
+          "cluster_id": "155",
+          "medoid": "θερμαίνω",
+          "size": "8",
+          "label": "The Four Humors or Elements",
+          "rationale": "This cluster represents the four classical qualities or humors. It consists of the opposing pairs `θερμός` (hot) and `ψυχρός` (cold), and `ξηρός` (dry) and `ὑγρός` (wet), along with their corresponding verbs."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 10,
+      "meta_label": "Family and Social Relationships",
+      "description": "Clusters related to kinship, community bonds, and social interactions",
+      "clusters": [
+        {
+          "cluster_id": "6",
+          "medoid": "συντυγχάνω",
+          "size": "169",
+          "label": "Social Interaction and Emotional Response",
+          "rationale": "This cluster centers on emotions and social interactions, containing words like `δάκρυον` (tear), `ἱλαρός` (cheerful), `δέησις` (prayer), and `βοηθός` (helper). The medoid `συντυγχάνω` (to meet with) captures the interactive nature of many terms."
+        },
+        {
+          "cluster_id": "20",
+          "medoid": "ἀναθάλλω",
+          "size": "124",
+          "label": "Spiritual Renewal and Communal Service",
+          "rationale": "This cluster centers on themes of spiritual renewal and community identity. Key terms include the medoid `ἀναθάλλω` (to flourish anew), `φανέρωσις` (revelation), `λειτούργημα` (service), and `ἀδελφικός` (brotherly)."
+        },
+        {
+          "cluster_id": "21",
+          "medoid": "παρακάθημαι",
+          "size": "124",
+          "label": "Social and Physical Proximity",
+          "rationale": "The cluster's central theme is proximity, both social and physical. This is shown by the medoid `παρακάθημαι` (to sit beside) and members like `ἐπικάθημαι` (to sit upon), `συμπάσχω` (to suffer with), and `ἡλικιώτης` (an equal in age)."
+        },
+        {
+          "cluster_id": "25",
+          "medoid": "περικυκλόω",
+          "size": "115",
+          "label": "Community, Celebration, and Kinship",
+          "rationale": "The cluster revolves around community life, including celebration (`ἀγαλλίασις`), kinship (`ἀδελφιδός`), and shared experience (`παρεπίδημος`). The medoid `περικυκλόω` (to encircle) evokes a sense of surrounding and gathering, central to community."
+        },
+        {
+          "cluster_id": "29",
+          "medoid": "αἰτιάομαι",
+          "size": "113",
+          "label": "Interpersonal Actions and Emotions",
+          "rationale": "This cluster is highly coherent, focusing on interpersonal actions and the resulting emotions. It includes verbs like `ἀγαπάω` (to love), `μισέω` (to hate), `ἐλεέω` (to pity), and `λοιδορέω` (to revile), covering a wide spectrum of social and emotional experience."
+        },
+        {
+          "cluster_id": "115",
+          "medoid": "νεανίσκος",
+          "size": "35",
+          "label": "Family, Kinship, and Life Stages",
+          "rationale": "This cluster contains vocabulary for family members and different stages of life. It includes `νεανίσκος` (young man), `παῖς` (child), `γηράσκω` (to grow old), `πατήρ` (father), and `θυγάτηρ` (daughter)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 11,
+      "meta_label": "Conflict and Opposition",
+      "description": "Clusters related to warfare, violence, opposition, and destructive behaviors",
+      "clusters": [
+        {
+          "cluster_id": "26",
+          "medoid": "ἀντίπαλος",
+          "size": "115",
+          "label": "Conflict, Opposition, and Perseverance",
+          "rationale": "This cluster is strongly themed around conflict and endurance. It contains words like the medoid `ἀντίπαλος` (adversary), `ἀνθίστημι` (to oppose), `πολιορκία` (siege), and `καρτερέω` (to persevere), all pointing to a context of struggle."
+        },
+        {
+          "cluster_id": "98",
+          "medoid": "φονεύω",
+          "size": "44",
+          "label": "Killing, Destruction, and Depravity",
+          "rationale": "This cluster is intensely focused on killing, ruin, and the people who perpetrate them. Key terms include `φονεύω` (to murder), `σφαγή` (slaughter), `ἀπώλεια` (destruction), and `ἀσεβής` (impious)."
+        },
+        {
+          "cluster_id": "113",
+          "medoid": "μάχομαι",
+          "size": "36",
+          "label": "Warfare, Combat, and Military",
+          "rationale": "This cluster is a clear lexical field for warfare. It includes `μάχομαι` (to fight), `πολέμιος` (enemy), `στρατιώτης` (soldier), `μάχη` (battle), and `ὅπλον` (weapon)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 12,
+      "meta_label": "Emotions and Mental States",
+      "description": "Clusters related to psychological states, cognition, and emotional experiences",
+      "clusters": [
+        {
+          "cluster_id": "60",
+          "medoid": "πτοέω",
+          "size": "73",
+          "label": "Intense Emotion and Temporal Adverbs",
+          "rationale": "This cluster joins words of intense emotion, like `πτοέω` (to terrify) and `ἀγωνιάω` (to be in agony), with adverbs of time like `σήμερον` (today) and `αὔριον` (tomorrow). This suggests a focus on immediate, powerful experiences."
+        },
+        {
+          "cluster_id": "63",
+          "medoid": "οἴομαι",
+          "size": "69",
+          "label": "Cognition, Belief, and Judgment",
+          "rationale": "This cluster is highly coherent, containing verbs of thinking, knowing, and believing. Key members include `οἴομαι` (to suppose), `νομίζω` (to think), `πιστεύω` (to believe), and `γιγνώσκω` (to know), forming a lexicon of cognitive states."
+        },
+        {
+          "cluster_id": "109",
+          "medoid": "ἐξανίστημι",
+          "size": "38",
+          "label": "Rest, Sleep, and Waking",
+          "rationale": "This cluster is thematically focused on the cycle of rest and activity. It includes `ἐξανίστημι` (to stand up, rise), `καθεύδω` (to sleep), `ἀναπαύω` (to rest), and `ἐγείρω` (to wake up)."
+        },
+        {
+          "cluster_id": "112",
+          "medoid": "νηστεύω",
+          "size": "36",
+          "label": "Fasting and Interjections",
+          "rationale": "The cluster is defined by the medoid `νηστεύω` (to fast) and contains several interjections like `εὖγε` (well done!) and `εἴθε` (if only). The presence of proper names (`Ἑρμογένης`, `Ἀδάμ`, `Εὔα`) suggests a context of religious or narrative accounts of fasting and dialogue."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 13,
+      "meta_label": "Food and Sustenance",
+      "description": "Clusters related to eating, drinking, and nourishment",
+      "clusters": [
+        {
+          "cluster_id": "118",
+          "medoid": "ποτός",
+          "size": "33",
+          "label": "Food, Drink, and Sensations",
+          "rationale": "This cluster relates to food, drink, and the senses. It includes `ποτός` (a drink), `βρῶμα` (food), `πίνω` (to drink), `πεινάω` (to hunger), and sensory adjectives like `πικρός` (bitter) and `γλυκύς` (sweet)."
+        },
+        {
+          "cluster_id": "146",
+          "medoid": "κρέας",
+          "size": "17",
+          "label": "Meat and Food Types",
+          "rationale": "This cluster consists of words for different types of food, with a focus on meat. It includes `κρέας` (meat, flesh), `ἄρτος` (bread), `τυρός` (cheese), and terms like `ὀπτάω` (to roast)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 14,
+      "meta_label": "Revelation and Mystery",
+      "description": "Clusters related to divine revelation, visions, and supernatural appearances",
+      "clusters": [
+        {
+          "cluster_id": "42",
+          "medoid": "ἀπομάσσω",
+          "size": "95",
+          "label": "Revelation, Purification, and Community",
+          "rationale": "This cluster combines themes of revealing (`φανερόω`, `ἀποκαλύπτω`), purifying (`καθαρίζω`), and community identity (`ἀλλογενής`, `Χανααναῖος`). The action `ἀπομάσσω` (to wipe off) can be interpreted as a purifying or separating gesture."
+        },
+        {
+          "cluster_id": "65",
+          "medoid": "ἀναδείκνυμι",
+          "size": "66",
+          "label": "Divine Revelation and Sacred Places",
+          "rationale": "This cluster connects the theme of divine revelation, through verbs like `ἀναδείκνυμι` (to show, reveal) and `ἀναγγέλλω` (to announce), with terms for sacred places and dwellings, such as `Βαβυλών` and `Ἱεροσόλυμα`."
+        },
+        {
+          "cluster_id": "100",
+          "medoid": "φαντάζω",
+          "size": "43",
+          "label": "Appearance, Vision, and Form",
+          "rationale": "This cluster deals with appearance, perception, and the supernatural. It includes `φαντάζω` (to appear), `ὅραμα` (vision), `εἴδωλον` (image, idol), and `ἀόρατος` (invisible), all related to what is seen or unseen."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 15,
+      "meta_label": "Crafts and Professions",
+      "description": "Clusters related to skilled trades, education, and professional roles",
+      "clusters": [
+        {
+          "cluster_id": "88",
+          "medoid": "τοιγαροῦν",
+          "size": "50",
+          "label": "Education, Craft, and Philosophy",
+          "rationale": "This cluster contains vocabulary related to education, philosophy, and skilled crafts. It includes terms like `παιδεία` (education), `φιλόσοφος` (philosopher), `τεχνίτης` (craftsman), and the inferential particle `τοιγαροῦν` (therefore)."
+        },
+        {
+          "cluster_id": "94",
+          "medoid": "νουθέτησις",
+          "size": "46",
+          "label": "Instruction and Admonition",
+          "rationale": "The cluster centers on the concept of instruction and warning. The medoid `νουθέτησις` (admonition) is the key term, connected to actions like `διαβιβάζω` (to transport, instruct) and concepts like `υἱοθεσία` (adoption)."
+        },
+        {
+          "cluster_id": "95",
+          "medoid": "κακοῦργος",
+          "size": "46",
+          "label": "Artisans, Performers, and Wrongdoers",
+          "rationale": "This cluster groups together various professions and types of people, including artisans (`τέκτων`), performers (`αὐλητής`), and wrongdoers (`κακοῦργος`, `πανοῦργος`). The common thread is being a person defined by their craft or behavior."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 16,
+      "meta_label": "Commerce and Transactions",
+      "description": "Clusters related to economic activities, promises, and material exchanges",
+      "clusters": [
+        {
+          "cluster_id": "102",
+          "medoid": "προτιμάω",
+          "size": "41",
+          "label": "Preference, Allotment, and Agriculture",
+          "rationale": "This cluster combines the theme of preference and honor (`προτιμάω`, `πρεσβεῖον`) with the domain of agriculture and allotment (`φυτεύω`, `σπείρω`, `κλῆρος`). The central idea is valuing or choosing one portion or person over another."
+        },
+        {
+          "cluster_id": "117",
+          "medoid": "ὑπισχνέομαι",
+          "size": "34",
+          "label": "Promise, Reward, and Transaction",
+          "rationale": "This cluster revolves around the concept of transactions involving promises and rewards. Key terms are `ὑπισχνέομαι` (to promise), `μισθός` (reward, wages), `δωρεά` (gift), and `τιμή` (price, honor)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 17,
+      "meta_label": "Death and Inheritance",
+      "description": "Clusters related to death, succession, and what remains after departure",
+      "clusters": [
+        {
+          "cluster_id": "87",
+          "medoid": "ἀπολείπω",
+          "size": "50",
+          "label": "Leaving, Dying, and Inheritance",
+          "rationale": "The cluster revolves around the themes of leaving, death, and what is left behind. Key verbs are `ἀπολείπω` (to leave behind) and `ἀποθνῄσκω` (to die), connected to concepts like `διαθήκη` (covenant, will) and `κληρονόμος` (heir)."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 18,
+      "meta_label": "Mockery and Contempt",
+      "description": "Clusters related to scorn, ridicule, and social disparagement",
+      "clusters": [
+        {
+          "cluster_id": "46",
+          "medoid": "κατάγελως",
+          "size": "90",
+          "label": "Mockery, Scorn, and Proper Nouns",
+          "rationale": "The cluster's dominant theme is mockery and scorn, as seen in the medoid `κατάγελως` (mockery) and the verb `γελοιάζω` (to laugh at). This is combined with a significant number of proper names (`Ὀνήσιμος`, `Γελβουέ`), likely figures associated with such events."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 19,
+      "meta_label": "Ambiguous and Mixed Clusters",
+      "description": "Clusters with unclear coherence or mixed semantic content",
+      "clusters": [
+        {
+          "cluster_id": "36",
+          "medoid": "εὔθραυστος",
+          "size": "101",
+          "label": "Fragility and Proper Nouns",
+          "rationale": "This cluster is a mix, with a notable presence of proper names (`Ναζαρά`, `Δαλιδά`) and words implying fragility or rarity. The medoid `εὔθραυστος` (easily broken) and terms like `ἔκτρωμα` (abortion, untimely birth) suggest a theme of vulnerability, though the cluster is noisy."
+        },
+        {
+          "cluster_id": "67",
+          "medoid": "νοθεύω",
+          "size": "65",
+          "label": "Adulteration and Proper Nouns",
+          "rationale": "The cluster is defined by the medoid `νοθεύω` (to adulterate, falsify) and includes a large number of proper names (`Σαλπαάδ`, `Πτολεμαεύς`). This suggests a context of corruption or illegitimacy associated with these figures or places."
+        },
+        {
+          "cluster_id": "71",
+          "medoid": "δικαιολογία",
+          "size": "62",
+          "label": "Justification and Legal Process",
+          "rationale": "The cluster centers on legal and justificatory language. The medoid `δικαιολογία` (plea, justification) is supported by members like `ἀγρεύω` (to take, convict) and `λογιστής` (accountant, reasoner), pointing to a context of argument and defense."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 20,
+      "meta_label": "Literary and Poetic Language",
+      "description": "Clusters containing archaic, poetic, or elevated literary vocabulary",
+      "clusters": [
+        {
+          "cluster_id": "77",
+          "medoid": "βροτός",
+          "size": "55",
+          "label": "Poetic and Archaic Language",
+          "rationale": "This cluster contains many words that are poetic or archaic in flavor, often found in epic or tragic literature. Terms like `βροτός` (mortal), `κλέος` (fame), `δῶμα` (house), and `χθών` (earth) are characteristic of a high literary style."
+        }
+      ]
+    },
+    {
+      "meta_group_id": 21,
+      "meta_label": "Form and Composition",
+      "description": "Clusters related to physical form, structure, and material composition",
+      "clusters": [
+        {
+          "cluster_id": "106",
+          "medoid": "ἀμφότερος",
+          "size": "40",
+          "label": "Division, Separation, and Opposition",
+          "rationale": "This cluster's theme is division and spatial opposition. It includes `ἀμφότερος` (both), `διαιρέω` (to divide), `χωρίζω` (to separate), and `ἐναντίος` (opposite), all describing how things are separated or positioned relative to each other."
+        },
+        {
+          "cluster_id": "129",
+          "medoid": "ἰδέα",
+          "size": "28",
+          "label": "Form, Appearance, and Composition",
+          "rationale": "This cluster contains vocabulary for describing form, appearance, and physical composition. It includes `ἰδέα` (form, appearance), `σχῆμα` (shape), `μορφή` (form), and `ὕλη` (matter)."
+        }
+      ]
+    }
+  ]
+}

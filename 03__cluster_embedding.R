@@ -2,9 +2,8 @@
 #
 # Wim Otte (w.m.otte@umcutrecht.nl)
 #
-# Aim: cluster embedding.
-# Hierarchical Clustering of Greek Lemmas with Progress Monitoring
-
+# Aim: Hierarchical Clustering of Greek Lemmas.
+#
 ################################################################################
 
 # Load required libraries
@@ -16,20 +15,6 @@ library( 'dplyr' )          # For data manipulation
 library( 'ggplot2' )        # For plotting
 library( 'jsonlite' )       # For json output
 ################################################################################
-
-###
-# Use cosine distance which is often better for embeddings
-# Custom cosine distance function for better memory efficiency
-##
-cosine_dist <- function( x ) 
-{
-    # Normalize rows
-    x_norm <- x / sqrt( rowSums( x^2 ) )
-    # Calculate cosine similarity then convert to distance
-    cos_sim <- tcrossprod( x_norm )
-    cos_dist <- as.dist(1 - cos_sim )
-    return( cos_dist )
-}
 
 ###
 # Find medoid within each cluster
@@ -62,6 +47,44 @@ find_cluster_medoids <- function( data, clusters )
     return(list(medoids = medoids, indices = medoid_indices))
 }
 
+###
+# Calculate intra-cluster distance fit (recommended primary metric)
+##
+calculate_intracluster_fit <- function(embedding_data, cluster_assignments) {
+    fit_scores <- numeric(length(cluster_assignments))
+    
+    for(cluster_id in unique(cluster_assignments)) {
+        cluster_mask <- cluster_assignments == cluster_id
+        cluster_indices <- which(cluster_mask)
+        
+        if(length(cluster_indices) == 1) {
+            fit_scores[cluster_mask] <- 100
+        } else {
+            cluster_data <- embedding_data[cluster_mask, , drop = FALSE]
+            
+            # Calculate average distance to all other points in cluster
+            avg_distances <- numeric(nrow(cluster_data))
+            for(i in 1:nrow(cluster_data)) {
+                distances_to_others <- apply(cluster_data[-i, , drop = FALSE], 1, 
+                                           function(x) sqrt(sum((cluster_data[i,] - x)^2)))
+                avg_distances[i] <- mean(distances_to_others)
+            }
+            
+            # Convert to percentiles (lower distance = higher fit)
+            ranks <- rank(-avg_distances)  # negative so closer points get higher ranks
+            percentiles <- (ranks - 1) / (length(ranks) - 1) * 100
+            fit_scores[cluster_mask] <- percentiles
+        }
+    }
+    
+    return(data.frame(
+        lemma = rownames(embedding_data),
+        intracluster_fit_percentage = round(fit_scores, 1)
+    ))
+}
+
+################################################################################
+# END FUNCTIONS
 ################################################################################
 
 # output dir
@@ -152,6 +175,9 @@ ggsave( p_sil, file = file.path( outdir, "silhouette.png" ), width = 6, height =
 optimal_clusters <- cutree( hc_result, k = optimal_k_sil )
 medoid_result <- find_cluster_medoids( embedding_sample, optimal_clusters )
 
+# Calculate intracluster fit for all lemmas
+intracluster_fit <- calculate_intracluster_fit( embedding_sample, optimal_clusters )
+
 # Cluster summary
 cluster_summary <- data.frame(
     cluster_id = 1:optimal_k_sil,
@@ -200,6 +226,9 @@ lemma_cluster_df <- lemma_cluster_df[order(lemma_cluster_df$cluster_id), ]
 # Clean up and reorder columns
 lemma_cluster_df <- lemma_cluster_df[, c("lemma", "cluster_id", "cluster_size")]
 
+# Add intracluster fit scores to the main data frame
+lemma_cluster_df <- merge(lemma_cluster_df, intracluster_fit, by = "lemma")
+
 # Reset row names
 rownames(lemma_cluster_df) <- NULL
 
@@ -211,23 +240,13 @@ cluster_summary_ordered <- data.frame(
     medoid_index = sapply(cluster_size_df$original_cluster_id, function(x) medoid_result$indices[x])
 )
 
-# Display summary statistics
-cat("Clustering Results Summary:\n")
-cat("Total number of lemmas:", nrow(lemma_cluster_df), "\n")
-cat("Number of clusters:", optimal_k_sil, "\n")
-cat("Largest cluster size:", max(lemma_cluster_df$cluster_size), "\n")
-cat("Smallest cluster size:", min(lemma_cluster_df$cluster_size), "\n")
-cat("Average cluster size:", round(mean(lemma_cluster_df$cluster_size), 2), "\n")
+# Add average intracluster fit per cluster to summary
+cluster_fit_summary <- lemma_cluster_df %>%
+    group_by(cluster_id) %>%
+    summarise(avg_intracluster_fit = round(mean(intracluster_fit_percentage), 1), .groups = 'drop')
 
-# Display first few rows of each cluster
-cat("\nFirst 10 clusters with their lemmas:\n")
-for(i in 1:min(10, optimal_k_sil)) {
-    cluster_lemmas <- lemma_cluster_df$lemma[lemma_cluster_df$cluster_id == i]
-    cat("Cluster", i, "(size:", length(cluster_lemmas), "):", 
-        paste(head(cluster_lemmas, 5), collapse = ", "))
-    if(length(cluster_lemmas) > 5) cat(", ...")
-    cat("\n")
-}
+cluster_summary_ordered <- merge(cluster_summary_ordered, cluster_fit_summary, by = "cluster_id")
+
 
 # Save the results
 save( lemma_cluster_df, cluster_summary_ordered, hc_result, optimal_k_sil, 
@@ -237,17 +256,13 @@ save( lemma_cluster_df, cluster_summary_ordered, hc_result, optimal_k_sil,
 readr::write_tsv( lemma_cluster_df, file.path( outdir, "lemma_clusters.tsv" ), quote = 'all' )
 readr::write_tsv( cluster_summary_ordered, file.path( outdir, "cluster_summary.tsv" ), quote = 'all' )
 
-# Create a detailed cluster breakdown showing all lemmas per cluster
-cluster_breakdown <- split(lemma_cluster_df$lemma, lemma_cluster_df$cluster_id)
-cluster_breakdown_df <- data.frame(
-    cluster_id = rep(names(cluster_breakdown), sapply(cluster_breakdown, length)),
-    lemma = unlist(cluster_breakdown, use.names = FALSE),
-    stringsAsFactors = FALSE
-)
-cluster_breakdown_df$cluster_id <- as.numeric(cluster_breakdown_df$cluster_id)
+# Create a detailed cluster breakdown showing all lemmas per cluster with fit scores
+cluster_breakdown <- lemma_cluster_df %>%
+    select(cluster_id, lemma, intracluster_fit_percentage) %>%
+    arrange(cluster_id, desc(intracluster_fit_percentage))
 
 # write to disk
-readr::write_tsv( cluster_breakdown_df, file.path( outdir, "cluster_breakdown.tsv" ), quote = 'all' )
+readr::write_tsv( cluster_breakdown, file.path( outdir, "cluster_breakdown.tsv" ), quote = 'all' )
 
 # Plot cluster size distribution
 p_cluster_sizes <- ggplot( cluster_summary_ordered, aes( x = cluster_id, y = size ) ) +
@@ -261,11 +276,12 @@ p_cluster_sizes <- ggplot( cluster_summary_ordered, aes( x = cluster_id, y = siz
 # Save the plot
 ggsave( p_cluster_sizes, file = file.path( outdir, "cluster_sizes.png" ), width = 9, height = 4, dpi = 600, bg = 'white' )
 
+
 ##############
 # save to json
 ##############
 
-# Create a list where each medoid contains all its cluster members
+# Create a list where each medoid contains all its cluster members with fit scores
 medoid_clusters_json <- list()
 
 for( i in 1:nrow( cluster_summary_ordered ) ) 
@@ -273,20 +289,28 @@ for( i in 1:nrow( cluster_summary_ordered ) )
     cluster_id <- cluster_summary_ordered$cluster_id[ i ]
     medoid <- cluster_summary_ordered$medoid[ i ]
     
-    # Get all lemmas in this cluster
-    cluster_members <- lemma_cluster_df$lemma[ lemma_cluster_df$cluster_id == cluster_id ]
+    # Get all lemmas in this cluster with their fit scores
+    cluster_data <- lemma_cluster_df[ lemma_cluster_df$cluster_id == cluster_id, ]
+    cluster_data <- cluster_data[ order( cluster_data$intracluster_fit_percentage, decreasing = TRUE ), ]
+    
+    # Create member list with fit scores - explicitly include intracluster_fit_percentage
+    members_with_fit <- lapply( 1:nrow( cluster_data ), function( j ) {
+        list(
+            lemma = cluster_data$lemma[ j ],
+            intracluster_fit_percentage = cluster_data$intracluster_fit_percentage[ j ]
+        )
+    })
     
     # Create cluster key and structure with ID, medoid, and members
     cluster_key <- paste0( "cluster_", cluster_id )
     medoid_clusters_json[[ cluster_key ]] <- list(
         cluster_id = cluster_id,
         medoid = medoid,
-        size = length( cluster_members ),
-        members = cluster_members
+        size = nrow( cluster_data ),
+        members = members_with_fit
     )
 }
 
 # Convert to JSON and save
 json_output <- toJSON( medoid_clusters_json, pretty = TRUE, auto_unbox = FALSE )
 writeLines( json_output, file.path( outdir, "medoid_clusters.json" ) )
-
