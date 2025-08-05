@@ -132,16 +132,19 @@ for( i in 1:nrow( meta ) )
     }
 }
 
-# get number of unique lemmas
-full_lemmas <- full[ !duplicated( full$lemma ), ]
-
-# write df to disk
-full_lemma_outputfile <- gzfile( file.path( outdir, 'full_unique_lemma_list.tsv.gz' ) )
-readr::write_tsv( full_lemmas, file = full_lemma_outputfile, quote = 'all' )
-
-# nrows
-nrow( full_lemmas )
-
+# full lemmas
+if( !file.exists( file.path( outdir, 'full_unique_lemma_list.tsv.gz' ) ) )
+{
+    # get number of unique lemmas
+    full_lemmas <- full[ !duplicated( full$lemma ), ]
+    
+    # write df to disk
+    full_lemma_outputfile <- gzfile( file.path( outdir, 'full_unique_lemma_list.tsv.gz' ) )
+    readr::write_tsv( full_lemmas, file = full_lemma_outputfile, quote = 'all' )
+    
+    # nrows
+    nrow( full_lemmas )
+}
 
 ################################################
 # Make plot of true number of words (lemma's)
@@ -266,10 +269,25 @@ readr::write_tsv( df_lemmas, file.path( outdir, 'unique_lemmas_LXX_NT.tsv' ), qu
 nt <- all[ all$source == 'Novum Testamentum', ]
 nt <- nt[ !duplicated( nt$lemma ), ]
 
+# for LXX only
+lxx <- all[ all$source == 'Septuaginta', ]
+lxx <- lxx[ !duplicated( lxx$lemma ), ]
+
 # Novum Testamentum 
 #              5315 
 summary( as.factor( nt$source ) )
 
+# Septuaginta 
+#       15492 
+summary( as.factor( lxx$source ) )
+
+
 # 72.2% already in LXX
 round( 100 - 100 * ( summary( as.factor( df_lemmas$source ) )[ 1 ] / summary( as.factor( nt$source ) ) ), 1 )
+
+
+### prepare first lemma encounter for json matching later
+
+
+
 

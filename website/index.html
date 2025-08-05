@@ -281,6 +281,7 @@
             transition: all 0.3s;
             position: relative;
             overflow: hidden;
+            cursor: pointer;
         }
 
         .lemma-item::before {
@@ -299,12 +300,7 @@
         }
 
         .lemma-item.medoid {
-            border-color: #28a745;
-            background: linear-gradient(135deg, #f0f8f0 0%, #e8f5e8 100%);
-        }
-
-        .lemma-item.medoid::before {
-            background: #28a745;
+            /* Medoid items now look like regular items, only the badge shows they're medoids */
         }
 
         .lemma-text {
@@ -354,6 +350,39 @@
             padding: 2px 6px;
             border-radius: 10px;
             font-weight: 600;
+        }
+
+        .tooltip {
+            position: fixed;
+            background: #2c3e50;
+            color: white;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            z-index: 9999;
+            max-width: 400px;
+            line-height: 1.4;
+            pointer-events: none;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border: 2px solid #34495e;
+        }
+
+        .tooltip.show {
+            opacity: 1 !important;
+            display: block !important;
+        }
+
+        .tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 20px;
+            border: 8px solid transparent;
+            border-top-color: #2c3e50;
         }
 
         .empty-state {
@@ -447,12 +476,16 @@
             </div>
         </div>
     </div>
+    
+    <!-- Tooltip element -->
+    <div id="tooltip" class="tooltip"></div>
 
     <script>
         class GreekClusterAnalyzer {
             constructor() {
                 this.data = null;
                 this.selectedCluster = null;
+                this.tooltipTimeout = null;
                 
                 this.initializeEventListeners();
             }
@@ -489,24 +522,94 @@
                                         "rationale": "This cluster is semantically incoherent, primarily composed of a large number of proper nouns such as `Αβρααμ`, `Ὀλοφέρνης`, and `Τωβίτ`. The remaining members are verbs with no discernible shared meaning, making the medoid `προετοιμάζω` (to prepare beforehand) unrepresentative of the cluster as a whole.",
                                         "members": [
                                             {
+                                                "lemma": ["προετοιμάζω"],
+                                                "intracluster_fit_percentage": [100],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-048",
+                                                            "chapter.verse": "28.24",
+                                                            "lemma": "προετοιμάζω",
+                                                            "source": "Septuaginta",
+                                                            "book": "Isaias"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
                                                 "lemma": ["περιδύω"],
-                                                "intracluster_fit_percentage": [85.5]
+                                                "intracluster_fit_percentage": [85.5],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-012",
+                                                            "chapter.verse": "4.8",
+                                                            "lemma": "περιδύω",
+                                                            "source": "Septuaginta",
+                                                            "book": "IV Regnorum"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["Μασέκ"],
-                                                "intracluster_fit_percentage": [4.3]
+                                                "intracluster_fit_percentage": [4.3],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-004",
+                                                            "chapter.verse": "10.2",
+                                                            "lemma": "Μασέκ",
+                                                            "source": "Septuaginta",
+                                                            "book": "Genesis"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["ἀπόλοιπος"],
-                                                "intracluster_fit_percentage": [28.0]
+                                                "intracluster_fit_percentage": [28.0],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-020",
+                                                            "chapter.verse": "2.14",
+                                                            "lemma": "ἀπόλοιπος",
+                                                            "source": "Septuaginta",
+                                                            "book": "I Esdras"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["ψευδολογέω"],
-                                                "intracluster_fit_percentage": [77.8]
+                                                "intracluster_fit_percentage": [77.8],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0031-015",
+                                                            "chapter.verse": "2.11",
+                                                            "lemma": "ψευδολογέω",
+                                                            "source": "Novum Testamentum",
+                                                            "book": "Epistula I Pauli ad Timotheum"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["Μαασίας"],
-                                                "intracluster_fit_percentage": [20.8]
+                                                "intracluster_fit_percentage": [20.8],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-023",
+                                                            "chapter.verse": "8.7",
+                                                            "lemma": "Μαασίας",
+                                                            "source": "Septuaginta",
+                                                            "book": "Nehemias"
+                                                        }
+                                                    ]
+                                                }
                                             }
                                         ]
                                     },
@@ -518,24 +621,94 @@
                                         "rationale": "This cluster is rich in terms describing covenantal relationships, family, and community life. It includes words like `ὁρκωμοσία` (oath), `συμβουλευτής` (counselor), and `φιλάγαθος` (loving what is good), alongside many proper names from biblical narratives.",
                                         "members": [
                                             {
+                                                "lemma": ["διαφλέγω"],
+                                                "intracluster_fit_percentage": [100],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-045",
+                                                            "chapter.verse": "30.27",
+                                                            "lemma": "διαφλέγω",
+                                                            "source": "Septuaginta",
+                                                            "book": "Isaias"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
                                                 "lemma": ["ἔπαρμα"],
-                                                "intracluster_fit_percentage": [32.9]
+                                                "intracluster_fit_percentage": [32.9],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-005",
+                                                            "chapter.verse": "35.12",
+                                                            "lemma": "ἔπαρμα",
+                                                            "source": "Septuaginta",
+                                                            "book": "Exodus"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["Ἰαΐρ"],
-                                                "intracluster_fit_percentage": [70.1]
+                                                "intracluster_fit_percentage": [70.1],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-006",
+                                                            "chapter.verse": "10.3",
+                                                            "lemma": "Ἰαΐρ",
+                                                            "source": "Septuaginta",
+                                                            "book": "Iudicum"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["νυσταγμός"],
-                                                "intracluster_fit_percentage": [73.8]
+                                                "intracluster_fit_percentage": [73.8],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-019",
+                                                            "chapter.verse": "121.4",
+                                                            "lemma": "νυσταγμός",
+                                                            "source": "Septuaginta",
+                                                            "book": "Psalmi"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["ἀντίψυχος"],
-                                                "intracluster_fit_percentage": [44.5]
+                                                "intracluster_fit_percentage": [44.5],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-040",
+                                                            "chapter.verse": "6.30",
+                                                            "lemma": "ἀντίψυχος",
+                                                            "source": "Septuaginta",
+                                                            "book": "II Maccabaei"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["μολόχη"],
-                                                "intracluster_fit_percentage": [46.3]
+                                                "intracluster_fit_percentage": [46.3],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-024",
+                                                            "chapter.verse": "4.9",
+                                                            "lemma": "μολόχη",
+                                                            "source": "Septuaginta",
+                                                            "book": "Iob"
+                                                        }
+                                                    ]
+                                                }
                                             }
                                         ]
                                     }
@@ -554,24 +727,94 @@
                                         "rationale": "This cluster consists of words for parts of the body and terms describing physical extension and position. It includes `τείνω` (to stretch), `χείρ` (hand), `πούς` (foot), `σκέλος` (leg), and `βραχίων` (arm).",
                                         "members": [
                                             {
+                                                "lemma": ["τείνω"],
+                                                "intracluster_fit_percentage": [100],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-045",
+                                                            "chapter.verse": "5.25",
+                                                            "lemma": "τείνω",
+                                                            "source": "Septuaginta",
+                                                            "book": "Isaias"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
                                                 "lemma": ["στηρίζω"],
-                                                "intracluster_fit_percentage": [38.5]
+                                                "intracluster_fit_percentage": [38.5],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0031-003",
+                                                            "chapter.verse": "22.32",
+                                                            "lemma": "στηρίζω",
+                                                            "source": "Novum Testamentum",
+                                                            "book": "Evangelium Secundum Lucam"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["λαγών"],
-                                                "intracluster_fit_percentage": [44.2]
+                                                "intracluster_fit_percentage": [44.2],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-004",
+                                                            "chapter.verse": "32.25",
+                                                            "lemma": "λαγών",
+                                                            "source": "Septuaginta",
+                                                            "book": "Genesis"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["βραχίων"],
-                                                "intracluster_fit_percentage": [69.2]
+                                                "intracluster_fit_percentage": [69.2],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-005",
+                                                            "chapter.verse": "6.6",
+                                                            "lemma": "βραχίων",
+                                                            "source": "Septuaginta",
+                                                            "book": "Exodus"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["μῦς"],
-                                                "intracluster_fit_percentage": [5.8]
+                                                "intracluster_fit_percentage": [5.8],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0527-003",
+                                                            "chapter.verse": "11.29",
+                                                            "lemma": "μῦς",
+                                                            "source": "Septuaginta",
+                                                            "book": "Leviticus"
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
                                                 "lemma": ["περιλαμβάνω"],
-                                                "intracluster_fit_percentage": [46.2]
+                                                "intracluster_fit_percentage": [46.2],
+                                                "tsv_data": {
+                                                    "1": [
+                                                        {
+                                                            "TLG": "0031-005",
+                                                            "chapter.verse": "20.10",
+                                                            "lemma": "περιλαμβάνω",
+                                                            "source": "Novum Testamentum",
+                                                            "book": "Acta Apostolorum"
+                                                        }
+                                                    ]
+                                                }
                                             }
                                         ]
                                     }
@@ -692,17 +935,19 @@
                         if (member.lemma[0] === cluster.medoid) {
                             return {
                                 lemma: member.lemma,
-                                intracluster_fit_percentage: [100]
+                                intracluster_fit_percentage: [100],
+                                tsv_data: member.tsv_data
                             };
                         }
                         return member;
                     });
                 } else {
-                    // Add medoid as separate entry
+                    // Add medoid as separate entry (without tsv_data if not available)
                     allMembers = [
                         {
                             lemma: [cluster.medoid],
-                            intracluster_fit_percentage: [100]
+                            intracluster_fit_percentage: [100],
+                            tsv_data: null
                         },
                         ...cluster.members
                     ];
@@ -731,7 +976,7 @@
                         <h3>
                             📋 Lemmas
                             <span style="font-size: 0.8rem; color: #6c757d; font-weight: normal;">
-                                
+                                (Click on a lemma to see its first occurrence)
                             </span>
                         </h3>
                         
@@ -751,14 +996,16 @@
                         </div>
                         
                         <div class="lemmas-grid">
-                            ${allMembers.map(member => {
+                            ${allMembers.map((member, index) => {
                                 const lemma = member.lemma[0];
                                 const fit = member.intracluster_fit_percentage[0];
                                 const isMedoid = lemma === cluster.medoid;
                                 const fitColor = this.getFitColor(fit);
                                 
                                 return `
-                                    <div class="lemma-item ${isMedoid ? 'medoid' : ''}" style="--fit-color: ${fitColor}">
+                                    <div class="lemma-item ${isMedoid ? 'medoid' : ''}" 
+                                         style="--fit-color: ${fitColor}" 
+                                         data-lemma-index="${index}">
                                         ${isMedoid ? '<div class="medoid-badge">MEDOID</div>' : ''}
                                         <div class="lemma-text">${lemma}</div>
                                         <div class="lemma-fit">
@@ -775,6 +1022,114 @@
                 `;
                 
                 container.innerHTML = html;
+                
+                // Add event listeners for tooltip functionality
+                const lemmaItems = container.querySelectorAll('.lemma-item');
+                lemmaItems.forEach((item, index) => {
+                    item.addEventListener('click', (e) => {
+                        console.log('Lemma clicked:', allMembers[index].lemma[0]); // Debug log
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.showTooltip(e, allMembers[index]);
+                    });
+                    
+                    item.addEventListener('mouseenter', (e) => {
+                        if (allMembers[index].tsv_data) {
+                            item.style.transform = 'translateY(-2px)';
+                            item.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+                        }
+                    });
+                    
+                    item.addEventListener('mouseleave', (e) => {
+                        if (!item.classList.contains('medoid')) {
+                            item.style.transform = '';
+                            item.style.boxShadow = '';
+                        }
+                    });
+                });
+                
+                // Add click outside listener to hide tooltip
+                document.addEventListener('click', (e) => {
+                    if (!e.target.closest('.lemma-item') && !e.target.closest('#tooltip')) {
+                        this.hideTooltip();
+                    }
+                });
+            }
+
+            showTooltip(event, member) {
+                console.log('showTooltip called for:', member.lemma[0]); // Debug log
+                const tooltip = document.getElementById('tooltip');
+                const lemma = member.lemma[0];
+                
+                // First hide any existing tooltip
+                this.hideTooltip();
+                
+                if (!member.tsv_data) {
+                    // No TSV data available
+                    tooltip.innerHTML = `<strong>${lemma}</strong><br>No occurrence data available.`;
+                    console.log('No TSV data for:', lemma); // Debug log
+                } else {
+                    // Get the first occurrence from tsv_data
+                    const firstKey = Object.keys(member.tsv_data)[0];
+                    const firstOccurrence = member.tsv_data[firstKey][0];
+                    
+                    console.log('First occurrence data:', firstOccurrence); // Debug log
+                    
+                    // Use bracket notation to access the "chapter.verse" property (with dot in name)
+                    const tooltipText = `Lemma <strong>${lemma}</strong> first encounter found in ${firstOccurrence.book} (${firstOccurrence.source}): ${firstOccurrence["chapter.verse"]}.`;
+                    tooltip.innerHTML = tooltipText;
+                    console.log('Tooltip text:', tooltipText); // Debug log
+                }
+                
+                // Position the tooltip
+                const rect = event.currentTarget.getBoundingClientRect();
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+                
+                // Make tooltip visible first to get proper dimensions
+                tooltip.style.opacity = '0';
+                tooltip.style.display = 'block';
+                
+                // Calculate position (above the element with some margin)
+                const tooltipRect = tooltip.getBoundingClientRect();
+                let left = rect.left + scrollLeft + (rect.width / 2) - (tooltipRect.width / 2);
+                let top = rect.top + scrollTop - tooltipRect.height - 15;
+                
+                // Ensure tooltip stays within viewport bounds
+                if (left < 10) left = 10;
+                if (left + tooltipRect.width > window.innerWidth - 10) {
+                    left = window.innerWidth - tooltipRect.width - 10;
+                }
+                if (top < 10) {
+                    // If no space above, show below the element
+                    top = rect.bottom + scrollTop + 10;
+                }
+                
+                tooltip.style.left = left + 'px';
+                tooltip.style.top = top + 'px';
+                
+                console.log('Tooltip positioned at:', left, top); // Debug log
+                
+                // Show tooltip with animation
+                setTimeout(() => {
+                    tooltip.classList.add('show');
+                    console.log('Tooltip should now be visible'); // Debug log
+                }, 10);
+                
+                // Auto-hide after 5 seconds
+                clearTimeout(this.tooltipTimeout);
+                this.tooltipTimeout = setTimeout(() => {
+                    this.hideTooltip();
+                }, 5000);
+            }
+
+            hideTooltip() {
+                const tooltip = document.getElementById('tooltip');
+                tooltip.classList.remove('show');
+                setTimeout(() => {
+                    tooltip.style.display = 'none';
+                }, 300); // Wait for transition to complete
+                clearTimeout(this.tooltipTimeout);
             }
 
             getFitColor(percentage) {

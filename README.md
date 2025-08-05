@@ -1,8 +1,8 @@
 # Embedding Koine Greek
 
-This repository contains the R scripts used to generate and analyze word embeddings for Koine Greek lemmas. The project follows a four-step pipeline, starting with corpus selection and ending with the hierarchical clustering of the generated embeddings.
+This repository contains the R scripts used to generate and analyze word embeddings for Koine Greek lemmas. The project follows a six-step pipeline, starting with corpus selection and ending with the integration of lemma source data with hierarchical clustering results.
 
-The methodology is detailed across four R scripts, which are designed to be run in sequential order.
+The methodology is detailed across six R scripts, which are designed to be run in sequential order.
 
 ## Project Pipeline
 
@@ -38,7 +38,7 @@ This step generates the final embedding matrix, which is saved as an RData file 
 
 ### Step 4: Hierarchical Clustering
 
-The final step, performed by the script `03__cluster_embedding.R`, involves clustering the generated word embeddings to identify semantic groupings. This analysis focuses specifically on the embeddings for lemmas found in the Biblical Greek texts (Septuaginta and Novum Testamentum).
+The script `03__cluster_embedding.R` involves clustering the generated word embeddings to identify semantic groupings. This analysis focuses specifically on the embeddings for lemmas found in the Biblical Greek texts (Septuaginta and Novum Testamentum).
 
 The clustering process uses hierarchical clustering with the Ward.D2 method. The optimal number of clusters is determined programmatically using the silhouette and elbow methods. An optimal number of 190 clusters was determined by the silhouette method. For each cluster, a medoid (the most representative lemma) is identified.
 
@@ -48,17 +48,45 @@ The results of the clustering are saved in multiple formats for easy access and 
 * `medoid_clusters.json`: A JSON file that organizes all lemmas by their cluster and medoid.
 * A plot showing the distribution of cluster sizes is also generated.
 
+### Step 5: JSON Merging
+
+The script `04__merge_jsons.R` consolidates cluster information with the actual cluster data into a single, comprehensive JSON structure. This step takes the medoid clusters from Step 4 and enriches them with meta-group information and cluster descriptions.
+
+The merging process:
+* Combines `medoid_clusters.json` from the clustering step with `cluster_information_with_meta.json` containing meta-group definitions.
+* Preserves the hierarchical meta-group structure while adding detailed cluster membership data.
+* Enriches each cluster with member information, size, and medoid data.
+
+The output is a unified JSON file (`merged_clusters.json`) that maintains the organizational structure while providing complete cluster details.
+
+### Step 6: Source Data Integration
+
+The final step, performed by `05__merge_json_with_lxx_nt_source.R`, integrates the clustered lemma data with source text information from the Septuaginta and New Testament. This creates a comprehensive dataset linking semantic clusters to their textual origins.
+
+The integration process:
+* Merges TSV data containing lemma source information (TLG references, chapter/verse, book, source) with the JSON cluster structure.
+* Handles various lemma data structures to ensure robust matching between cluster members and source data.
+* Adds detailed provenance information for each lemma, enabling analysis of how semantic clusters relate to specific texts and passages.
+* Provides preview functionality to validate the merging process and display examples of matched data.
+
+The final output (`merged_clusters_with_tsv_data.json`) combines semantic clustering results with detailed source attribution, enabling comprehensive analysis of Koine Greek lemma usage across different texts and contexts.
+
 ## Repository Contents
 
 * **`00__select_koine_greek_texts.R`**: Script for selecting and filtering texts based on a defined Koine Greek period.
 * **`01__select_lemmas.R`**: Script for parsing XML treebanks, extracting lemmas, and creating the corpus.
 * **`02__make_glove.R`**: Script for training the GloVe word embedding model.
 * **`03__cluster_embedding.R`**: Script for hierarchically clustering the embeddings, focusing on Biblical Greek lemmas.
+* **`04__merge_jsons.R`**: Script for merging cluster information with actual clusters into a unified JSON structure.
+* **`05__merge_json_with_lxx_nt_source.R`**: Script for integrating cluster data with lemma source information from LXX-NT texts.
 * **`out.00.select.koine.greek.texts/`**: Output directory for corpus selection results.
 * **`out.01.select.lemmas/`**: Output directory for lemma extraction and corpus creation.
 * **`out.02.make.glove/`**: Output directory for GloVe model and related plots.
 * **`out.03.cluster.embedding/`**: Output directory for clustering results, including TSV and JSON files.
+* **`out.04.merge.jsons/`**: Output directory for merged cluster JSON structure.
+* **`out.05.merge.json.with.lxx.nt.source/`**: Output directory for final integrated dataset with source information.
 * **`misc/metadata.txt`**: Metadata file for the corpus (required for the first script).
+* **`misc/cluster_information_with_meta.json`**: Meta-group and cluster information (required for the fifth script).
 * **`xml/`**: Directory containing the raw XML treebank files (required for the second script).
 
 ## Dependencies
@@ -74,13 +102,16 @@ This project relies on the following R libraries:
 * `factoextra`
 * `parallel`
 * `jsonlite`
+* `purrr`
 
 ## How to Run
 
 1.  Ensure all R dependencies are installed.
-2.  Place the `metadata.txt` file in a `misc/` directory and the raw XML files in an `xml/` directory.
+2.  Place the `metadata.txt` file and `cluster_information_with_meta.json` in a `misc/` directory and the raw XML files in an `xml/` directory.
 3.  Run the scripts in the following order:
     1.  `Rscript 00__select_koine_greek_texts.R`
     2.  `Rscript 01__select_lemmas.R`
     3.  `Rscript 02__make_glove.R`
     4.  `Rscript 03__cluster_embedding.R`
+    5.  `Rscript 04__merge_jsons.R`
+    6.  `Rscript 05__merge_json_with_lxx_nt_source.R`
