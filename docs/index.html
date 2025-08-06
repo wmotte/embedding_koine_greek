@@ -345,6 +345,20 @@
         .cluster-item.selected {
             background: #e3f2fd;
             border-left: 3px solid #2196f3;
+            position: relative;
+        }
+
+        .cluster-item.selected::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            background: #28a745;
+            border-radius: 50%;
+            box-shadow: 0 0 3px rgba(40, 167, 69, 0.4);
         }
 
         .cluster-label {
@@ -469,6 +483,16 @@
         .lemma-item:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .lemma-item.selected-lemma {
+            border: 2px solid #ff8c00 !important;
+            background: #fff8f0 !important;
+            box-shadow: 0 0 8px rgba(255, 140, 0, 0.3) !important;
+        }
+
+        .lemma-item.selected-lemma::before {
+            background: #ff8c00 !important;
         }
 
         .lemma-text {
@@ -702,6 +726,7 @@
             constructor() {
                 this.data = null;
                 this.selectedCluster = null;
+                this.selectedLemma = null;
                 this.tooltipTimeout = null;
                 this.lemmaIndex = new Map();
                 this.lemmasByLetter = new Map();
@@ -783,6 +808,7 @@
                 // Reset data
                 this.data = null;
                 this.selectedCluster = null;
+                this.selectedLemma = null;
                 this.lemmaIndex.clear();
                 this.lemmasByLetter.clear();
                 
@@ -954,6 +980,9 @@
                     return;
                 }
                 
+                // Store the selected lemma
+                this.selectedLemma = lemma;
+                
                 const metaGroupHeader = document.querySelector(`.meta-group-header[onclick*="${clusterInfo.metaGroupId}"]`);
                 const clustersList = document.getElementById(`clusters-${clusterInfo.metaGroupId}`);
                 
@@ -1024,6 +1053,17 @@
                 const cluster = metaGroup.clusters.find(c => c.cluster_id === clusterId);
                 
                 this.selectedCluster = cluster;
+                
+                // Only clear selectedLemma if this wasn't triggered by lemma selection
+                // (we can detect this by checking if the selected lemma is in this cluster)
+                if (this.selectedLemma) {
+                    const lemmaInThisCluster = cluster.members.some(member => member.lemma[0] === this.selectedLemma) 
+                                            || cluster.medoid === this.selectedLemma;
+                    if (!lemmaInThisCluster) {
+                        this.selectedLemma = null;
+                    }
+                }
+                
                 this.displayCluster(cluster, metaGroup);
             }
 
@@ -1098,10 +1138,11 @@
                                 const lemma = member.lemma[0];
                                 const fit = member.intracluster_fit_percentage[0];
                                 const isMedoid = lemma === cluster.medoid;
+                                const isSelected = lemma === this.selectedLemma;
                                 const fitColor = this.getFitColor(fit);
                                 
                                 return `
-                                    <div class="lemma-item ${isMedoid ? 'medoid' : ''}" 
+                                    <div class="lemma-item ${isMedoid ? 'medoid' : ''} ${isSelected ? 'selected-lemma' : ''}" 
                                          style="--fit-color: ${fitColor}" 
                                          data-lemma-index="${index}">
                                         ${isMedoid ? '<div class="medoid-badge">CENTER</div>' : ''}
