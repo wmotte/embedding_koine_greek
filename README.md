@@ -1,8 +1,8 @@
 # Embedding Koine Greek
 
-This repository contains the R scripts used to generate and analyze word embeddings for Koine Greek lemmas. The project follows a six-step pipeline, starting with corpus selection and ending with the integration of lemma source data with hierarchical clustering results.
+This repository contains the R scripts used to generate and analyze word embeddings for Koine Greek lemmas. The project follows a seven-step pipeline, starting with corpus selection and ending with the integration of lemma source data with hierarchical clustering results.
 
-The methodology is detailed across six R scripts, which are designed to be run in sequential order.
+The methodology is detailed across seven R scripts, which are designed to be run in sequential order.
 
 ## Project Pipeline
 
@@ -59,9 +59,28 @@ The merging process:
 
 The output is a unified JSON file (`merged_clusters.json`) that maintains the organizational structure while providing complete cluster details.
 
-### Step 6: Source Data Integration
+### Step 6: Cluster Cleaning and Postprocessing
 
-The final step, performed by `05__merge_json_with_lxx_nt_source.R`, integrates the clustered lemma data with source text information from the Septuaginta and New Testament. This creates a comprehensive dataset linking semantic clusters to their textual origins.
+The script `06__clean_json.R` performs postprocessing on the semantic clusters by removing function words and single-character lemmas according to established methodology. This cleaning step ensures that clusters contain only semantically meaningful content words.
+
+The cleaning process involves:
+* **Single-letter removal:** Removes all single-character lemmas, including simple characters (α, β, γ) and single letters with diacritics that may appear as multiple Unicode codepoints (ἆ, ἕ, ἒ, Ἤ, ᾗ, Ἡ, etc.)
+* **Function word removal:** Removes a comprehensive list of Greek function words including conjunctions (καί, ἀλλά, γάρ, οὖν), particles (δέ, μή, οὐ, οὐκ, οὐχ, τε), and prepositions (ἐν, εἰς, πρός, διά, κατά, etc.)
+* **Robust matching:** Uses fuzzy matching to catch variants with different accents, capitalizations, and diacritical marks
+* **Validation:** Validates that all targeted lemmas were successfully removed and reports detailed statistics
+
+Key features of the cleaning process:
+* Handles Greek letters with complex Unicode encoding (breathing marks, accents, iota subscripts)
+* Includes comprehensive variants (capitalized forms, different diacritics, spelling variations)
+* Updates cluster size statistics after removal
+* Provides detailed reporting of all removed lemmas
+* Offers diagnostic tools for troubleshooting JSON structure issues
+
+The output is a cleaned JSON file that maintains the same structure while containing only semantically meaningful lemmas in each cluster.
+
+### Step 7: Source Data Integration
+
+The final step, performed by `05__merge_json_with_lxx_nt_source.R`, integrates the cleaned clustered lemma data with source text information from the Septuaginta and New Testament. This creates a comprehensive dataset linking semantic clusters to their textual origins.
 
 The integration process:
 * Merges TSV data containing lemma source information (TLG references, chapter/verse, book, source) with the JSON cluster structure.
@@ -79,12 +98,14 @@ The final output (`merged_clusters_with_tsv_data.json`) combines semantic cluste
 * **`03__cluster_embedding.R`**: Script for hierarchically clustering the embeddings, focusing on Biblical Greek lemmas.
 * **`04__merge_jsons.R`**: Script for merging cluster information with actual clusters into a unified JSON structure.
 * **`05__merge_json_with_lxx_nt_source.R`**: Script for integrating cluster data with lemma source information from LXX-NT texts.
+* **`06__clean_json.R`**: Script for postprocessing clusters by removing function words and single-character lemmas.
 * **`out.00.select.koine.greek.texts/`**: Output directory for corpus selection results.
 * **`out.01.select.lemmas/`**: Output directory for lemma extraction and corpus creation.
 * **`out.02.make.glove/`**: Output directory for GloVe model and related plots.
 * **`out.03.cluster.embedding/`**: Output directory for clustering results, including TSV and JSON files.
 * **`out.04.merge.jsons/`**: Output directory for merged cluster JSON structure.
-* **`out.05.merge.json.with.lxx.nt.source/`**: Output directory for final integrated dataset with source information.
+* **`out.05.merge.json.with.lxx.nt.source/`**: Output directory for integrated dataset with source information.
+* **`out.06.clean.json/`**: Output directory for cleaned cluster data with function words and single-character lemmas removed.
 * **`misc/metadata.txt`**: Metadata file for the corpus (required for the first script).
 * **`misc/cluster_information_with_meta.json`**: Meta-group and cluster information (required for the fifth script).
 * **`xml/`**: Directory containing the raw XML treebank files (required for the second script).
@@ -104,6 +125,11 @@ This project relies on the following R libraries:
 * `jsonlite`
 * `purrr`
 
+Optional libraries for enhanced Unicode handling:
+* `tidyverse`
+* `conflicted`
+* `stringi` (recommended for robust Greek character processing)
+
 ## How to Run
 
 1.  Ensure all R dependencies are installed.
@@ -115,3 +141,35 @@ This project relies on the following R libraries:
     4.  `Rscript 03__cluster_embedding.R`
     5.  `Rscript 04__merge_jsons.R`
     6.  `Rscript 05__merge_json_with_lxx_nt_source.R`
+    7.  `Rscript 06__clean_json.R`
+
+### Additional Usage Options for Step 7 (Cleaning)
+
+The cleaning script offers several command-line options:
+
+```bash
+# Basic cleaning with output file
+Rscript 06__clean_json.R input.json output_cleaned.json
+
+# Diagnose JSON structure issues
+Rscript 06__clean_json.R --diagnose input.json
+
+# List all function words being removed
+Rscript 06__clean_json.R --list-words
+```
+
+For interactive R sessions, you can also use the functions directly:
+
+```r
+# Clean the data
+cleaned_data <- clean_lemma_clusters("data.json", "data_cleaned.json")
+
+# Validate cleaning results
+validate_cleaning(cleaned_data)
+
+# List all function words being removed
+print_function_words()
+
+# Diagnose JSON structure if encountering errors
+diagnose_json_structure("data.json")
+```
