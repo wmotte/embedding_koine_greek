@@ -1,5 +1,7 @@
 # Embedding Koine Greek
 
+**[View Interactive Website](https://wmotte.github.io/embedding_koine_greek/docs/index.html)**
+
 This repository contains the R scripts used to generate and analyze word embeddings for Koine Greek lemmas. The project follows a seven-step pipeline, starting with corpus selection and ending with the integration of lemma source data with hierarchical clustering results.
 
 The methodology is detailed across seven R scripts, which are designed to be run in sequential order.
