@@ -179,6 +179,7 @@ p_words <- ggplot( koine_binned, aes( x = date_bin, y = total_words ) ) +
 
 # save to disk
 ggsave( p_words, file = file.path( outdir, 'plot_total_words_selected_texts_koine_greek.png' ), width = 5, height = 5, dpi = 600, bg = 'white' )
+ggsave( p_words, file = file.path( outdir, 'plot_total_words_selected_texts_koine_greek.pdf' ), width = 5, height = 5, dpi = 600, bg = 'white' )
 
 
 ###################################

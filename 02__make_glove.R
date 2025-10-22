@@ -83,6 +83,7 @@ p_freq <- ggplot( vocabs, aes( x = 1:nrow( vocabs ), y = term_count ) ) +
 
 # save to disk
 ggsave( p_freq, file = file.path( outdir, 'Figure_lemma_prevalence_koine_greek.png' ), width = 6, height = 6, dpi = 600, bg = 'white' )
+ggsave( p_freq, file = file.path( outdir, 'Figure_lemma_prevalence_koine_greek.pdf' ), width = 6, height = 6, dpi = 600, bg = 'white' )
 
 
 ## make prevalence plot for lemmas inside/outside lxx-nt
@@ -112,6 +113,7 @@ p_freq2 <-
     scale_fill_manual( values = c( '#ef8a62', '#67a9cf' ) ) 
 
 ggsave( p_freq2, file = file.path( outdir, 'Figure_lemma_prevalence_koine_greek__split.png' ), width = 6, height = 8, dpi = 900, bg = 'white' )
+ggsave( p_freq2, file = file.path( outdir, 'Figure_lemma_prevalence_koine_greek__split.pdf' ), width = 6, height = 8, dpi = 900, bg = 'white' )
 
 ##############
 # GLOVE model

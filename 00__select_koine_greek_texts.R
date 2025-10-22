@@ -79,6 +79,7 @@ p <- ggplot( koine_texts, aes( x = date_mean ) ) +
 
 # save to disk
 ggsave( p, file = file.path( outdir, 'plot_average_date_selected_texts_koine_greek.png' ), width = 5, height = 5, dpi = 600, bg = 'white' )
+ggsave( p, file = file.path( outdir, 'plot_average_date_selected_texts_koine_greek.pdf' ), width = 5, height = 5, dpi = 600, bg = 'white' )
 
 
 # Create 100-year bins
@@ -101,4 +102,5 @@ p_tokens <- ggplot( koine_binned, aes( x = date_bin, y = total_tokens ) ) +
 
 # save to disk
 ggsave( p_tokens, file = file.path( outdir, 'plot_total_tokens_selected_texts_koine_greek.png' ), width = 5, height = 5, dpi = 600, bg = 'white' )
+ggsave( p_tokens, file = file.path( outdir, 'plot_total_tokens_selected_texts_koine_greek.pdf' ), width = 5, height = 5, dpi = 600, bg = 'white' )
 

@@ -170,6 +170,7 @@ p_sil <- ggplot( df_sil, aes( x = x, y = y ) ) +
 
 # Save the plot
 ggsave( p_sil, file = file.path( outdir, "silhouette.png" ), width = 6, height = 4, dpi = 600, bg = 'white' )
+ggsave( p_sil, file = file.path( outdir, "silhouette.pdf" ), width = 6, height = 4, dpi = 600, bg = 'white' )
 
 # Find medoids for optimal clustering
 optimal_clusters <- cutree( hc_result, k = optimal_k_sil )
@@ -275,7 +276,7 @@ p_cluster_sizes <- ggplot( cluster_summary_ordered, aes( x = cluster_id, y = siz
 
 # Save the plot
 ggsave( p_cluster_sizes, file = file.path( outdir, "cluster_sizes.png" ), width = 9, height = 4, dpi = 600, bg = 'white' )
-
+ggsave( p_cluster_sizes, file = file.path( outdir, "cluster_sizes.pdf" ), width = 9, height = 4, dpi = 600, bg = 'white' )
 
 ##############
 # save to json
